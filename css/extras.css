@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+body {
+    background-color: #FFF;
+}
+
+@-webkit-keyframes come-from-left {
+	0% {
+        -webkit-transform: translateX(-75%);
+        transform: translateX(-75%);
+	}
+	100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+	}
+}
+
+@keyframes come-from-left {
+	0% {
+        -webkit-transform: translateX(-75%);
+                transform: translateX(-75%);
+	}
+	100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+	}
+}
+
+@-webkit-keyframes fly-pig {
+    0% {
+        -webkit-transform: translateY(0) rotate(0deg);
+                transform: translateY(0) rotate(0deg);
+    }
+    10% {
+        -webkit-transform: translateY(1%) rotate(0.8deg);
+                transform: translateY(1%) rotate(0.8deg);
+    }
+    20% {
+        -webkit-transform: translateY(2%) rotate(1.6deg);
+                transform: translateY(2%) rotate(1.6deg);
+    }
+    30% {
+        -webkit-transform: translateY(3%) rotate(2.4deg);
+                transform: translateY(3%) rotate(2.4deg);
+    }
+    40% {
+        -webkit-transform: translateY(4%) rotate(1.6deg);
+                transform: translateY(4%) rotate(1.6deg);
+    }
+    50% {
+        -webkit-transform: translateY(5%) rotate(0.8deg);
+                transform: translateY(5%) rotate(0.8deg);
+    }
+    60% {
+        -webkit-transform: translateY(4%) rotate(0deg);
+                transform: translateY(4%) rotate(0deg);
+    }
+    70% {
+        -webkit-transform: translateY(3%) rotate(-0.8deg);
+                transform: translateY(3%) rotate(-0.8deg);
+    }
+    80% {
+        -webkit-transform: translateY(2%) rotate(-1.6deg);
+                transform: translateY(2%) rotate(-1.6deg);
+    }
+    90% {
+        -webkit-transform: translateY(1%) rotate(-0.8deg);
+                transform: translateY(1%) rotate(-0.8deg);
+    }
+    100% {
+        -webkit-transform: translateY(0) rotate(0deg);
+                transform: translateY(0) rotate(0deg);
+    }
+}
+
+@keyframes fly-pig {
+    0% {
+        -webkit-transform: translateY(0) rotate(0deg);
+                transform: translateY(0) rotate(0deg);
+    }
+    10% {
+        -webkit-transform: translateY(1%) rotate(0.8deg);
+                transform: translateY(1%) rotate(0.8deg);
+    }
+    20% {
+        -webkit-transform: translateY(2%) rotate(1.6deg);
+                transform: translateY(2%) rotate(1.6deg);
+    }
+    30% {
+        -webkit-transform: translateY(3%) rotate(2.4deg);
+                transform: translateY(3%) rotate(2.4deg);
+    }
+    40% {
+        -webkit-transform: translateY(4%) rotate(1.6deg);
+                transform: translateY(4%) rotate(1.6deg);
+    }
+    50% {
+        -webkit-transform: translateY(5%) rotate(0.8deg);
+                transform: translateY(5%) rotate(0.8deg);
+    }
+    60% {
+        -webkit-transform: translateY(4%) rotate(0deg);
+                transform: translateY(4%) rotate(0deg);
+    }
+    70% {
+        -webkit-transform: translateY(3%) rotate(-0.8deg);
+                transform: translateY(3%) rotate(-0.8deg);
+    }
+    80% {
+        -webkit-transform: translateY(2%) rotate(-1.6deg);
+                transform: translateY(2%) rotate(-1.6deg);
+    }
+    90% {
+        -webkit-transform: translateY(1%) rotate(-0.8deg);
+                transform: translateY(1%) rotate(-0.8deg);
+    }
+    100% {
+        -webkit-transform: translateY(0) rotate(0deg);
+                transform: translateY(0) rotate(0deg);
+    }
+}
+
+@-webkit-keyframes fade-in-delayed {
+    0% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    10% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    20% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    30% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    40% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    50% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    60% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    70% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    80% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    90% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    100% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    }
+}
+
+@keyframes fade-in-delayed {
+    0% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    10% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    20% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    30% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    40% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    50% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    60% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    70% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    80% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    90% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    100% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    }
+}

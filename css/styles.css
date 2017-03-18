@@ -1,0 +1,622 @@
+a {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+
+.nav-pills {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.nav-pills > li > a {
+    padding: 2px 8px;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #EEE;
+}
+
+/* FIXED CONTAINER */
+
+.fixed-container {
+    min-height: 15%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #FFF;
+    border-left: 10px solid #FFF;
+}
+
+.fixed-container-box-shadow {
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
+
+/* RELATIVE CONTAINER */
+
+.fixed-container .relative-container {
+    position: relative;
+    height: 95%;
+    text-align: center;
+    top: 0;
+}
+
+.fixed-container .relative-container .fly-pig-container {
+    height: 100%;
+    width: 100%;
+}
+
+.fixed-container .relative-container .fly-pig-container .fly-pig {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+/* MENU-CONTAINER */
+
+.fixed-container .menu-container {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: auto;
+    z-index: 10;
+    -webkit-animation-name: menu-container;
+    -moz-animation-name: menu-container;
+    animation-name: menu-container;
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+.fixed-container .disappear {
+    -webkit-animation-name: menu-container-reverse;
+    -moz-animation-name: menu-container-reverse;
+    animation-name: menu-container-reverse;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+.fixed-container .focus {
+    background-color: #D7D7D7;
+    border-right: 10px solid #900;
+    -moz-box-shadow: 0 -10px 20px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 -10px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 -10px 20px rgba(0,0,0,0.5);
+}
+
+.fixed-container .focus .nav-menu .menu-list > li:first-child {
+    padding-top: 20%;
+}
+
+.fixed-container .menu-container .nav-menu {
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.fixed-container .menu-container .nav-menu .menu-list {
+    height: 100%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fixed-container .menu-container .nav-menu .menu-list > li {
+    padding: 5% 5% 5% 15%;
+    -webkit-animation-name: menu-list;
+    -moz-animation-name: menu-list;
+    animation-name: menu-list;
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+
+.fixed-container .menu-container .nav-menu .menu-list > li:nth-child(1) {
+    -webkit-animation-duration: 0.75s;
+    -moz-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+}
+.fixed-container .menu-container .nav-menu .menu-list > li:nth-child(2) {
+    -webkit-animation-duration: 0.85s;
+    -moz-animation-duration: 0.85s;
+    animation-duration: 0.85s;
+}
+.fixed-container .menu-container .nav-menu .menu-list > li:nth-child(3) {
+    -webkit-animation-duration: 0.95s;
+    -moz-animation-duration: 0.95s;
+    animation-duration: 0.95s;
+}
+.fixed-container .menu-container .nav-menu .menu-list > li:nth-child(4) {
+    -webkit-animation-duration: 1.05s;
+    -moz-animation-duration: 1.05s;
+    animation-duration: 1.05s;
+}
+.fixed-container .menu-container .nav-menu .menu-list > li:nth-child(5) {
+    -webkit-animation-duration: 1.15s;
+    -moz-animation-duration: 1.15s;
+    animation-duration: 1.15s;
+}
+.fixed-container .menu-container .nav-menu .menu-list > li:nth-child(6) {
+    -webkit-animation-duration: 1.25s;
+    -moz-animation-duration: 1.25s;
+    animation-duration: 1.25s;
+}
+
+.fixed-container .menu-container .nav-menu .menu-list > .disappear {
+    -webkit-animation-name: menu-list-reverse;
+    -moz-animation-name: menu-list-reverse;
+    animation-name: menu-list-reverse;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -moz-transform: translateX(-75%);
+    -ms-transform: translateX(-75%);
+    -o-transform: translateX(-75%);
+    -webkit-transform: translateX(-75%);
+    transform: translateX(-75%);
+}
+
+.fixed-container .menu-container .nav-menu .menu-list > .disappear:nth-child(1) {
+    -webkit-animation-duration: 0.25s;
+    -moz-animation-duration: 0.25s;
+    animation-duration: 0.25s;
+}
+.fixed-container .menu-container .nav-menu .menu-list > .disappear:nth-child(2) {
+    -webkit-animation-duration: 0.35s;
+    -moz-animation-duration: 0.45s;
+    animation-duration: 0.45s;
+}
+.fixed-container .menu-container .nav-menu .menu-list > .disappear:nth-child(3) {
+    -webkit-animation-duration: 0.55s;
+    -moz-animation-duration: 0.55s;
+    animation-duration: 0.55s;
+}
+.fixed-container .menu-container .nav-menu .menu-list > .disappear:nth-child(4) {
+    -webkit-animation-duration: 0.65s;
+    -moz-animation-duration: 0.65s;
+    animation-duration: 0.65s;
+}
+.fixed-container .menu-container .nav-menu .menu-list > .disappear:nth-child(5) {
+    -webkit-animation-duration: 0.75s;
+    -moz-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+}
+.fixed-container .menu-container .nav-menu .menu-list > .disappear:nth-child(6) {
+    -webkit-animation-duration: 0.85s;
+    -moz-animation-duration: 0.85s;
+    animation-duration: 0.85s;
+}
+
+.fixed-container .menu-container .nav-menu .menu-list > li a {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* CLOSE TRIGGER */
+
+.fixed-container .menu-container .close-trigger {
+    height: 15%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.fixed-container .menu-container .close-trigger button,
+.fixed-container .menu-trigger button {
+    color: #FFF;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.125);
+    padding-left: 10%;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 4px;
+    background-color: #900;
+}
+
+.fixed-container .focus .close-trigger {
+    display: flex;
+}
+
+/* BLACK-OUT */
+.fixed-container .black-out {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 9;
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
+    -webkit-animation-name: black-out;
+    -moz-animation-name: black-out;
+    animation-name: black-out;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+
+/* MENU-TRIGGER */
+
+.fixed-container .menu-trigger {
+    height: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    -webkit-animation-name: fade-in;
+    -moz-animation-name: fade-in;
+    animation-name: fade-in;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+
+/* CONTENT */
+
+.content {
+    position: absolute;
+    top: 100%;
+    background-color: #FFF;
+    width: 100%;
+}
+
+.content section {
+    margin: 5% auto 5%;
+    padding: 2.5% 0 7.5%;
+}
+
+.content section:nth-child(2n-1) {
+    background-color: #FAFAFA;
+    -moz-box-shadow: 0 -10px 20px #FAFAFA, 0 10px 20px #FAFAFA;
+    -webkit-box-shadow: 0 -10px 20px #FAFAFA, 0 10px 20px #FAFAFA;
+    box-shadow: 0 -10px 20px #FAFAFA, 0 10px 20px #FAFAFA;
+}
+
+.content section:last-child {
+    margin-bottom: 0;
+    -moz-box-shadow: 0 -10px 20px #FAFAFA;
+    -webkit-box-shadow: 0 -10px 20px #FAFAFA;
+    box-shadow: 0 -10px 20px #FAFAFA;
+}
+
+.content section article a {
+    color: #600;
+}
+
+.content section article a:hover,
+.content section article a:focus,
+.content section article a:active {
+    color: #300;
+}
+
+/* Work */
+
+.content .work .tab-pane-featured img {
+    width: 100%;
+    opacity: .75;
+    border: 1px solid #e6e6e6;
+}
+
+/* About */
+
+.content .about .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.content .about .row .col-sm-4 {
+    float: none;
+    margin: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #e9e9e9;
+    display: flex;
+    align-items: center;
+}
+
+.content .about .row .col-sm-4 .box {
+    width: 100%;
+}
+
+/* Production Service */
+.content .production-service row {
+    font-size: 12px;
+}
+
+.content .production-service article+article {
+    border-top: 4px double #e6e6e6;
+    margin-top: 35px;
+}
+
+.content .production-service .page-header {
+    margin: 35px 0 24px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #333;
+    color: #AAA;
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.footer .h4 {
+    color: #E7E7E7;
+}
+
+.footer .footer-footer {
+    background-color: #111;
+    color: #858585;
+    margin-top: 5%;
+    padding-top: 15px;
+    padding-bottom: 12.5px;
+    font-size: 12px;
+}
+
+/* ANIMATIONS */
+@-webkit-keyframes fixed-container {
+	0% {
+        box-shadow: none;
+	}
+    10% {
+        box-shadow: 1px 0 0 #900 inset;
+	}
+    20% {
+        box-shadow: 2px 0 0 #900 inset;
+	}
+    30% {
+        box-shadow: 3px 0 0 #900 inset;
+	}
+    40% {
+        box-shadow: 4px 0 0 #900 inset;
+	}
+    50% {
+        box-shadow: 5px 0 0 #900 inset;
+	}
+    60% {
+        box-shadow: 6px 0 0 #900 inset;
+	}
+    70% {
+        box-shadow: 7px 0 0 #900 inset;
+	}
+    80% {
+        box-shadow: 8px 0 0 #900 inset;
+	}
+    90% {
+        box-shadow: 9px 0 0 #900 inset;
+	}
+	100% {
+        box-shadow: 10px 0 0 #900 inset;
+	}
+}
+
+@keyframes fixed-container {
+    0% {
+        border-color: #FFF;
+	}
+	100% {
+        border-color: #900;
+	}
+}
+
+@-webkit-keyframes fade-in {
+	0% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+	100% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	}
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+	100% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	}
+}
+
+@-webkit-keyframes black-out {
+	0% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+	100% {
+        opacity: 0.5;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
+	}
+}
+
+@keyframes black-out {
+    0% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+	100% {
+        opacity: 0.5;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
+	}
+}
+
+@-webkit-keyframes menu-list {
+	0% {
+        -webkit-transform: translateX(-75%);
+        transform: translateX(-75%);
+	}
+	100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+	}
+}
+
+@keyframes menu-list {
+    0% {
+        -webkit-transform: translateX(-75%);
+        transform: translateX(-75%);
+	}
+	100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+	}
+}
+
+@-webkit-keyframes menu-list-reverse {
+	0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+	}
+    100% {
+        -webkit-transform: translateX(-75%);
+        transform: translateX(-75%);
+	}
+}
+
+@keyframes menu-list-reverse {
+	0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+	}
+    100% {
+        -webkit-transform: translateX(-75%);
+        transform: translateX(-75%);
+	}
+}
+
+@-webkit-keyframes menu-container {
+    0% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+	}
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+	}
+}
+
+@keyframes menu-container {
+    0% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+	}
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+	}
+}
+
+@-webkit-keyframes menu-container-reverse {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+	}
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+	}
+}
+
+@keyframes menu-container-reverse {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+	}
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+	}
+}
+
+@media (min-width: 992px)
+{
+    .fixed-container {
+        border-color: #900;
+        -webkit-animation-name: fixed-container;
+        -moz-animation-name: fixed-container;
+        animation-name: fixed-container;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        -webkit-animation-duration: 0.5s;
+        -moz-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+    }
+
+    .fixed-container .menu-container,
+    .fixed-container .menu-trigger {
+        width: 25%;
+    }
+
+    .fixed-container .menu-container .close-trigger button,
+    .fixed-container .menu-trigger button {
+        background-color: #FFF;
+        color: #099;
+        text-shadow: none;
+    }
+}
