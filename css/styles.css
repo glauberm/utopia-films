@@ -39,7 +39,8 @@
 .box-container .box-image .image,
 .box-container .box-image .loading {
     background-color: #E9E9E9;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.075);
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.075);
+            box-shadow: 0 1px 5px rgba(0,0,0,0.075);
     height: 100%;
     width: 100%;
     display: block;
@@ -48,13 +49,16 @@
 }
 
 .box-container .box-image .image {
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 
 .box-container .box-image .image:hover {
     background-color: #111;
-    box-shadow: 0 0 0 20px #311 inset;
+    -webkit-box-shadow: 0 0 0 20px #311 inset;
+            box-shadow: 0 0 0 20px #311 inset;
 }
 
 .box-container .box-image .image img {
@@ -106,6 +110,24 @@
     animation-duration: 1.5s;
 }
 
+@media (max-width: 991px) {
+    .box-container .box-image .image {
+        background-color: #111;
+        -webkit-box-shadow: 0 0 0 20px #311 inset;
+                box-shadow: 0 0 0 20px #311 inset;
+    }
+
+    .box-container .box-image .image figcaption {
+        opacity: 1;
+        -webkit-animation-name: image-figcaption;
+        animation-name: image-figcaption;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        -webkit-animation-duration: 0.3s;
+        animation-duration: 0.3s;
+    }
+}
+
 /* BASE STYLES */
 
 html {
@@ -115,10 +137,10 @@ html {
 /* LINKS */
 
 a {
+    -webkit-transition: color 0.3s ease-out;
     transition: color 0.3s ease-out;
 }
 
-h3,
 h3 a {
     color: #611;
 }
@@ -141,7 +163,8 @@ h3 a:hover {
 }
 
 .fixed-container-box-shadow {
-    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.25);
 }
 
 /* RELATIVE CONTAINER */
@@ -260,7 +283,7 @@ h3 a:hover {
 
 @media (min-width: 750px) {
     .menu-container {
-        width: 25%;
+        width: 33.333%;
     }
 }
 
@@ -314,7 +337,8 @@ h3 a:hover {
 .focus {
     position: fixed;
     background-color: #911;
-    box-shadow: 0 -10px 20px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 -10px 20px rgba(0,0,0,0.5);
+            box-shadow: 0 -10px 20px rgba(0,0,0,0.5);
     z-index: 30;
 }
 
@@ -360,11 +384,18 @@ h3 a:hover {
 
 .content section:nth-child(2n-1) {
     background-color: #FAFAFA;
-    box-shadow: 0 -50px 100px #FAFAFA, 0 50px 100px #FAFAFA;
+    -webkit-box-shadow: 0 -50px 100px #FAFAFA, 0 50px 100px #FAFAFA;
+            box-shadow: 0 -50px 100px #FAFAFA, 0 50px 100px #FAFAFA;
 }
 
 .content section:last-child {
     margin-bottom: 0;
+}
+
+.nav-pills > li {
+    float: none;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 
 .nav-pills > li > a {
@@ -397,25 +428,6 @@ h3 a:hover {
 .dt-box h4 {
     color: #311;
 }
-
-/* Work */
-/* featured work */
-.featured-work .box-row {
-    margin-top: 15px;
-}
-
-.featured-work .box-column:nth-child(2n) {
-    top: 45px;
-}
-
-.featured-work .box-column:nth-child(2n-1) {
-    top: -45px;
-}
-/* feature-films-tv-docs */
-.feature-films-tv-docs .dt-box {
-    padding: 0 20px;
-}
-
 /* About */
 .about .box-text-wrap:nth-child(1) {
     -webkit-animation-duration: .5s;
@@ -437,7 +449,8 @@ h3 a:hover {
 .about .box-text .text {
     padding: 20px 60px;
     border: 1px solid #E7E7E7;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.075);
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.075);
+            box-shadow: 0 1px 5px rgba(0,0,0,0.075);
 }
 
 .about .box-text .text h3 {
@@ -446,6 +459,15 @@ h3 a:hover {
 }
 
 .about .box-text .text strong {
+    color: #611;
+}
+/* Work */
+/* feature-films-tv-docs */
+.feature-films-tv-docs .dt-box {
+    padding: 0 20px;
+}
+/* Contact */
+.contact h3 {
     color: #611;
 }
 
@@ -459,6 +481,18 @@ h3 a:hover {
         float: none;
         display: table-cell;
         vertical-align: middle;
+    }
+
+    .featured-work .box-row {
+        margin-top: 15px;
+    }
+
+    .featured-work .box-column:nth-child(2n) {
+        top: 45px;
+    }
+
+    .featured-work .box-column:nth-child(2n-1) {
+        top: -45px;
     }
 }
 
