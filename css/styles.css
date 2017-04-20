@@ -36,8 +36,7 @@
     margin: 15px 0;
 }
 
-.box-container .box-image .image,
-.box-container .box-image .loading {
+.box-container .box-image .image {
     background-color: #E9E9E9;
     -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.075);
             box-shadow: 0 1px 5px rgba(0,0,0,0.075);
@@ -53,16 +52,18 @@
             box-shadow: none;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.125) inset;
+            box-shadow: 0 0 0 1px rgba(0,0,0,0.125) inset;
 }
 
 .box-container .box-image .image:hover {
     background-color: #111;
-    -webkit-box-shadow: 0 0 0 20px #311 inset;
-            box-shadow: 0 0 0 20px #311 inset;
+    -webkit-box-shadow: 0 0 0 20px #311 inset, 0 0 0 1px rgba(0,0,0,0.125) inset;
+            box-shadow: 0 0 0 20px #311 inset, 0 0 0 1px rgba(0,0,0,0.125) inset;
 }
 
 .box-container .box-image .image img {
-    opacity: .5;
+    opacity: .35;
 }
 
 .box-container .box-image .image figcaption {
@@ -76,9 +77,13 @@
 }
 
 .box-container .box-image .image figcaption h4 {
-    font-size: 3.6rem;
     color: #FFF;
     text-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.box-container .box-image .image figcaption dl dt,
+.box-container .box-image .image figcaption dl dd {
+    color: #DDD;
 }
 
 .box-container .box-image .image:hover figcaption {
@@ -89,25 +94,6 @@
     animation-timing-function: ease-out;
     -webkit-animation-duration: 0.3s;
     animation-duration: 0.3s;
-}
-
-.box-container .box-image .loading {
-    min-height: 360px;
-    border: 1px solid #DDD;
-    background-color: #E7E7E7;
-    -webkit-animation-name: box-image-loading;
-    animation-name: box-image-loading;
-    -webkit-animation-timing-function: ease;
-    animation-timing-function: ease;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-}
-
-.box-container .box-column:nth-child(2n+1) .box-image .loading {
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s;
 }
 
 @media (max-width: 991px) {
@@ -283,7 +269,11 @@ h3 a:hover {
 
 @media (min-width: 750px) {
     .menu-container {
-        width: 33.333%;
+        width: 20%;
+    }
+
+    .box-container .box-image .image figcaption h4 {
+        font-size: 3.6rem;
     }
 }
 
@@ -727,30 +717,6 @@ h3 a:hover {
         opacity: 1;
         -webkit-transform: scale(1);
                 transform: scale(1);
-	}
-}
-
-@-webkit-keyframes box-image-loading {
-    0% {
-        background-color: #EEE;
-	}
-	50% {
-        background-color: #F8F8F8;
-	}
-    100% {
-        background-color: #EEE;
-	}
-}
-
-@keyframes box-image-loading {
-    0% {
-        background-color: #EEE;
-	}
-	50% {
-        background-color: #F8F8F8;
-	}
-    100% {
-        background-color: #EEE;
 	}
 }
 

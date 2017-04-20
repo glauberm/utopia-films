@@ -2,26 +2,28 @@ $(document).ready(function ()
 {
     // Fixa a logo no topo
     $("#fixed-container").css("position", "fixed");
-    // Torna os elementos invisíveis para animá-los abaixo
-    $(".box-container .box-image, .about .box-text-wrap, .production-service .ps-article, .production-companies .dt-box, .dd-box, .contact-box").addClass("invisible");
     // Some e fixa o menu trigger
     $("#menu-trigger").css("position", "fixed").addClass("hidden");
+    // Torna os elementos invisíveis para animá-los abaixo
+    // $(".box-container .box-image, .about .box-text-wrap, .production-service .ps-article, .production-companies .dt-box, .dd-box, .contact-box").addClass("invisible");
 
     pigOnTop($(window).scrollTop());
     menu($(window).scrollTop());
-    revealTrigger($(window).scrollTop());
+    //revealTrigger($(window).scrollTop());
     collapseTrigger();
+    magnificPopupTrigger();
 });
 
 $(window).on("scroll", function ()
 {
     pigOnTop($(window).scrollTop());
     menu($(window).scrollTop());
-    revealTrigger($(window).scrollTop());
+    //revealTrigger($(window).scrollTop());
 });
 
 // Rolar suave para links internos @ CSS-Tricks
-$("#nav-menu a, .content section .h1 > a, h3 a").click(function() {
+$("#nav-menu a, .content section .h1 > a, h3 a").on("click", function()
+{
     if (location.pathname.replace(/^\//,"") == this.pathname.replace(/^\//,"") && location.hostname == this.hostname) {
         var target = $(this.hash);
         target = target.length ? target : $("[name=" + this.hash.slice(1) +"]");
@@ -35,13 +37,15 @@ $("#nav-menu a, .content section .h1 > a, h3 a").click(function() {
 });
 
 // Abrir menu focus ao clicar em menu trigger
-$("#menu-trigger button").on("click", function() {
+$("#menu-trigger button").on("click", function()
+{
     menuAppear();
     menuFocusAppear();
 });
 
 // Fechar menu focus ao clicar em close trigger
-$("#close-trigger button, #black-out").on("click", function() {
+$("#close-trigger button, #black-out").on("click", function()
+{
     menuDisappear();
     setTimeout(function() {
         menuFocusDisappear();
@@ -49,15 +53,18 @@ $("#close-trigger button, #black-out").on("click", function() {
 });
 
 // Fechar menu focus ao clicar em link do menu
-$("#nav-menu li a").on("click", function() {
+$("#nav-menu li a").on("click", function()
+{
     menuDisappear();
     setTimeout(function() {
         menuFocusDisappear();
     }, 500);
 });
 
-$(".big-nav-pills a").on("shown.bs.tab", function (e) {
-    $(".box-container .box-image, .dt-box, .dd-box, .contact-box").addClass("invisible").removeClass("fade-in-top");
+// Ao clicar nas pills refaz a animação
+$(".big-nav-pills a").on("shown.bs.tab", function (e)
+{
+    //$(".box-container .box-image, .dt-box, .dd-box, .contact-box").addClass("invisible").removeClass("fade-in-top");
     revealTrigger($(window).scrollTop());
 })
 
@@ -108,7 +115,7 @@ function menu(st)
 }
 
 // Revela as coisas quando o scroll chega nelas
-function revealTrigger(scrollTop)
+/*function revealTrigger(scrollTop)
 {
     $(".box-container .box-image, .production-service .ps-article, .dt-box, .dd-box, .contact-box").each(function() {
         if(isScrolledIntoView(scrollTop, $(this))) {
@@ -121,7 +128,7 @@ function revealTrigger(scrollTop)
             $(this).removeClass("invisible").addClass("zoom-fade-in");
         }
     });
-}
+}*/
 
 function menuAppear()
 {
@@ -192,4 +199,21 @@ function isScrolledIntoView(scrollTop, elem)
     var elemBottom = elemTop + ($(elem).height()/4);
 
     return ((elemBottom <= docViewBottom) && (elemTop >= scrollTop));
+}
+
+function magnificPopupTrigger()
+{
+    $('.gallery-featured-work').magnificPopup({
+        items: [
+            {
+                src: 'http://vimeo.com/72556275',
+                type: 'iframe'
+            },
+            {
+                src: 'http://vimeo.com/72557806',
+                type: 'iframe'
+            },
+        ],
+        gallery: { enabled: true },
+    });
 }
