@@ -1,62 +1,49 @@
-<section class="work">
-    <div class="container">
-        <header>
-            <h2 class="h1 page-header text-center"><a href="#work" id="work">Work</a></h2>
-
-            <div class="big-nav-pills">
-                <ul class="nav nav-pills" role="tablist">
-                    <li role="presentation" class="active"><a href="#featured-work" aria-controls="featured-work" role="tab" data-toggle="pill">Featured Work</a></li>
-                    <li role="presentation"><a href="#reels" aria-controls="reels" role="tab" data-toggle="pill">Reels</a></li>
-                    <li role="presentation"><a href="#production-companies" aria-controls="reels" role="tab" data-toggle="pill">Production Companies</a></li>
-                    <li role="presentation"><a href="#ad-agencies" aria-controls="ad-agencies" role="tab" data-toggle="pill">Ad Agencies</a></li>
-                    <li role="presentation"><a href="#clients" aria-controls="clients" role="tab" data-toggle="pill">Clients</a></li>
-                    <li role="presentation"><a href="#directors-photographers" aria-controls="directors-photographers" role="tab" data-toggle="pill">Directors/Photographers</a></li>
-                    <li role="presentation"><a href="#feature-films-tv-docs" aria-controls="feature-films-tv-docs" role="tab" data-toggle="pill">Feature Films - TV Series - Docs</a></li>
-                    <li role="presentation"><a href="#print" aria-controls="print" role="tab" data-toggle="pill">Print</a></li>
-                </ul>
-            </div>
-        </header>
+<article class="reels box-container">
+    <div class="container invisible">
+        <header id="work"><h3 class="page-header text-center"><a href="#work">Work</a></h3></header>
     </div>
-    <div class="tab-content">
-        <div role="tabpanel" class="tab-pane fade in active" id="featured-work">
-
-            <?php include("templates/work_featured-work.php"); ?>
-
-        </div>
-        <div role="tabpanel" class="tab-pane fade" id="reels">
-
-            <?php include("templates/work_reels.php"); ?>
-
-        </div>
-        <div role="tabpanel" class="tab-pane fade" id="production-companies">
-
-            <?php include("templates/work_production-companies.php"); ?>
-
-        </div>
-        <div role="tabpanel" class="tab-pane fade" id="ad-agencies">
-
-            <?php include("templates/work_ad-agencies.php"); ?>
-
-        </div>
-        <div role="tabpanel" class="tab-pane fade" id="clients">
-
-            <?php include("templates/work_clients.php"); ?>
-
-        </div>
-        <div role="tabpanel" class="tab-pane fade" id="directors-photographers">
-
-            <?php include("templates/work_directors-photographers.php"); ?>
-
-        </div>
-        <div role="tabpanel" class="tab-pane fade" id="feature-films-tv-docs">
-
-            <?php include("templates/work_feature-films-tv-docs.php"); ?>
-
-        </div>
-        <div role="tabpanel" class="tab-pane fade" id="print">
-
-            <?php include("templates/work_print.php"); ?>
-
-        </div>
-    </div>
-</section>
+    <main class="container big-container">
+        <ul class="list-unstyled">
+            <li>
+                <div class="gallery-featured-work box-row row">
+                    <div class="box-column col-sm-6">
+                        <div class="box-image">
+                            <figure class="image" id="line-walker">
+                                <a href="http://vimeo.com/72556275" target="_blank">
+                                    <img class="img-responsive" src="img/01_line_walker.jpg"/>
+                                    <figcaption>
+                                        <h4>Line Walker</h4>
+                                        <dl class="hidden-xs">
+                                            <dt>Production Company</dt>
+                                            <dd>Shaw Bros/JQ Pictures, China</dd>
+                                            <dt>Director</dt>
+                                            <dd>Jazz Boon</dd>
+                                        </dl>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="box-column col-sm-6">
+                        <div class="box-image">
+                            <figure class="image" id="line-walker">
+                                <a href="http://vimeo.com/72556275" target="_blank">
+                                    <img class="img-responsive" src="img/02_coca_cola.jpg"/>
+                                    <figcaption>
+                                        <h4>Coca Cola</h4>
+                                        <dl class="hidden-xs">
+                                            <dt>Production Company</dt>
+                                            <dd>Shaw Bros/JQ Pictures, China</dd>
+                                            <dt>Director</dt>
+                                            <dd>Jazz Boon</dd>
+                                        </dl>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+</article>

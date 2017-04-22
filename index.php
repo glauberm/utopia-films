@@ -25,11 +25,9 @@
                 <button class="btn btn-link">Menu</button>
             </div>
             <main class="main">
-                <?php include("templates/about.php"); ?>
-
                 <?php include("templates/work.php"); ?>
 
-                <?php include("templates/production-service.php"); ?>
+                <?php include("templates/service.php"); ?>
 
                 <?php include("templates/directors.php"); ?>
 

@@ -74,16 +74,30 @@
         -ms-transform: translate(-47.5%, -50%) scale(1);
             transform: translate(-47.5%, -50%) scale(1);
     opacity: 0;
+    text-align: center;
 }
 
 .box-container .box-image .image figcaption h4 {
-    color: #FFF;
-    text-shadow: 0 0 20px rgba(0,0,0,0.5);
+    color: #B00;
+    text-shadow: 0 0 16px rgba(0,0,0,0.5), 0 4px 1px #111;
+}
+
+.box-container .box-image .image figcaption dl {
+    margin-bottom: 0;
+}
+
+.box-container .box-image .image figcaption dl dd {
+    margin-bottom: 6px;
+}
+
+.box-container .box-image .image figcaption dl dd:last-child {
+    margin-bottom: 0;
 }
 
 .box-container .box-image .image figcaption dl dt,
 .box-container .box-image .image figcaption dl dd {
-    color: #DDD;
+    color: #FAFAFA;
+    text-shadow: 0 0 4px rgba(0,0,0,0.5);
 }
 
 .box-container .box-image .image:hover figcaption {
@@ -418,42 +432,9 @@ h3 a:hover {
 .dt-box h4 {
     color: #311;
 }
-/* About */
-.about .box-text-wrap:nth-child(1) {
-    -webkit-animation-duration: .5s;
-            animation-duration: .5s;
-}
-.about .box-text-wrap:nth-child(2) {
-    -webkit-animation-duration: .75s;
-            animation-duration: .75s;
-}
-.about .box-text-wrap:nth-child(3) {
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-}
-
-.about .box-text {
-    padding: 20px;
-}
-
-.about .box-text .text {
-    padding: 20px 60px;
-    border: 1px solid #E7E7E7;
-    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.075);
-            box-shadow: 0 1px 5px rgba(0,0,0,0.075);
-}
-
-.about .box-text .text h3 {
-    margin-top: 12px;
-    margin-bottom: 24px;
-}
-
-.about .box-text .text strong {
-    color: #611;
-}
-/* Work */
-/* feature-films-tv-docs */
-.feature-films-tv-docs .dt-box {
+/* Clients */
+/* feature-films-tv */
+.feature-films-tv .dt-box {
     padding: 0 20px;
 }
 /* Contact */
@@ -462,17 +443,6 @@ h3 a:hover {
 }
 
 @media (min-width: 992px) {
-    .about .row {
-        display: table;
-        width: 100%;
-    }
-
-    .about .row > div {
-        float: none;
-        display: table-cell;
-        vertical-align: middle;
-    }
-
     .featured-work .box-row {
         margin-top: 15px;
     }
@@ -486,18 +456,18 @@ h3 a:hover {
     }
 }
 
-/* Production Service */
-.production-service .ps-article {
+/* Service */
+.service .ps-article {
     text-align: left;
     padding: 20px;
 }
 
-.production-service .ps-article p:last-child,
-.production-service .ps-article ul:last-child {
+.service .ps-article p:last-child,
+.service .ps-article ul:last-child {
     margin-bottom: 0;
 }
 
-.production-service .ps-article .page-header {
+.service .ps-article .page-header {
     margin-top: 0;
 }
 
