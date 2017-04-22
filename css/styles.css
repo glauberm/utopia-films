@@ -88,6 +88,7 @@
 
 .box-container .box-image .image figcaption dl dd {
     margin-bottom: 6px;
+    text-align: left;
 }
 
 .box-container .box-image .image figcaption dl dd:last-child {
@@ -108,6 +109,12 @@
     animation-timing-function: ease-out;
     -webkit-animation-duration: 0.3s;
     animation-duration: 0.3s;
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .box-container .box-image .image figcaption {
+        width: 90%;
+    }
 }
 
 @media (max-width: 991px) {
