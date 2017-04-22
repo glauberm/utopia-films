@@ -204,16 +204,8 @@ function isScrolledIntoView(scrollTop, elem)
 function magnificPopupTrigger()
 {
     $('.gallery-featured-work').magnificPopup({
-        items: [
-            {
-                src: 'http://vimeo.com/72556275',
-                type: 'iframe'
-            },
-            {
-                src: 'http://vimeo.com/72557806',
-                type: 'iframe'
-            },
-        ],
+        delegate: 'a',
+        type: 'iframe',
         gallery: { enabled: true },
     });
 }

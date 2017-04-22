@@ -1,6 +1,5 @@
 # TO-DO List
 
-- Arrumar collapse
 - Limpar a pasta .js
 - Colocar o scrollreveal ao invés de fazer isso pelo jQuery
 - Tentar limpar o máximo pelo jQuery para descarregar a memória
