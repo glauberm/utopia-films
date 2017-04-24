@@ -342,6 +342,7 @@ h3 a:hover {
     font-weight: bold;
     letter-spacing: 0.1rem;
     margin-left: 20px;
+    padding-top: 12.5px;
 }
 
 .close-trigger button {
@@ -468,21 +469,46 @@ h3 a:hover {
     margin-top: 0;
 }
 
-/* FOOTER */
-
-.footer {
-    background-color: #611;
-    color: #AAA;
-    padding-top: 6rem;
-    font-size: 1.4rem;
+/* Contact */
+.content .contact {
+    padding-bottom: 0;
 }
 
+.contact h2 {
+    background: #222;
+    text-shadow: 0px 2px 5px #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.contact h2 a {
+    color: #711;
+}
+
+.contact h2 a:hover,
+.contact h2 a:focus,
+.contact h2 a:active {
+    color: #911;
+}
+
+.contact .body-contact {
+    background-color: #111;
+    text-shadow: 0px 2px 5px #000;
+    color: #FFF;
+}
+
+.contact h3 {
+    color: #911;
+}
+
+/* FOOTER */
+
 .footer .footer-footer {
-    background-color: #311;
-    color: #EEE;
-    margin-top: 5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.25rem;
+    background-color: #000;
+    color: #CCC;
+    padding-top: 15px;
+    padding-bottom: 18px;
     font-size: 1.2rem;
 }
 

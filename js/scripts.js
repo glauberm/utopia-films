@@ -5,7 +5,7 @@ $(document).ready(function ()
     // Some e fixa o menu trigger
     $("#menu-trigger").css("position", "fixed").addClass("hidden");
     // Torna os elementos invisíveis para animá-los abaixo
-    // $(".box-container .box-image, .about .box-text-wrap, .production-service .ps-article, .production-companies .dt-box, .dd-box, .contact-box").addClass("invisible");
+    //$(".box-container .box-image, .about .box-text-wrap, .production-service .ps-article, .production-companies .dt-box, .dd-box, .contact-box").addClass("invisible");
 
     pigOnTop($(window).scrollTop());
     menu($(window).scrollTop());
@@ -65,7 +65,7 @@ $("#nav-menu li a").on("click", function()
 $(".big-nav-pills a").on("shown.bs.tab", function (e)
 {
     //$(".box-container .box-image, .dt-box, .dd-box, .contact-box").addClass("invisible").removeClass("fade-in-top");
-    revealTrigger($(window).scrollTop());
+    //revealTrigger($(window).scrollTop());
 })
 
 // Diminui o fixed-container e adiciona a box-shadow

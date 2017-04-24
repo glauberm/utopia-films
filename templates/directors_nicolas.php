@@ -12,7 +12,7 @@
                                 <img class="img-responsive" src="img/05_tena.jpg"/>
                                 <figcaption>
                                     <h4>Tena</h4>
-                                    <dl class="hidden-xs hidden-sm">
+                                    <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Production Company</dt>
                                         <dd>One Six 7 Prods, UK</dd>
                                         <dt>Direction</dt>
@@ -32,7 +32,7 @@
                                 <img class="img-responsive" src="img/06_supersport.jpg"/>
                                 <figcaption>
                                     <h4>Supersport</h4>
-                                    <dl class="hidden-xs hidden-sm">
+                                    <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Production Company</dt>
                                         <dd>7 Films, South Africa</dd>
                                         <dt>Direction</dt>

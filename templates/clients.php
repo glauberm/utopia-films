@@ -5,9 +5,9 @@
 
             <div class="big-nav-pills">
                 <ul class="nav nav-pills" role="tablist">
-                    <li role="presentation"><a href="#production-companies" aria-controls="reels" role="tab" data-toggle="pill">Production Companies</a></li>
+                    <li role="presentation" class="active"><a href="#production-companies" aria-controls="reels" role="tab" data-toggle="pill">Production Companies</a></li>
                     <li role="presentation"><a href="#agencies" aria-controls="agencies" role="tab" data-toggle="pill">Agencies</a></li>
-                    <li role="presentation"><a href="#clients" aria-controls="clients" role="tab" data-toggle="pill">Clients</a></li>
+                    <li role="presentation"><a href="#clients-tab" aria-controls="clients-tab" role="tab" data-toggle="pill">Clients</a></li>
                     <li role="presentation"><a href="#directors-photographers" aria-controls="directors-photographers" role="tab" data-toggle="pill">Directors / Photographers</a></li>
                     <li role="presentation"><a href="#feature-films-tv" aria-controls="feature-films-tv" role="tab" data-toggle="pill">Feature Films / TV Series</a></li>
                     <li role="presentation"><a href="#print" aria-controls="print" role="tab" data-toggle="pill">Print</a></li>
@@ -16,7 +16,7 @@
         </header>
     </div>
     <div class="tab-content">
-        <div role="tabpanel" class="tab-pane fade" id="production-companies">
+        <div role="tabpanel" class="tab-pane fade in active" id="production-companies">
 
             <?php include("templates/clients_production-companies.php"); ?>
 
@@ -26,7 +26,7 @@
             <?php include("templates/clients_agencies.php"); ?>
 
         </div>
-        <div role="tabpanel" class="tab-pane fade" id="clients">
+        <div role="tabpanel" class="tab-pane fade" id="clients-tab">
 
             <?php include("templates/clients_clients.php"); ?>
 

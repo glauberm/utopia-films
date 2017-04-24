@@ -24,12 +24,16 @@
 
         <div class="content" id="content">
             <div id="menu-trigger" class="menu-trigger">
-                <button class="btn btn-link">Menu</button>
+                <button class="btn btn-link">
+                    <?php include("templates/menu.svg.php"); ?>
+                </button>
             </div>
             <main class="main">
                 <?php include("templates/work.php"); ?>
 
                 <?php include("templates/service.php"); ?>
+
+                <?php include("templates/clients.php"); ?>
 
                 <?php include("templates/directors.php"); ?>
 

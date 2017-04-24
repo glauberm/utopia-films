@@ -10,6 +10,8 @@
         </ul>
     </nav>
     <div id="close-trigger" class="close-trigger hidden">
-        <button class="btn btn-link">Close</button>
+        <button class="btn btn-link">
+            <?php include("templates/close.svg.php"); ?>
+        </button>
     </div>
 </div>
