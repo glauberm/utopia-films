@@ -1,3 +1,5 @@
+window.sr = ScrollReveal();
+
 $(document).ready(function ()
 {
     // Fixa a logo no topo
@@ -10,6 +12,7 @@ $(document).ready(function ()
     pigOnTop($(window).scrollTop());
     menu($(window).scrollTop());
     //revealTrigger($(window).scrollTop());
+    scrollRevealTrigger();
     collapseTrigger();
     magnificPopupTrigger();
 });
@@ -66,6 +69,7 @@ $(".big-nav-pills a").on("shown.bs.tab", function (e)
 {
     //$(".box-container .box-image, .dt-box, .dd-box, .contact-box").addClass("invisible").removeClass("fade-in-top");
     //revealTrigger($(window).scrollTop());
+    sr.sync();
 })
 
 // Diminui o fixed-container e adiciona a box-shadow
@@ -122,13 +126,17 @@ function menu(st)
             $(this).removeClass("invisible").addClass("fade-in-top");
         }
     });
-
-    $(".about .box-text-wrap").each(function() {
-        if(isScrolledIntoView(scrollTop, $(this))) {
-            $(this).removeClass("invisible").addClass("zoom-fade-in");
-        }
-    });
 }*/
+
+function scrollRevealTrigger()
+{
+    sr.reveal(".box-container .box-image");
+    sr.reveal(".service .ps-article");
+    sr.reveal(".dt-box");
+    sr.reveal(".dd-box");
+    sr.reveal(".contact-box dt");
+    sr.reveal(".contact-box dd");
+}
 
 function menuAppear()
 {

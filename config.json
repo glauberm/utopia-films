@@ -213,7 +213,7 @@
     "@pager-disabled-color": "@pagination-disabled-color",
     "@jumbotron-padding": "30px",
     "@jumbotron-color": "inherit",
-    "@jumbotron-bg": "@gray-lighter",
+    "@jumbotron-bg": "transparent",
     "@jumbotron-heading-color": "inherit",
     "@jumbotron-font-size": "ceil((@font-size-base * 1.5))",
     "@jumbotron-heading-font-size": "ceil((@font-size-base * 4.5))",
@@ -388,6 +388,7 @@
     "buttons.less",
     "responsive-utilities.less",
     "navs.less",
+    "jumbotron.less",
     "alerts.less",
     "responsive-embed.less",
     "close.less",
@@ -399,5 +400,5 @@
     "collapse.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=e5a301e77ad5267f3d19cf8bb0ca50d9"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=345cb4d807842fb672a2674d5c94130a"
 }

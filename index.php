@@ -5,13 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Utopia Films</title>
-        <style>
-            <?php include("css/bootstrap.min.css"); ?>
-            <?php include("css/magnific-popup.css"); ?>
-            <?php include("css/styles.css"); ?>
-        </style>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+        <script src="js/scrollreveal.min.js"></script>
         <header>
             <h1 class="hidden">Utopia Films</h1>
 
@@ -45,13 +44,10 @@
                 <?php include("templates/footer.php"); ?>
             </footer>
         </div>
-
-        <script>
-            <?php include("js/jquery.min.js"); ?>
-            <?php include("js/bootstrap.min.js"); ?>
-            <?php include("js/bootstrap-toolkit.min.js"); ?>
-            <?php include("js/jquery.magnific-popup.min.js"); ?>
-            <?php include("js/scripts.js"); ?>
-        </script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-toolkit.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/scripts.js"></script>
     </body>
 </html>

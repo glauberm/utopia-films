@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Work Sans';
-    src: url('fonts/woff2/WorkSans-Regular.woff2') format('woff2'),
-        url('fonts/woff/WorkSans-Regular.woff') format('woff'),
-        url('fonts/ttf/WorkSans-Regular.ttf') format('ttf');
+    src: url('../fonts/woff2/WorkSans-Regular.woff2') format('woff2'),
+        url('../fonts/woff/WorkSans-Regular.woff') format('woff'),
+        url('../fonts/ttf/WorkSans-Regular.ttf') format('ttf');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Work Sans';
-    src: url('fonts/woff2/WorkSans-Bold.woff2') format('woff2'),
-        url('fonts/woff/WorkSans-Bold.woff') format('woff'),
-        url('fonts/ttf/WorkSans-Bold.ttf') format('ttf');
+    src: url('../fonts/woff2/WorkSans-Bold.woff2') format('woff2'),
+        url('../fonts/woff/WorkSans-Bold.woff') format('woff'),
+        url('../fonts/ttf/WorkSans-Bold.ttf') format('ttf');
     font-weight: 700;
 }
 
@@ -58,8 +58,8 @@
 
 .box-container .box-image .image:hover {
     background-color: #111;
-    -webkit-box-shadow: 0 0 0 20px #311 inset, 0 0 0 1px rgba(0,0,0,0.125) inset;
-            box-shadow: 0 0 0 20px #311 inset, 0 0 0 1px rgba(0,0,0,0.125) inset;
+    -webkit-box-shadow: 0 0 0 20px #000 inset, 0 0 0 1px rgba(0,0,0,0.125) inset;
+            box-shadow: 0 0 0 20px #000 inset, 0 0 0 1px rgba(0,0,0,0.125) inset;
 }
 
 .box-container .box-image .image img {
@@ -78,7 +78,7 @@
 }
 
 .box-container .box-image .image figcaption h4 {
-    color: #FFF;
+    color: #AAA;
     text-shadow: 0 0 8px rgba(0,0,0,0.5);
 }
 
@@ -297,7 +297,6 @@ h3 a:hover {
 @media (min-width: 992px) {
     .box-container .box-image .image figcaption h4 {
         font-size: 3.6rem;
-        color: #B00;
         text-shadow: 0 0 16px rgba(0,0,0,0.5), 0 4px 1px #111;
     }
 }
@@ -346,15 +345,16 @@ h3 a:hover {
 }
 
 .close-trigger button {
-    color: #611;
+    color: #000;
 }
 
 /* MENU FOCUS */
 .focus {
     position: fixed;
-    background-color: #911;
+    background-color: #222;
     -webkit-box-shadow: 0 -10px 20px rgba(0,0,0,0.5);
             box-shadow: 0 -10px 20px rgba(0,0,0,0.5);
+    border-left: 10px solid #222;
     z-index: 30;
 }
 
@@ -444,16 +444,6 @@ h3 a:hover {
 .dt-box h4 {
     color: #311;
 }
-/* Clients */
-/* feature-films-tv */
-.feature-films-tv .dt-box {
-    padding: 0 20px;
-}
-/* Contact */
-.contact h3 {
-    color: #611;
-}
-
 /* Service */
 .service .ps-article {
     text-align: left;
@@ -469,7 +459,29 @@ h3 a:hover {
     margin-top: 0;
 }
 
+/* Clients */
+/* feature-films-tv */
+.feature-films-tv .dt-box {
+    padding: 0 20px;
+}
+
+/* Directors */
+.content .directors {
+    background-color: #FDD;
+    -webkit-box-shadow: 0 0px 50px 25px #FDD, 0 0px 50px 25px #FDD;
+    box-shadow: 0 0px 50px 25px #FDD, 0 0px 50px 25px #FDD;
+    padding-bottom: 125px;
+}
+
+.content .directors .jumbotron .h1 {
+    color: #611;
+}
+
 /* Contact */
+.contact h3 {
+    color: #BBB;
+}
+
 .content .contact {
     padding-bottom: 0;
 }
@@ -477,29 +489,27 @@ h3 a:hover {
 .contact h2 {
     background: #222;
     text-shadow: 0px 2px 5px #000;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .contact h2 a {
-    color: #711;
+    color: #AAA;
 }
 
 .contact h2 a:hover,
 .contact h2 a:focus,
 .contact h2 a:active {
-    color: #911;
+    color: #EEE;
 }
 
 .contact .body-contact {
     background-color: #111;
     text-shadow: 0px 2px 5px #000;
     color: #FFF;
-}
-
-.contact h3 {
-    color: #911;
+    padding-bottom: 40px;
 }
 
 /* FOOTER */
