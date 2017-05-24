@@ -78,7 +78,7 @@
 }
 
 .box-container .box-image .image figcaption h4 {
-    color: #AAA;
+    color: #EEE;
     text-shadow: 0 0 8px rgba(0,0,0,0.5);
 }
 
@@ -120,8 +120,8 @@
 @media (max-width: 991px) {
     .box-container .box-image .image {
         background-color: #111;
-        -webkit-box-shadow: 0 0 0 20px #311 inset;
-                box-shadow: 0 0 0 20px #311 inset;
+        -webkit-box-shadow: 0 0 0 20px #111 inset;
+                box-shadow: 0 0 0 20px #111 inset;
     }
 
     .box-container .box-image .image figcaption {
