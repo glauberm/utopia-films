@@ -8,6 +8,13 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <!--[if gte IE 9]>
+          <style type="text/css">
+            .focus {
+               filter: none;
+            }
+          </style>
+        <![endif]-->
     </head>
     <body>
         <script src="js/scrollreveal.min.js"></script>
