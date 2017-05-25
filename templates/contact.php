@@ -121,12 +121,12 @@
                     </li>
                     <li>
                         <a href="https://vimeo.com/utopiafilms" target="_blank" title="Vimeo">
-                            <?php include("templates/facebook.svg.php"); ?>
+                            <?php include("templates/vimeo.svg.php"); ?>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/utopiafilmsbrazil/" target="_blank" title="Instagram">
-                            <?php include("templates/facebook.svg.php"); ?>
+                            <?php include("templates/instagram.svg.php"); ?>
                         </a>
                     </li>
                 </ul>

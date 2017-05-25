@@ -299,6 +299,11 @@ h3 a:hover {
         font-size: 3.6rem;
         text-shadow: 0 0 16px rgba(0,0,0,0.5), 0 4px 1px #111;
     }
+
+    .contact .body-social-media ul li {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 @media (max-height: 600px) {
@@ -512,14 +517,52 @@ h3 a:hover {
     padding-bottom: 40px;
 }
 
+.contact .body-social-media {
+    background-color: #090909;
+    padding: 12px 0 10px;
+}
+
+.contact .body-social-media ul {
+    margin-bottom: 0;
+}
+
+.contact .body-social-media ul li a svg path,
+.contact .body-social-media ul li a svg polygon {
+    -webkit-transition: fill 0.5s ease;
+    -moz-transition: fill 0.5s ease;
+    -ms-transition: fill 0.5s ease;
+    -o-transition: fill 0.5s ease;
+    transition: fill 0.5s ease;
+}
+
+.contact .body-social-media ul li a:hover svg path,
+.contact .body-social-media ul li a:hover svg polygon,
+.contact .body-social-media ul li a:focus svg path,
+.contact .body-social-media ul li a:focus svg polygon,
+.contact .body-social-media ul li a:active svg path,
+.contact .body-social-media ul li a:active svg polygon {
+    fill: #911;
+}
+
+
 /* FOOTER */
 
 .footer .footer-footer {
     background-color: #000;
-    color: #CCC;
+    color: #999;
     padding-top: 15px;
     padding-bottom: 18px;
     font-size: 1.2rem;
+}
+
+.footer .footer-footer a {
+    color: #EEE;
+}
+
+.footer .footer-footer a:hover,
+.footer .footer-footer a:focus,
+.footer .footer-footer a:active {
+    color: #FFF;
 }
 
 /* BLACK-OUT */

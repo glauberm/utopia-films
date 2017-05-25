@@ -216,4 +216,10 @@ function magnificPopupTrigger()
         type: 'iframe',
         gallery: { enabled: true },
     });
+
+    $('.gallery-print').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: { enabled: true },
+    });
 }
