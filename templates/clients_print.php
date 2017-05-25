@@ -536,7 +536,7 @@
                     <li class="box-image">
                         <figure class="image">
                             <a href="img/print/full/23_blinkk_01.jpg" target="_blank">
-                                <img class="img-responsive" src="img/print/24_blinkk_02.jpg"/>
+                                <img class="img-responsive" src="img/print/23_blinkk_01.jpg"/>
                                 <figcaption>
                                     <h4>Blinkk</h4>
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
