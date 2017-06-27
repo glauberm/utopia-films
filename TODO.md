@@ -9,6 +9,6 @@
 
 # Feito
 
-- Logo da PSN
+- Logo da PSN.
 - Linha vertical do menu retirada.
 - Borda no texto sobre os vídeos retirada e utilizada uma fonte mais fina.

@@ -57,6 +57,14 @@
             <main class="main">
                 <?php include("templates/work.php"); ?>
 
+                <?php include("templates/service.php"); ?>
+
+                <?php include("templates/clients.php"); ?>
+
+                <?php include("templates/directors.php"); ?>
+
+                <?php include("templates/locations.php"); ?>
+
                 <?php include("templates/contact.php"); ?>
             </main>
             <footer class="footer">

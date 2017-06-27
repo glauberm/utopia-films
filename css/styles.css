@@ -479,7 +479,9 @@ h3 a:hover {
 }
 
 .content .directors .jumbotron .h1 {
+    text-transform: uppercase;
     color: #611;
+    font-size: 74px;
 }
 
 /* Contact */

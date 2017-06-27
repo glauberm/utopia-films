@@ -6,7 +6,7 @@
     </div>
     <div class="jumbotron">
         <div class="container">
-            <h3 class="h1">Pink Money</h3>
+            <h3 class="h1">Pink Monkey</h3>
             <p>Coming Soon</p>
         </div>
     </div>

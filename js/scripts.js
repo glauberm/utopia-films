@@ -6,12 +6,9 @@ $(document).ready(function ()
     $("#fixed-container").css("position", "fixed");
     // Some e fixa o menu trigger
     $("#menu-trigger").css("position", "fixed").addClass("hidden");
-    // Torna os elementos invisíveis para animá-los abaixo
-    //$(".box-container .box-image, .about .box-text-wrap, .production-service .ps-article, .production-companies .dt-box, .dd-box, .contact-box").addClass("invisible");
 
     pigOnTop($(window).scrollTop());
     menu($(window).scrollTop());
-    //revealTrigger($(window).scrollTop());
     scrollRevealTrigger();
     collapseTrigger();
     magnificPopupTrigger();
@@ -21,7 +18,6 @@ $(window).on("scroll", function ()
 {
     pigOnTop($(window).scrollTop());
     menu($(window).scrollTop());
-    //revealTrigger($(window).scrollTop());
 });
 
 // Rolar suave para links internos @ CSS-Tricks
@@ -67,8 +63,6 @@ $("#nav-menu li a").on("click", function()
 // Ao clicar nas pills refaz a animação
 $(".big-nav-pills a").on("shown.bs.tab", function (e)
 {
-    //$(".box-container .box-image, .dt-box, .dd-box, .contact-box").addClass("invisible").removeClass("fade-in-top");
-    //revealTrigger($(window).scrollTop());
     sr.sync();
 })
 
@@ -117,16 +111,6 @@ function menu(st)
         })(jQuery, ResponsiveBootstrapToolkit);
     }
 }
-
-// Revela as coisas quando o scroll chega nelas
-/*function revealTrigger(scrollTop)
-{
-    $(".box-container .box-image, .production-service .ps-article, .dt-box, .dd-box, .contact-box").each(function() {
-        if(isScrolledIntoView(scrollTop, $(this))) {
-            $(this).removeClass("invisible").addClass("fade-in-top");
-        }
-    });
-}*/
 
 function scrollRevealTrigger()
 {
