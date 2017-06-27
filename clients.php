@@ -4,7 +4,7 @@
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Utopia Films</title>
+        <title>Clients - Utopia Films</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
@@ -34,7 +34,7 @@
         <header>
             <?php include("templates/fixed-container.php"); ?>
 
-            <?php include("templates/menu-container-index.php"); ?>
+            <?php include("templates/menu-container-clients.php"); ?>
 
             <div id="black-out" class="black-out hidden"></div>
         </header>
@@ -46,7 +46,7 @@
                 </button>
             </div>
             <main class="main">
-                <?php include("templates/work.php"); ?>
+                <?php include("templates/clients.php"); ?>
 
                 <?php include("templates/contact.php"); ?>
             </main>
@@ -59,5 +59,10 @@
         <script src="js/bootstrap-toolkit.min.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script>
+            $("html, body").animate({
+                scrollTop: $("#clients").offset().top - 150
+            }, 500);
+        </script>
     </body>
 </html>

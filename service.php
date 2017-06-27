@@ -4,17 +4,10 @@
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Utopia Films</title>
+        <title>Service - Utopia Films</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
-        <!--[if gte IE 9]>
-          <style type="text/css">
-            .focus {
-               filter: none;
-            }
-          </style>
-        <![endif]-->
         <link rel="shortcut icon" href="favicon.ico">
     	<link rel="icon" sizes="16x16 32x32 64x64" href="favicon.ico">
     	<link rel="icon" type="image/png" sizes="196x196" href="favicon-192.png">
@@ -39,11 +32,9 @@
     <body>
         <script src="js/scrollreveal.min.js"></script>
         <header>
-            <h1 class="hidden">Utopia Films</h1>
-
             <?php include("templates/fixed-container.php"); ?>
 
-            <?php include("templates/menu-container.php"); ?>
+            <?php include("templates/menu-container-service.php"); ?>
 
             <div id="black-out" class="black-out hidden"></div>
         </header>
@@ -55,15 +46,7 @@
                 </button>
             </div>
             <main class="main">
-                <?php include("templates/work.php"); ?>
-
                 <?php include("templates/service.php"); ?>
-
-                <?php include("templates/clients.php"); ?>
-
-                <?php include("templates/directors.php"); ?>
-
-                <?php include("templates/locations.php"); ?>
 
                 <?php include("templates/contact.php"); ?>
             </main>
@@ -76,5 +59,10 @@
         <script src="js/bootstrap-toolkit.min.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script>
+            $("html, body").animate({
+                scrollTop: $("#service").offset().top - 150
+            }, 500);
+        </script>
     </body>
 </html>

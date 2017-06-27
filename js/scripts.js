@@ -184,15 +184,6 @@ function collapseTrigger()
     })(jQuery, ResponsiveBootstrapToolkit);
 }
 
-function isScrolledIntoView(scrollTop, elem)
-{
-    var docViewBottom = scrollTop + $(window).height();
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + ($(elem).height()/4);
-
-    return ((elemBottom <= docViewBottom) && (elemTop >= scrollTop));
-}
-
 function magnificPopupTrigger()
 {
     $('.gallery-featured-work').magnificPopup({
