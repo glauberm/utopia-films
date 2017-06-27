@@ -1,6 +1,5 @@
 # TODO
 
-- Você pode tirar a borda no texto sobre os vídeos. E usa uma fonte mais fina.
 - Em janelas de navegador menores, 1 linha de texto torna-se 2 linhas. Se for possível ajustar ou centrar o texto para que ele não faça isso mesmo em pequenas janelas do navegador.
 - Você escreve Direction - a palavra deve ser Director – sobre cada video. A palavra Prod Co tem pequenos pontos sob a palavra. Anexou outra imagem para mais um vídeo para que a linha de vídeos permaneça uniforme.
 - Pink Monkey – não Money. Em maiúscula e letras maior.
@@ -12,3 +11,4 @@
 
 - Logo da PSN
 - Linha vertical do menu retirada.
+- Borda no texto sobre os vídeos retirada e utilizada uma fonte mais fina.

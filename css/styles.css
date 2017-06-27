@@ -52,14 +52,10 @@
             box-shadow: none;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.125) inset;
-            box-shadow: 0 0 0 1px rgba(0,0,0,0.125) inset;
 }
 
 .box-container .box-image .image:hover {
     background-color: #111;
-    -webkit-box-shadow: 0 0 0 20px #000 inset, 0 0 0 1px rgba(0,0,0,0.125) inset;
-            box-shadow: 0 0 0 20px #000 inset, 0 0 0 1px rgba(0,0,0,0.125) inset;
 }
 
 .box-container .box-image .image img {
@@ -78,6 +74,7 @@
 
 .box-container .box-image .image figcaption h4 {
     color: #EEE;
+    font-weight: 400;
     text-shadow: 0 0 8px rgba(0,0,0,0.5);
 }
 
@@ -293,7 +290,7 @@ h3 a:hover {
 @media (min-width: 992px) {
     .box-container .box-image .image figcaption h4 {
         font-size: 3.6rem;
-        text-shadow: 0 0 16px rgba(0,0,0,0.5), 0 4px 1px #111;
+        text-shadow: 0 0 8px rgba(0,0,0,0.5);
     }
 
     .contact .body-social-media ul li {
