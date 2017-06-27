@@ -196,7 +196,7 @@ h3 a:hover {
 /* MENU-CONTAINER */
 
 .menu-container {
-    border-left: 10px solid #911;
+    border-left: 10px solid transparent;
     position: absolute;
     left: 0;
     width: 100%;
@@ -328,7 +328,7 @@ h3 a:hover {
 }
 
 .menu-trigger {
-    border-left: 10px solid #911;
+    border-left: 10px solid transparent;
     -webkit-animation-name: menu-list;
     animation-name: menu-list;
     -webkit-animation-duration: 0.5s;
@@ -551,7 +551,6 @@ h3 a:hover {
     background-color: #000;
     color: #999;
     padding-top: 15px;
-    padding-bottom: 18px;
     font-size: 1.2rem;
 }
 
@@ -563,6 +562,10 @@ h3 a:hover {
 .footer .footer-footer a:focus,
 .footer .footer-footer a:active {
     color: #FFF;
+}
+
+.footer .footer-footer .psn-logo svg {
+    opacity: 0.75;
 }
 
 /* BLACK-OUT */
