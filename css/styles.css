@@ -161,7 +161,7 @@ h3 a:hover {
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 20;
     background-color: #FFF;
 }
 
@@ -205,7 +205,7 @@ h3 a:hover {
     height: 100%;
     top: 0;
     overflow: auto;
-    z-index: 10;
+    z-index: 20;
     -webkit-animation-name: menu-container;
     animation-name: menu-container;
     -webkit-animation-timing-function: ease-out;
@@ -343,7 +343,7 @@ h3 a:hover {
     animation-duration: 0.5s;
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
-    z-index: 10;
+    z-index: 20;
 }
 
 .close-trigger button,
@@ -367,7 +367,7 @@ h3 a:hover {
     -webkit-box-shadow: 0 -10px 20px rgba(0,0,0,0.5);
             box-shadow: 0 -10px 20px rgba(0,0,0,0.5);
     border-left: 10px solid transparent;
-    z-index: 30;
+    z-index: 40;
 }
 
 .focus .nav-menu {
@@ -408,12 +408,6 @@ h3 a:hover {
     margin: 100px auto 100px;
     padding: 50px 0 75px;
     text-align: center;
-}
-
-.content section:nth-child(2n-1) {
-    background-color: #FAFAFA;
-    -webkit-box-shadow: 0 -50px 100px #FAFAFA, 0 50px 100px #FAFAFA;
-            box-shadow: 0 -50px 100px #FAFAFA, 0 50px 100px #FAFAFA;
 }
 
 .content section:last-child {
@@ -483,12 +477,23 @@ h3 a:hover {
     -webkit-box-shadow: 0 0px 50px 25px #FDD, 0 0px 50px 25px #FDD;
     box-shadow: 0 0px 50px 25px #FDD, 0 0px 50px 25px #FDD;
     padding-bottom: 125px;
+    margin-bottom: -125px;
 }
 
 .content .directors .jumbotron .h1 {
     text-transform: uppercase;
     color: #611;
     font-size: 74px;
+}
+
+/* Locations */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    text-shadow: 0 1px 5px #000;
 }
 
 /* Contact */
@@ -526,28 +531,23 @@ h3 a:hover {
     padding-bottom: 40px;
 }
 
-.contact .body-social-media {
-    background-color: #090909;
-    padding: 12px 0 10px;
-}
-
-.contact .body-social-media ul {
+.body-social-media ul {
     margin-bottom: 0;
 }
 
-.contact .body-social-media ul li a svg path,
-.contact .body-social-media ul li a svg polygon {
+.body-social-media ul li a svg path,
+.body-social-media ul li a svg polygon {
     -webkit-transition: fill 0.5s ease;
     transition: fill 0.5s ease;
 }
 
-.contact .body-social-media ul li a:hover svg path,
-.contact .body-social-media ul li a:hover svg polygon,
-.contact .body-social-media ul li a:focus svg path,
-.contact .body-social-media ul li a:focus svg polygon,
-.contact .body-social-media ul li a:active svg path,
-.contact .body-social-media ul li a:active svg polygon {
-    fill: #911;
+.body-social-media ul li a:hover svg path,
+.body-social-media ul li a:hover svg polygon,
+.body-social-media ul li a:focus svg path,
+.body-social-media ul li a:focus svg polygon,
+.body-social-media ul li a:active svg path,
+.body-social-media ul li a:active svg polygon {
+    fill: #656565;
 }
 
 
@@ -583,7 +583,7 @@ h3 a:hover {
     top: 0;
     left: 0;
     background-color: #000;
-    z-index: 20;
+    z-index: 30;
     opacity: 0.5;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
     -webkit-animation-name: black-out;

@@ -1,5 +1,5 @@
 <section class="contact">
-    <header>
+    <header class="hidden">
         <h2 class="h1 page-header text-center"><a href="#contact" id="contact">Contact</a></h2>
     </header>
     <div class="body-contact">
@@ -107,29 +107,6 @@
                         </main>
                     </article>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="body-social-media">
-        <div class="container">
-            <div class="text-center">
-                <ul class="list-inline">
-                    <li>
-                        <a href="https://www.facebook.com/Utopia-Films-Brazil-488034017921914/" target="_blank" title="Facebook">
-                            <?php include("templates/facebook.svg.php"); ?>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://vimeo.com/utopiafilms" target="_blank" title="Vimeo">
-                            <?php include("templates/vimeo.svg.php"); ?>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/utopiafilmsbrazil/" target="_blank" title="Instagram">
-                            <?php include("templates/instagram.svg.php"); ?>
-                        </a>
-                    </li>
-                </ul>
             </div>
         </div>
     </div>
