@@ -9,7 +9,7 @@
                 <dl>
                     <div class="row">
                         <div class="col-sm-4"><div class="dd-box"><dt>Starring</dt><dd>Aishwarya Rai</dd><dd>Hrithik Roshan</dd><br/></div></div>
-                        <div class="col-sm-4"><div class="dd-box"><dt>Direction</dt><dd>Sanjay Gadhvi</dd><br/></div></div>
+                        <div class="col-sm-4"><div class="dd-box"><dt>Director</dt><dd>Sanjay Gadhvi</dd><br/></div></div>
                         <div class="col-sm-4"><div class="dd-box"><dt>Production</dt><dd>Yash Chopra</dd><br/></div></div>
                     </div>
                     <div class="row">
@@ -22,7 +22,7 @@
                 <h4>TH Parry Williams</h4>
                 <dl>
                     <div class="row">
-                        <div class="col-sm-6"><div class="dd-box"><dt>Direction</dt><dd>llion Iwan</dd><br/></div></div>
+                        <div class="col-sm-6"><div class="dd-box"><dt>Director</dt><dd>llion Iwan</dd><br/></div></div>
                         <div class="col-sm-6"><div class="dd-box"><dt>Production</dt><dd>Dylan Jones</dd><br/></div></div>
                     </div>
                     <div class="row">
@@ -37,7 +37,7 @@
                 <h4>Fronteira Brasil</h4>
                 <dl>
                     <div class="row">
-                        <div class="col-sm-6"><div class="dd-box"><dt>Direction</dt><dd>Nicholas Braunschor</dd><br/></div></div>
+                        <div class="col-sm-6"><div class="dd-box"><dt>Director</dt><dd>Nicholas Braunschor</dd><br/></div></div>
                         <div class="col-sm-6"><div class="dd-box"><dt>Production</dt><dd>Stefan Lukacs</dd><br/></div></div>
                     </div>
                     <div class="row">
@@ -50,7 +50,7 @@
                 <h4>Mega Builders</h4>
                 <dl>
                     <div class="row">
-                        <div class="col-sm-6"><div class="dd-box"><dt>Direction</dt><dd>Adrian Callender</dd><br/></div></div>
+                        <div class="col-sm-6"><div class="dd-box"><dt>Director</dt><dd>Adrian Callender</dd><br/></div></div>
                         <div class="col-sm-6"><div class="dd-box"><dt>Production</dt><dd>Lea Marin</dd><br/></div></div>
                     </div>
                     <div class="row">
@@ -66,7 +66,7 @@
                 <dl>
                     <div class="row">
                         <div class="col-sm-6"><div class="dd-box"><dt>Starring</dt><dd>Aishwarya Rai</dd><dd>Rajinikanth</dd><br/></div></div>
-                        <div class="col-sm-6"><div class="dd-box"><dt>Direction</dt><dd>Shankar</dd><br/></div></div>
+                        <div class="col-sm-6"><div class="dd-box"><dt>Director</dt><dd>Shankar</dd><br/></div></div>
                     </div>
                     <div class="row">
                         <div class="col-sm-6"><div class="dd-box"><dt>Production Company</dt><dd>Sun Picures/Ayngaran</dd><br/></div></div>
@@ -79,7 +79,7 @@
                 <br/>
                 <dl>
                     <div class="row">
-                        <div class="col-sm-4"><div class="dd-box"><dt>Direction</dt><dd>Morgan Spurlock</dd><br/></div></div>
+                        <div class="col-sm-4"><div class="dd-box"><dt>Director</dt><dd>Morgan Spurlock</dd><br/></div></div>
                         <div class="col-sm-4"><div class="dd-box"><dt>Production Company</dt><dd>Warrior Poets/Fox</dd><br/></div></div>
                         <div class="col-sm-4"><div class="dd-box"><dt>Line Production</dt><dd>Justin Bird</dd><br/></div></div>
                     </div>
@@ -91,7 +91,7 @@
                 <h4>Fear Factor</h4>
                 <dl>
                     <div class="row">
-                        <div class="col-sm-6"><div class="dd-box"><dt>Direction</dt><dd>Airtra Muherjee/Willem Naude</dd><br/></div></div>
+                        <div class="col-sm-6"><div class="dd-box"><dt>Director</dt><dd>Airtra Muherjee/Willem Naude</dd><br/></div></div>
                         <div class="col-sm-6"><div class="dd-box"><dt>Production</dt><dd>Joy Battacharya</dd><br/></div></div>
                     </div>
                     <div class="row">
@@ -104,7 +104,7 @@
                 <h4>Dream Hotel</h4>
                 <dl>
                     <div class="row">
-                        <div class="col-sm-6"><div class="dd-box"><dt>Direction</dt><dd>Otto Retzer</dd><br/></div></div>
+                        <div class="col-sm-6"><div class="dd-box"><dt>Director</dt><dd>Otto Retzer</dd><br/></div></div>
                         <div class="col-sm-6"><div class="dd-box"><dt>Production</dt><dd>David Spiehs</dd><dd>Karl Spiehs</dd><br/></div></div>
                     </div>
                     <div class="row">
@@ -119,7 +119,7 @@
                 <h4>Secret Service</h4>
                 <dl>
                     <div class="row">
-                        <div class="col-sm-6"><div class="dd-box"><dt>Direction</dt><dd>Matthew Vaughn</dd><br/></div></div>
+                        <div class="col-sm-6"><div class="dd-box"><dt>Director</dt><dd>Matthew Vaughn</dd><br/></div></div>
                         <div class="col-sm-6"><div class="dd-box"><dt>Production Management</dt><dd>Iain Mackenzie</dd><br/></div></div>
                     </div>
                     <div class="row">

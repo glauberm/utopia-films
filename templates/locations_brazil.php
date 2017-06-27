@@ -15,7 +15,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Production Company</dt>
                                         <dd>One Six 7 Prods, UK</dd>
-                                        <dt>Direction</dt>
+                                        <dt>Director</dt>
                                         <dd>Damien Laurent / Leila Laurent</dd>
                                         <dt>Agency</dt>
                                         <dd>DLKW Lowe, London</dd>
@@ -35,7 +35,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Production Company</dt>
                                         <dd>7 Films, South Africa</dd>
-                                        <dt>Direction</dt>
+                                        <dt>Director</dt>
                                         <dd>Lourens Van Rensburg</dd>
                                         <dt>Agency</dt>
                                         <dd>T&W, Johannesburg</dd>

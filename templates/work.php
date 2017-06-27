@@ -16,7 +16,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                         <dd>Shaw Bros/JQ Pictures, China</dd>
-                                        <dt>Direction</dt>
+                                        <dt>Director</dt>
                                         <dd>Jazz Boon</dd>
                                     </dl>
                                 </figcaption>
@@ -34,7 +34,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                         <dd>Driver, USA</dd>
-                                        <dt>Direction</dt>
+                                        <dt>Director</dt>
                                         <dd>Blake Heal</dd>
                                         <dt>Agency</dt>
                                         <dd>Driver, New York</dd>
@@ -96,7 +96,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                         <dd>One Six 7 Prods, UK</dd>
-                                        <dt>Direction</dt>
+                                        <dt>Director</dt>
                                         <dd>Damien Laurent / Leila Laurent</dd>
                                         <dt>Agency</dt>
                                         <dd>DLKW Lowe, London</dd>
@@ -116,7 +116,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                         <dd>7 Films, South Africa</dd>
-                                        <dt>Direction</dt>
+                                        <dt>Director</dt>
                                         <dd>Lourens Van Rensburg</dd>
                                         <dt>Agency</dt>
                                         <dd>T&W, Johannesburg</dd>
@@ -137,7 +137,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Radley Studios, USA</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Kurt Spenser</dd>
                                 </dl>
                             </figcaption>
@@ -151,7 +151,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Cake Film, Holland</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Jelle Oortman</dd>
                                     <dt>Agency</dt>
                                     <dd>Doom & Dickson, Holland</dd>
@@ -184,7 +184,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>The Filmhouse, USA</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>David Rousseau</dd>
                                     <dt>Agency</dt>
                                     <dd>Latinworks, USA</dd>
@@ -203,7 +203,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Cherub Films, Australia</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Ben Briand</dd>
                                     <dt>Agency</dt>
                                     <dd>M C Saatchi, Australia</dd>
@@ -236,7 +236,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Garage Films, Spain</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Albert Uria</dd>
                                     <dt>Agency</dt>
                                     <dd>Bassat, Ogilvy & Mather, Spain</dd>
@@ -252,7 +252,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Radley Studios, USA</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Kurt Spenser</dd>
                                 </dl>
                             </figcaption>
@@ -283,7 +283,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Telemaz, Germany</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Charles Mehling</dd>
                                     <dt>Agency</dt>
                                     <dd>Kolle Rebbe, Germany</dd>
@@ -302,7 +302,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Commercial Head Films, USA</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Moshe Brakha</dd>
                                     <dt>Agency</dt>
                                     <dd>McCann-Erickson, New York</dd>
@@ -318,7 +318,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Ray Kay Films, USA</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Ray Kay</dd>
                                 </dl>
                             </figcaption>
@@ -349,7 +349,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Group Films, Spain</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Igor Fioravanati</dd>
                                     <dt>Agency</dt>
                                     <dd>McCann-Erickson, Madrid</dd>
@@ -382,7 +382,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>La Fabrica, USA</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Claudio Prestia</dd>
                                     <dt>Agency</dt>
                                     <dd>La Communidad, Miami</dd>
@@ -401,7 +401,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Outlaw, UK</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Jack Price</dd>
                                 </dl>
                             </figcaption>
@@ -415,7 +415,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Commercial Head Films, USA</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Moshe Brakha</dd>
                                     <dt>Agency</dt>
                                     <dd>McCann-Erickson, New York</dd>
@@ -434,7 +434,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>7 Films, South Africa</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Lourens Van Rensburg</dd>
                                     <dt>Agency</dt>
                                     <dd>Bester Burke, Cape Town</dd>
@@ -450,7 +450,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Ray Kay Films, USA</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Ray Kay</dd>
                                 </dl>
                             </figcaption>
@@ -467,7 +467,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Colony, Sweden</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Eric Broms</dd>
                                     <dt>Agency</dt>
                                     <dd>Akestam Holst, Stockholm</dd>
@@ -483,7 +483,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Bully Pictures, USA</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Nick Losq</dd>
                                     <dt>Agency</dt>
                                     <dd>GSD&M, USA</dd>
@@ -502,7 +502,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Yash Raj, India</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Sanjay Gadhvi</dd>
                                     <dt>Starring</dt>
                                     <dd>Aishwarya Rai & Hrithik Roshan</dd>
@@ -518,7 +518,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Lisa Film, Austria</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Otto Retzer</dd>
                                     <dt>Starring</dt>
                                     <dd>Christian Kohlund</dd>
@@ -537,7 +537,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Endemol</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Airtra Muherjee/Willem Naude</dd>
                                     <dt>Host</dt>
                                     <dd>Priyanka Chopra</dd>
@@ -553,7 +553,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Bravo Zulu Films, USA</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>John Mastromonaco</dd>
                                     <dt>Agency</dt>
                                     <dd>Cambel-Mithun, Chicago</dd>
@@ -572,7 +572,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Sun Pictures/Ayngaran,India</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Shankar</dd>
                                     <dt>Starring</dt>
                                     <dd>Aishwarya Rai & Rajinikanth</dd>
@@ -588,7 +588,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Next Step, Germany</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Dietrich Mangold</dd>
                                 </dl>
                             </figcaption>
@@ -605,7 +605,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Tangerina Azul, Portugal</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Paulo Henriques</dd>
                                     <dt>Agency</dt>
                                     <dd>Back, Lisbon</dd>
@@ -621,7 +621,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Yarche!, Russia</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Yaroslav Chevajevsky</dd>
                                 </dl>
                             </figcaption>
@@ -638,7 +638,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Gimmeyawallet Prods, Finland</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Tuomas Milanoff</dd>
                                 </dl>
                             </figcaption>
@@ -652,7 +652,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Warrior Poets/Fox, USA</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Morgan Spurlock</dd>
                                 </dl>
                             </figcaption>
@@ -669,7 +669,7 @@
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
                                     <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
                                     <dd>Fitch Live, UK</dd>
-                                    <dt>Direction</dt>
+                                    <dt>Director</dt>
                                     <dd>Fitch Live, UK</dd>
                                     <dt>Agency</dt>
                                     <dd>BDI, London</dd>
