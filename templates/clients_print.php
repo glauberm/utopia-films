@@ -1,7 +1,7 @@
 <article class="print box-container">
-    <header class="container">
-        <h3 class="page-header text-center"><a id="print" href="#print">Print</a></h3>
-    </header>
+    <div class="container">
+        <header><h3 class="text-center"><a id="print" href="#print">Print</a></h3></header>
+    </div>
     <main class="container big-container">
         <ul class="list-unstyled gallery-print">
 
@@ -18,7 +18,7 @@
                                         <dd>Jacob Sutton</dd>
                                         <dt>Agency</dt>
                                         <dd>BETC</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Rita</dd>
                                     </dl>
                                 </figcaption>
@@ -38,7 +38,7 @@
                                         <dd>Jacob Sutton</dd>
                                         <dt>Agency</dt>
                                         <dd>BETC</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Rita</dd>
                                     </dl>
                                 </figcaption>
@@ -61,7 +61,7 @@
                                         <dd>Jacob Sutton</dd>
                                         <dt>Agency</dt>
                                         <dd>BETC</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Rita</dd>
                                     </dl>
                                 </figcaption>
@@ -81,7 +81,7 @@
                                         <dd>Vincent Dixon</dd>
                                         <dt>Agency</dt>
                                         <dd>J Walter Thompson, NY</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Eric Rasmussen Prod</dd>
                                     </dl>
                                 </figcaption>
@@ -104,7 +104,7 @@
                                         <dd>Vincent Dixon</dd>
                                         <dt>Agency</dt>
                                         <dd>J Walter Thompson, NY</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Eric Rasmussen Prod</dd>
                                     </dl>
                                 </figcaption>
@@ -124,7 +124,7 @@
                                         <dd>Vincent Dixon</dd>
                                         <dt>Agency</dt>
                                         <dd>J Walter Thompson, NY</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Eric Rasmussen Prod</dd>
                                     </dl>
                                 </figcaption>
@@ -147,7 +147,7 @@
                                         <dd>Vincent Dixon</dd>
                                         <dt>Agency</dt>
                                         <dd>J Walter Thompson, NY</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Eric Rasmussen Prod</dd>
                                     </dl>
                                 </figcaption>
@@ -167,7 +167,7 @@
                                         <dd>Rolph Gobits</dd>
                                         <dt>Agency</dt>
                                         <dd>The Richards Group</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Eric Rasmussen Prod, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -190,7 +190,7 @@
                                         <dd>Rolph Gobits</dd>
                                         <dt>Agency</dt>
                                         <dd>The Richards Group</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Eric Rasmussen Prod, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -210,7 +210,7 @@
                                         <dd>Rolph Gobits</dd>
                                         <dt>Agency</dt>
                                         <dd>The Richards Group</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Eric Rasmussen Prod, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -233,7 +233,7 @@
                                         <dd>Rolph Gobits</dd>
                                         <dt>Agency</dt>
                                         <dd>The Richards Group</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Eric Rasmussen Prod, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -253,7 +253,7 @@
                                         <dd>Takakazu Aoyama</dd>
                                         <dt>Agency</dt>
                                         <dd>Dentsu, Tokyo</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>TYO M-1/Dayo Prods</dd>
                                     </dl>
                                 </figcaption>
@@ -276,7 +276,7 @@
                                         <dd>Moshe Brakha</dd>
                                         <dt>Agency</dt>
                                         <dd>McCann Erickson, NY</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Commercial Head Films, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -296,7 +296,7 @@
                                         <dd>Jim Fiscus</dd>
                                         <dt>Agency</dt>
                                         <dd>McGarry Bowen</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Eric Rasmussen Prod, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -317,7 +317,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Photographer</dt>
                                         <dd>Achille Bigliardi</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Brian long Prods, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -335,7 +335,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Photographer</dt>
                                         <dd>Achille Bigliardi</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Brian long Prods, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -356,7 +356,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Photographer</dt>
                                         <dd>Achille Bigliardi</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Brian long Prods, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -374,7 +374,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Photographer</dt>
                                         <dd>Achille Bigliardi</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Brian long Prods, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -395,7 +395,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Photographer</dt>
                                         <dd>Achille Bigliardi</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Brian long Prods, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -415,7 +415,7 @@
                                         <dd>Raina + Wilson</dd>
                                         <dt>Agency</dt>
                                         <dd>Cossette</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Raina + Wilson, Canada</dd>
                                     </dl>
                                 </figcaption>
@@ -438,7 +438,7 @@
                                         <dd>Raina + Wilson</dd>
                                         <dt>Agency</dt>
                                         <dd>Cossette</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Raina + Wilson, Canada</dd>
                                     </dl>
                                 </figcaption>
@@ -458,7 +458,7 @@
                                         <dd>David Lauridsen</dd>
                                         <dt>Agency</dt>
                                         <dd>Ogilvy, NY</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Proof Films, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -481,7 +481,7 @@
                                         <dd>David Lauridsen</dd>
                                         <dt>Agency</dt>
                                         <dd>Ogilvy, NY</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Proof Films, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -501,7 +501,7 @@
                                         <dd>David Lauridsen</dd>
                                         <dt>Agency</dt>
                                         <dd>Ogilvy, NY</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Proof Films, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -524,7 +524,7 @@
                                         <dd>David Lauridsen</dd>
                                         <dt>Agency</dt>
                                         <dd>Ogilvy, NY</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Proof Films, USA</dd>
                                     </dl>
                                 </figcaption>
@@ -542,7 +542,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Photographer</dt>
                                         <dd>Raina + Wilson</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>One Six 7 Prods, UK</dd>
                                     </dl>
                                 </figcaption>
@@ -563,7 +563,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Photographer</dt>
                                         <dd>Raina + Wilson</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>One Six 7 Prods, UK</dd>
                                     </dl>
                                 </figcaption>
@@ -581,7 +581,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Photographer</dt>
                                         <dd>Raina + Wilson</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>One Six 7 Prods, UK</dd>
                                     </dl>
                                 </figcaption>
@@ -602,7 +602,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Photographer</dt>
                                         <dd>Raina + Wilson</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>One Six 7 Prods, UK</dd>
                                     </dl>
                                 </figcaption>
@@ -620,7 +620,7 @@
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         <dt>Photographer</dt>
                                         <dd>Raina + Wilson</dd>
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>One Six 7 Prods, UK</dd>
                                     </dl>
                                 </figcaption>

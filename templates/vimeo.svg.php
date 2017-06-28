@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 508.52 508.52" width="48px" height="48px" style="enable-background:new 0 0 508.52 508.52;" xml:space="preserve">
+	 viewBox="0 0 508.52 508.52" width="24px" height="24px" style="enable-background:new 0 0 508.52 508.52;" xml:space="preserve">
 	<g>
 		<path fill="#454545" d="M254.26,0C113.845,0,0,113.845,0,254.26s113.845,254.26,254.26,254.26
 			s254.26-113.845,254.26-254.26C508.52,113.813,394.675,0,254.26,0z M405.29,185.069

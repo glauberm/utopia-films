@@ -26,8 +26,8 @@
                 </ul>
             </div>
             <div class="col-sm-4 col-sm-pull-4 col-xs-12 text-center">
-                <a href="http://www.productionservicenetwork.com/" target="_blank">
-                    <div class="psn-logo"><?php include("templates/psn.svg.php"); ?></div>
+                <a href="http://www.productionservicenetwork.com/" target="_blank" class="psn-logo">
+                    <?php include("templates/psn.svg.php"); ?>
                 </a>
             </div>
         </div>

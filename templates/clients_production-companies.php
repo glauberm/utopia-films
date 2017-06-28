@@ -1,6 +1,6 @@
 <article class="production-companies box-container">
     <div class="container">
-        <header><h3 class="page-header text-center"><a href="#production-companies">Production Companies</a></h3></header>
+        <header><h3 class="text-center"><a href="#production-companies">Production Companies</a></h3></header>
     </div>
     <main class="container">
         <dl>

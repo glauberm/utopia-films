@@ -1,6 +1,6 @@
 <article class="clients-tab box-container">
     <div class="container">
-        <header><h3 class="page-header text-center"><a id="clients-tab" href="#clients-tab">Clients</a></h3></header>
+        <header><h3 class="text-center"><a id="clients-tab" href="#clients-tab">Clients</a></h3></header>
     </div>
     <main class="container">
         <dl>

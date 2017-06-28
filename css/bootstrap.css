@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=88d2359a2babba97b0472a924ad74830)
- * Config saved to config.json and https://gist.github.com/88d2359a2babba97b0472a924ad74830
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=761fd5556214719d44129986e92c5db3)
+ * Config saved to config.json and https://gist.github.com/761fd5556214719d44129986e92c5db3
  */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -285,7 +285,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Work Sans", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #333333;
@@ -300,12 +300,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #990000;
+  color: #aaaaaa;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #4d0000;
+  color: #848484;
   text-decoration: none;
 }
 a:focus {
@@ -655,7 +655,7 @@ dd {
 @media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
-    width: 160px;
+    width: 106px;
     clear: left;
     text-align: right;
     overflow: hidden;
@@ -663,7 +663,7 @@ dd {
     white-space: nowrap;
   }
   .dl-horizontal dd {
-    margin-left: 180px;
+    margin-left: 126px;
   }
 }
 abbr[title],
@@ -1794,7 +1794,7 @@ fieldset[disabled] .btn-danger.focus {
   background-color: #ffffff;
 }
 .btn-link {
-  color: #990000;
+  color: #aaaaaa;
   font-weight: normal;
   border-radius: 0;
 }
@@ -1815,7 +1815,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #4d0000;
+  color: #848484;
   text-decoration: none;
   background-color: transparent;
 }
@@ -1924,7 +1924,7 @@ tbody.collapse.in {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #990000;
+  border-color: #aaaaaa;
 }
 .nav .nav-divider {
   height: 1px;
@@ -2123,7 +2123,7 @@ tbody.collapse.in {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 80px;
+    font-size: 160px;
   }
 }
 .embed-responsive {

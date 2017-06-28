@@ -1,6 +1,6 @@
 <article class="agencies box-container">
     <div class="container">
-        <header><h3 class="page-header text-center"><a href="#agencies">Agencies</a></h3></header>
+        <header><h3 class="text-center"><a href="#agencies">Agencies</a></h3></header>
     </div>
     <main class="container">
         <dl>

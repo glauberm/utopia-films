@@ -14,7 +14,7 @@
                                 <figcaption>
                                     <h4>Line Walker</h4>
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Shaw Bros/JQ Pictures, China</dd>
                                         <dt>Director</dt>
                                         <dd>Jazz Boon</dd>
@@ -32,7 +32,7 @@
                                 <figcaption>
                                     <h4>Coca Cola</h4>
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Driver, USA</dd>
                                         <dt>Director</dt>
                                         <dd>Blake Heal</dd>
@@ -55,7 +55,7 @@
                                 <figcaption>
                                     <h4>Listerine</h4>
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Annex Films, UK</dd>
                                         <dt>Agency</dt>
                                         <dd>J Walter Thomson, London</dd>
@@ -73,7 +73,7 @@
                                 <figcaption>
                                     <h4>Avon</h4>
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>Utopia Films/Fix Films, USA</dd>
                                         <dt>Agency</dt>
                                         <dd>Badger & Winters, New York</dd>
@@ -94,7 +94,7 @@
                                 <figcaption>
                                     <h4>Tena</h4>
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>One Six 7 Prods, UK</dd>
                                         <dt>Director</dt>
                                         <dd>Damien Laurent / Leila Laurent</dd>
@@ -114,7 +114,7 @@
                                 <figcaption>
                                     <h4>Supersport</h4>
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
-                                        <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                        <dt>Production</dt>
                                         <dd>7 Films, South Africa</dd>
                                         <dt>Director</dt>
                                         <dd>Lourens Van Rensburg</dd>
@@ -135,7 +135,7 @@
                             <figcaption>
                                 <h4>Cisco</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Radley Studios, USA</dd>
                                     <dt>Director</dt>
                                     <dd>Kurt Spenser</dd>
@@ -149,7 +149,7 @@
                             <figcaption>
                                 <h4>Crystal Clear</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Cake Film, Holland</dd>
                                     <dt>Director</dt>
                                     <dd>Jelle Oortman</dd>
@@ -168,7 +168,7 @@
                             <figcaption>
                                 <h4>Panasonic</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Utopia Films</dd>
                                     <dt>Agency</dt>
                                     <dd>Dentsu, Japan</dd>
@@ -182,7 +182,7 @@
                             <figcaption>
                                 <h4>Budlight - Pitbull</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>The Filmhouse, USA</dd>
                                     <dt>Director</dt>
                                     <dd>David Rousseau</dd>
@@ -201,7 +201,7 @@
                             <figcaption>
                                 <h4>Moccona</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Cherub Films, Australia</dd>
                                     <dt>Director</dt>
                                     <dd>Ben Briand</dd>
@@ -217,7 +217,7 @@
                             <figcaption>
                                 <h4>Panasonic - Fita</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Dentsu Creative X</dd>
                                     <dt>Agency</dt>
                                     <dd>Dentsu, Japan</dd>
@@ -234,7 +234,7 @@
                             <figcaption>
                                 <h4>Banco Santander</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Garage Films, Spain</dd>
                                     <dt>Director</dt>
                                     <dd>Albert Uria</dd>
@@ -250,7 +250,7 @@
                             <figcaption>
                                 <h4>Cisco</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Radley Studios, USA</dd>
                                     <dt>Director</dt>
                                     <dd>Kurt Spenser</dd>
@@ -267,7 +267,7 @@
                             <figcaption>
                                 <h4>NEC</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Utopia Films</dd>
                                     <dt>Agency</dt>
                                     <dd>Dentsu, Japan</dd>
@@ -281,7 +281,7 @@
                             <figcaption>
                                 <h4>Otto</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Telemaz, Germany</dd>
                                     <dt>Director</dt>
                                     <dd>Charles Mehling</dd>
@@ -300,7 +300,7 @@
                             <figcaption>
                                 <h4>Bacardi</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Commercial Head Films, USA</dd>
                                     <dt>Director</dt>
                                     <dd>Moshe Brakha</dd>
@@ -316,7 +316,7 @@
                             <figcaption>
                                 <h4>Adelen</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Ray Kay Films, USA</dd>
                                     <dt>Director</dt>
                                     <dd>Ray Kay</dd>
@@ -333,7 +333,7 @@
                             <figcaption>
                                 <h4>Raffaello</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Utopia Films</dd>
                                     <dt>Agency</dt>
                                     <dd>Pubbligeria, Italy</dd>
@@ -347,7 +347,7 @@
                             <figcaption>
                                 <h4>Mastercard</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Group Films, Spain</dd>
                                     <dt>Director</dt>
                                     <dd>Igor Fioravanati</dd>
@@ -366,7 +366,7 @@
                             <figcaption>
                                 <h4>NEC</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Utopia Films</dd>
                                     <dt>Agency</dt>
                                     <dd>Dentsu, Japan</dd>
@@ -380,7 +380,7 @@
                             <figcaption>
                                 <h4>TWC</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>La Fabrica, USA</dd>
                                     <dt>Director</dt>
                                     <dd>Claudio Prestia</dd>
@@ -399,7 +399,7 @@
                             <figcaption>
                                 <h4>Aviva</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Outlaw, UK</dd>
                                     <dt>Director</dt>
                                     <dd>Jack Price</dd>
@@ -413,7 +413,7 @@
                             <figcaption>
                                 <h4>Bacardi</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Commercial Head Films, USA</dd>
                                     <dt>Director</dt>
                                     <dd>Moshe Brakha</dd>
@@ -432,7 +432,7 @@
                             <figcaption>
                                 <h4>Esprit</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>7 Films, South Africa</dd>
                                     <dt>Director</dt>
                                     <dd>Lourens Van Rensburg</dd>
@@ -448,7 +448,7 @@
                             <figcaption>
                                 <h4>Hydro</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Ray Kay Films, USA</dd>
                                     <dt>Director</dt>
                                     <dd>Ray Kay</dd>
@@ -465,7 +465,7 @@
                             <figcaption>
                                 <h4>Pripps</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Colony, Sweden</dd>
                                     <dt>Director</dt>
                                     <dd>Eric Broms</dd>
@@ -481,7 +481,7 @@
                             <figcaption>
                                 <h4>Radioshack</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Bully Pictures, USA</dd>
                                     <dt>Director</dt>
                                     <dd>Nick Losq</dd>
@@ -500,7 +500,7 @@
                             <figcaption>
                                 <h4>Dhoom 2</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Yash Raj, India</dd>
                                     <dt>Director</dt>
                                     <dd>Sanjay Gadhvi</dd>
@@ -516,7 +516,7 @@
                             <figcaption>
                                 <h4>Dream Hotel</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Lisa Film, Austria</dd>
                                     <dt>Director</dt>
                                     <dd>Otto Retzer</dd>
@@ -535,7 +535,7 @@
                             <figcaption>
                                 <h4>Fear Factor</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Endemol</dd>
                                     <dt>Director</dt>
                                     <dd>Airtra Muherjee/Willem Naude</dd>
@@ -551,7 +551,7 @@
                             <figcaption>
                                 <h4>Mutual of Omaha</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Bravo Zulu Films, USA</dd>
                                     <dt>Director</dt>
                                     <dd>John Mastromonaco</dd>
@@ -570,7 +570,7 @@
                             <figcaption>
                                 <h4>Robot/Endhiran</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Sun Pictures/Ayngaran,India</dd>
                                     <dt>Director</dt>
                                     <dd>Shankar</dd>
@@ -586,7 +586,7 @@
                             <figcaption>
                                 <h4>Areva</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Next Step, Germany</dd>
                                     <dt>Director</dt>
                                     <dd>Dietrich Mangold</dd>
@@ -603,7 +603,7 @@
                             <figcaption>
                                 <h4>Superbock</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Tangerina Azul, Portugal</dd>
                                     <dt>Director</dt>
                                     <dd>Paulo Henriques</dd>
@@ -619,7 +619,7 @@
                             <figcaption>
                                 <h4>Tonus</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Yarche!, Russia</dd>
                                     <dt>Director</dt>
                                     <dd>Yaroslav Chevajevsky</dd>
@@ -636,7 +636,7 @@
                             <figcaption>
                                 <h4>Madventures</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Gimmeyawallet Prods, Finland</dd>
                                     <dt>Director</dt>
                                     <dd>Tuomas Milanoff</dd>
@@ -648,9 +648,9 @@
                     <figure class="image"><a href="https://vimeo.com/72564837" target="_blank">
                             <img class="img-responsive" src="img/38_simpsons.jpg"/>
                             <figcaption>
-                                <h4>Simpsons 20th Anniversary</h4>
+                                <h4>Simpsons</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Warrior Poets/Fox, USA</dd>
                                     <dt>Director</dt>
                                     <dd>Morgan Spurlock</dd>
@@ -661,13 +661,13 @@
             </div>
 
             <div class="box-row row">
-                <div class="box-column col-sm-6 col-sm-push-3"><li class="box-image">
+                <div class="box-column col-sm-6"><li class="box-image">
                     <figure class="image"><a href="https://vimeo.com/72556274" target="_blank">
                             <img class="img-responsive" src="img/39_camel.jpg"/>
                             <figcaption>
                                 <h4>Camel UK</h4>
                                 <dl class="dl-horizontal hidden-xs hidden-sm">
-                                    <dt><abbr title="Production Company">Prod. Co.</abbr></dt>
+                                    <dt>Production</dt>
                                     <dd>Fitch Live, UK</dd>
                                     <dt>Director</dt>
                                     <dd>Fitch Live, UK</dd>
@@ -677,7 +677,23 @@
                             </figcaption>
                     </a></figure>
                 </li></div>
+
+                <div class="box-column col-sm-6"><li class="box-image">
+                    <figure class="image"><a href="https://vimeo.com/221810062" target="_blank">
+                            <img class="img-responsive" src="img/40_samsung.jpeg"/>
+                            <figcaption>
+                                <h4>Samsung 360</h4>
+                                <dl class="dl-horizontal hidden-xs hidden-sm">
+                                    <dt>Production</dt>
+                                    <dd>Cooms Visual, South Korea</dd>
+                                    <dt>Director</dt>
+                                    <dd>Jacob Yeao</dd>
+                                </dl>
+                            </figcaption>
+                    </a></figure>
+                </li></div>
             </div>
+
         </ul>
     </main>
 </article>

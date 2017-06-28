@@ -4,7 +4,8 @@
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Clients - Utopia Films</title>
+        <title>Clients - Utopia Films - Brazil, Venezuela, USA, Caribbean</title>
+        <meta name="description" content="Film and Photo Production Services in Rio de Janeiro, Sao Paulo, and throughout Brazil. Utopia Films is the leading choice for international film and photo productions in Brazil, as well as Venezuela, USA and Caribbean."/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>

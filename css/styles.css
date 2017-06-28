@@ -1,19 +1,3 @@
-@font-face {
-    font-family: 'Work Sans';
-    src: url('../fonts/woff2/WorkSans-Regular.woff2') format('woff2'),
-        url('../fonts/woff/WorkSans-Regular.woff') format('woff'),
-        url('../fonts/ttf/WorkSans-Regular.ttf') format('ttf');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Work Sans';
-    src: url('../fonts/woff2/WorkSans-Bold.woff2') format('woff2'),
-        url('../fonts/woff/WorkSans-Bold.woff') format('woff'),
-        url('../fonts/ttf/WorkSans-Bold.ttf') format('ttf');
-    font-weight: 700;
-}
-
 /* GRID */
 .big-container {
     max-width: 1755px;
@@ -52,6 +36,7 @@
             box-shadow: none;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    overflow: hidden;
 }
 
 .box-container .box-image .image:hover {
@@ -65,29 +50,22 @@
 .box-container .box-image .image figcaption {
     position: absolute;
     top: 47.5%;
-    left: 50%;
-    -webkit-transform: translate(-47.5%, -50%) scale(1);
-            transform: translate(-47.5%, -50%) scale(1);
+    left: 0;
+    -webkit-transform: translate(0, -47.5%) scale(1);
+            transform: translate(0, -47.5%) scale(1);
     opacity: 0;
-    text-align: center;
+    padding: 0 60px;
+    width: 100%;
 }
 
 .box-container .box-image .image figcaption h4 {
     color: #EEE;
-    font-weight: 400;
+    font-weight: bold;
     text-shadow: 0 0 8px rgba(0,0,0,0.5);
+    text-transform: uppercase;
 }
 
 .box-container .box-image .image figcaption dl {
-    margin-bottom: 0;
-}
-
-.box-container .box-image .image figcaption dl dd {
-    margin-bottom: 6px;
-    text-align: left;
-}
-
-.box-container .box-image .image figcaption dl dd:last-child {
     margin-bottom: 0;
 }
 
@@ -95,6 +73,22 @@
 .box-container .box-image .image figcaption dl dd {
     color: #FAFAFA;
     text-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+
+.box-container .box-image .image figcaption dl dt {
+    text-align: left;
+}
+
+.box-container .box-image .image figcaption dl dd {
+    margin-bottom: 6px;
+    text-align: left;
+    font-size: 80%;
+    position: relative;
+    top: 3.333px;
+}
+
+.box-container .box-image .image figcaption dl dd:last-child {
+    margin-bottom: 0;
 }
 
 .box-container .box-image .image:hover figcaption {
@@ -107,11 +101,11 @@
     animation-duration: 0.3s;
 }
 
-@media(min-width: 992px) and (max-width: 1199px) {
+/*@media(min-width: 992px) and (max-width: 1199px) {
     .box-container .box-image .image figcaption {
         width: 90%;
     }
-}
+}*/
 
 @media (max-width: 991px) {
     .box-container .box-image .image {
@@ -142,14 +136,6 @@ html {
 a {
     -webkit-transition: color 0.3s ease-out;
     transition: color 0.3s ease-out;
-}
-
-h3 a {
-    color: #611;
-}
-
-h3 a:hover {
-    color: #311;
 }
 
 /* FIXED CONTAINER */
@@ -190,9 +176,10 @@ h3 a:hover {
 }
 
 .fixed-container .relative-container .fly-pig-container .fly-pig {
-    height: 100%;
+    height: 90%;
     width: 90%;
     position: relative;
+    top: 5%;
 }
 
 /* MENU-CONTAINER */
@@ -234,7 +221,7 @@ h3 a:hover {
 
 .menu-container .nav-menu {
     position: relative;
-    height: 100%;
+    height: 60%;
 }
 
 .menu-container .nav-menu .menu-list {
@@ -246,7 +233,7 @@ h3 a:hover {
 }
 
 .menu-container .nav-menu .menu-list > li {
-    padding: 30px 15px 30px 50px;
+    padding: 0 15px 0 50px;
     -webkit-animation-name: menu-list;
     animation-name: menu-list;
     -webkit-animation-timing-function: ease-out;
@@ -288,17 +275,34 @@ h3 a:hover {
 }
 
 .menu-container .nav-menu .menu-list > li a {
-    font-size: 2.4rem;
-    font-weight: 700;
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: #AAA;
+    text-transform: uppercase;
+}
+
+.menu-container .nav-menu .menu-list > li a:hover,
+.menu-container .nav-menu .menu-list > li a:focus,
+.menu-container .nav-menu .menu-list > li a:active {
+    color: #111;
 }
 
 @media (min-width: 767px) {
     .menu-container {
         width: 20%;
     }
+
+    .w-border-r {
+        border-right: 1px dotted #CCC;
+    }
 }
 
 @media (min-width: 992px) {
+    .box-container .box-image .image figcaption {
+        text-align: left;
+        width: auto;
+    }
+
     .box-container .box-image .image figcaption h4 {
         font-size: 3.6rem;
         text-shadow: 0 0 8px rgba(0,0,0,0.5);
@@ -363,7 +367,7 @@ h3 a:hover {
 /* MENU FOCUS */
 .focus {
     position: fixed;
-    background: #222222;
+    background: #333333;
     -webkit-box-shadow: 0 -10px 20px rgba(0,0,0,0.5);
             box-shadow: 0 -10px 20px rgba(0,0,0,0.5);
     border-left: 10px solid transparent;
@@ -371,13 +375,13 @@ h3 a:hover {
 }
 
 .focus .nav-menu {
-    height: 85%;
+    height: 40%;
     top: 15%;
     margin-top: 15%;
 }
 
 .focus .nav-menu .menu-list > li {
-    padding-left: 60px;
+    padding-left: 40px;
 }
 
 .focus .nav-menu .menu-list > li:nth-child(6) {
@@ -385,7 +389,7 @@ h3 a:hover {
 }
 
 .focus .nav-menu .menu-list > li a {
-    color: #FFF;
+    color: #BBB;
     text-shadow: 0 1px 5px rgba(0,0,0,0.125);
 }
 
@@ -405,9 +409,29 @@ h3 a:hover {
 }
 
 .content section {
-    margin: 100px auto 100px;
-    padding: 50px 0 75px;
+    margin: 75px auto 75px;
+    padding: 25px 0 50px;
     text-align: center;
+}
+
+.content section h1,
+.content section .h1 {
+    text-transform: uppercase;
+    color: #333;
+}
+
+.content section h1 a,
+.content section .h1 a {
+    color: #333;
+}
+
+.content section h1 a:hover,
+.content section .h1 a:hover,
+.content section h1 a:focus,
+.content section .h1 a:focus,
+.content section h1 a:active,
+.content section .h1 a:active {
+    color: #111;
 }
 
 .content section:last-child {
@@ -423,12 +447,15 @@ h3 a:hover {
 .nav-pills > li > a {
     font-size: 85%;
     padding: 5px 10px;
+    color: #333;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .nav-pills > li > a,
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus {
-    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
 }
 
 .nav-pills > li.active > a,
@@ -436,6 +463,8 @@ h3 a:hover {
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:active {
     color: #FFF;
+    background-color: #333;
+    border: 1px solid #333;
 }
 
 .nav-pills > li + li {
@@ -447,9 +476,6 @@ h3 a:hover {
     margin: 0 auto;
 }
 
-.dt-box h4 {
-    color: #311;
-}
 /* Service */
 .service .ps-article {
     text-align: left;
@@ -466,24 +492,26 @@ h3 a:hover {
 }
 
 /* Clients */
-/* feature-films-tv */
-.feature-films-tv .dt-box {
-    padding: 0 20px;
+.clients h3 {
+    visibility: hidden;
+}
+
+.w-border-r h4 {
+    text-transform: uppercase;
 }
 
 /* Directors */
 .content .directors {
     background-color: #FDD;
-    -webkit-box-shadow: 0 0px 50px 25px #FDD, 0 0px 50px 25px #FDD;
-    box-shadow: 0 0px 50px 25px #FDD, 0 0px 50px 25px #FDD;
     padding-bottom: 125px;
-    margin-bottom: -125px;
+    margin-bottom: -205px;
 }
 
 .content .directors .jumbotron .h1 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+    font-weight: normal;
     text-transform: uppercase;
     color: #611;
-    font-size: 74px;
 }
 
 /* Locations */
@@ -497,8 +525,18 @@ h3 a:hover {
 }
 
 /* Contact */
+.contact {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 80%;
+}
+
 .contact h3 {
     color: #BBB;
+}
+
+.contact h3,
+.contact .city {
+    text-transform: uppercase;
 }
 
 .content .contact {
@@ -525,8 +563,8 @@ h3 a:hover {
 }
 
 .contact .body-contact {
-    background-color: #111;
-    text-shadow: 0px 2px 5px #000;
+    background-color: #333;
+    text-shadow: 0px 2px 5px #222;
     color: #FFF;
     padding-bottom: 40px;
 }
@@ -554,7 +592,7 @@ h3 a:hover {
 /* FOOTER */
 
 .footer .footer-footer {
-    background-color: #000;
+    background-color: #222;
     color: #999;
     padding-top: 15px;
     font-size: 1.2rem;
@@ -570,8 +608,23 @@ h3 a:hover {
     color: #FFF;
 }
 
-.footer .footer-footer .psn-logo svg {
+.footer .footer-footer .psn-logo .psn-purple,
+.footer .footer-footer .psn-logo .psn-red {
     opacity: 0.75;
+    -webkit-transition: fill 0.5s ease;
+    transition: fill 0.5s ease;
+}
+
+.footer .footer-footer .psn-logo:hover .psn-purple,
+.footer .footer-footer .psn-logo:focus .psn-purple,
+.footer .footer-footer .psn-logo:active .psn-purple {
+    fill: #7a62a6;
+}
+
+.footer .footer-footer .psn-logo:hover .psn-red,
+.footer .footer-footer .psn-logo:focus .psn-red,
+.footer .footer-footer .psn-logo:active .psn-red {
+    fill: #ed523d;
 }
 
 /* BLACK-OUT */
@@ -777,26 +830,26 @@ h3 a:hover {
 
 @-webkit-keyframes image-figcaption {
     0% {
-        -webkit-transform: translate(-47.5%, -50%) scale(2);
-                transform: translate(-47.5%, -50%) scale(2);
+        -webkit-transform: translate(0, -47.5%) scale(2);
+                transform: translate(0, -47.5%) scale(2);
         opacity: 0;
 	}
 	100% {
-        -webkit-transform: translate(-47.5%, -50%) scale(1);
-                transform: translate(-47.5%, -50%) scale(1);
+        -webkit-transform: translate(0, -47.5%) scale(1);
+                transform: translate(0, -47.5%) scale(1);
         opacity: 1;
 	}
 }
 
 @keyframes image-figcaption {
     0% {
-        -webkit-transform: translate(-47.5%, -50%) scale(2);
-                transform: translate(-47.5%, -50%) scale(2);
+        -webkit-transform: translate(0, -47.5%) scale(2);
+                transform: translate(0, -47.5%) scale(2);
         opacity: 0;
 	}
 	100% {
-        -webkit-transform: translate(-47.5%, -50%) scale(1);
-                transform: translate(-47.5%, -50%) scale(1);
+        -webkit-transform: translate(0, -47.5%) scale(1);
+                transform: translate(0, -47.5%) scale(1);
         opacity: 1;
 	}
 }

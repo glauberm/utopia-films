@@ -13,10 +13,10 @@
     "@brand-danger": "#d9534f",
     "@body-bg": "#fff",
     "@text-color": "@gray-dark",
-    "@link-color": "@brand-primary",
+    "@link-color": "#AAA",
     "@link-hover-color": "darken(@link-color, 15%)",
     "@link-hover-decoration": "none",
-    "@font-family-sans-serif": "\"Work Sans\", Corbel, \"Lucida Grande\", \"Lucida Sans Unicode\", \"Lucida Sans\", \"DejaVu Sans\", \"Bitstream Vera Sans\", \"Liberation Sans\", Verdana, \"Verdana Ref\", sans-serif;",
+    "@font-family-sans-serif": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
     "@font-family-serif": "Georgia, \"Times New Roman\", Times, serif",
     "@font-family-monospace": "Menlo, Monaco, Consolas, \"Courier New\", monospace",
     "@font-family-base": "@font-family-sans-serif",
@@ -52,7 +52,7 @@
     "@border-radius-large": "6px",
     "@border-radius-small": "3px",
     "@component-active-color": "#fff",
-    "@component-active-bg": "@brand-primary",
+    "@component-active-bg": "#333333",
     "@caret-width-base": "4px",
     "@caret-width-large": "5px",
     "@table-cell-padding": "8px",
@@ -216,7 +216,7 @@
     "@jumbotron-bg": "transparent",
     "@jumbotron-heading-color": "inherit",
     "@jumbotron-font-size": "ceil((@font-size-base * 1.5))",
-    "@jumbotron-heading-font-size": "ceil((@font-size-base * 5))",
+    "@jumbotron-heading-font-size": "ceil((@font-size-base * 10))",
     "@state-success-text": "#3c763d",
     "@state-success-bg": "#dff0d8",
     "@state-success-border": "darken(spin(@state-success-bg, -10), 5%)",
@@ -369,7 +369,7 @@
     "@pre-color": "@gray-dark",
     "@pre-border-color": "#ccc",
     "@pre-scrollable-max-height": "340px",
-    "@component-offset-horizontal": "180px",
+    "@component-offset-horizontal": "126px",
     "@text-muted": "@gray-light",
     "@abbr-border-color": "@gray-light",
     "@headings-small-color": "@gray-light",
@@ -399,5 +399,5 @@
     "collapse.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=88d2359a2babba97b0472a924ad74830"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=761fd5556214719d44129986e92c5db3"
 }

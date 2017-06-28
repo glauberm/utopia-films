@@ -1,5 +1,5 @@
 <section class="contact">
-    <header class="hidden">
+    <header class="invisible">
         <h2 class="h1 page-header text-center"><a href="#contact" id="contact">Contact</a></h2>
     </header>
     <div class="body-contact">
@@ -7,42 +7,42 @@
             <div class="row">
                 <div class="col-sm-4">
                     <article class="contact-box">
-                        <header><h3 class="page-header">Brazil</h3></header>
+                        <header><h3 class="h4 page-header">Brazil</h3></header>
                         <main>
                             <address class="contact-dl">
-                                <strong>Rio de Janeiro</strong><br/>
+                                <strong class="city">Rio de Janeiro</strong><br/>
                                 Av Princesa Isabel 150, Suite 903<br/>
                                 RJ 22011.010, Brazil<br/>
-                                <abbr title="Telephone number">Tel:</abbr> +55.21.2244.2271<br/>
-                                <abbr title="Fax machine number">Fax:</abbr> +55.21.2244.3841
+                                Tel: +55.21.2244.2271<br/>
+                                Fax: +55.21.2244.3841
                             </address>
                         </main>
                     </article>
                 </div>
                 <div class="col-sm-4">
                     <article class="contact-box">
-                        <header><h3 class="page-header">Venezuela</h3></header>
+                        <header><h3 class="h4 page-header">Venezuela</h3></header>
                         <main>
                             <address class="contact-dl">
-                                <strong>Caracas</strong><br/>
+                                <strong class="city">Caracas</strong><br/>
                                 Calle El Servicio Parque Res. Valle Arriba<br/>
                                 Santa Fe - Sur Edificio CampomanesSuite 2E,<br/>
                                 Caracas, Venezuela<br/>
-                                <abbr title="Telephone number">Tel:</abbr> +58.212.720.2197
+                                Tel: +58.212.720.2197
                             </address>
                         </main>
                     </article>
                 </div>
                 <div class="col-sm-4">
                     <article class="contact-box">
-                        <header><h3 class="page-header">USA</h3></header>
+                        <header><h3 class="h4 page-header">USA</h3></header>
                         <main>
                             <address class="contact-dl">
-                                <strong>Los Angeles</strong><small class="text-muted"> (mail only)</small><br/>
+                                <strong class="city">Los Angeles</strong><small class="text-muted"> (mail only)</small><br/>
                                 1976 S. La Cienega Blvd., #130<br/>
                                 Los Angeles, CA , 90034, USA<br/>
-                                <abbr title="Telephone number">Tel:</abbr> +1.310.338.0580<br/>
-                                <abbr title="Fax machine number">Fax:</abbr> +1.313.557.0580
+                                Tel: +1.310.338.0580<br/>
+                                Fax: +1.313.557.0580
                             </address>
                         </main>
                     </article>
@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <article class="contact-box">
-                        <header><h3 class="page-header">Mobiles</h3></header>
+                        <header><h3 class="h4 page-header">Mobiles</h3></header>
                         <main>
                             <dl>
                                 <dt>Justin Bird</dt>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="col-sm-4">
                     <article class="contact-box">
-                        <header><h3 class="page-header">Email</h3></header>
+                        <header><h3 class="h4 page-header">Email</h3></header>
                         <main>
                             <dl>
                                 <dt>General Information</dt>
@@ -82,7 +82,7 @@
                                 <dd>jbird@utopiafilms.com</dd><br/>
                                 <dt>Associate Producer</dt>
                                 <dd>lvalderrama@utopiafilms.com</dd><br/>
-                                <dt>International Representation/Executive Production</dt>
+                                <dt>Intl Rep/Exec Prod</dt>
                                 <dd>hcohen@utopiafilms.com</dd>
                             </dl>
                         </main>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="col-sm-4">
                     <article class="contact-box">
-                        <header><h3 class="page-header">Producers</h3></header>
+                        <header><h3 class="h4 page-header">Producers</h3></header>
                         <main>
                             <dl>
                                 <dt>International Producer</dt>
@@ -101,7 +101,7 @@
                                 <dd>Justin Bird</dd><br/>
                                 <dt>Associate Producer</dt>
                                 <dd>Luis Valderrama</dd><br/>
-                                <dt>International Representation/Executive Production</dt>
+                                <dt>Intl Rep/Exec Prod</dt>
                                 <dd>Howard Cohen</dd>
                             </dl>
                         </main>
