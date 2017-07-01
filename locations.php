@@ -8,6 +8,8 @@
         <meta name="description" content="Film and Photo Production Services in Rio de Janeiro, Sao Paulo, and throughout Brazil. Utopia Films is the leading choice for international film and photo productions in Brazil, as well as Venezuela, USA and Caribbean."/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+        <link href="css/slick.css" rel="stylesheet" type="text/css"/>
+        <link href="css/slick-theme.css" rel="stylesheet" type="text/css"/>
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
         <link rel="shortcut icon" href="favicon.ico">
     	<link rel="icon" sizes="16x16 32x32 64x64" href="favicon.ico">
@@ -59,7 +61,16 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/bootstrap-toolkit.min.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/slick.min.js"></script>
         <script src="js/scripts.js"></script>
         <script> scrollToTrigger( $("#locations") ); </script>
+        <script>
+            $("#slick-carousel").slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                adaptiveHeight: true,
+            });
+        </script>
     </body>
 </html>
