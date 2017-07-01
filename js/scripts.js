@@ -198,15 +198,27 @@ function collapseTrigger()
 
 function magnificPopupTrigger()
 {
-    $('.gallery-featured-work').magnificPopup({
+    /*$('.gallery-iframe').magnificPopup({
         delegate: 'a',
         type: 'iframe',
-        gallery: { enabled: true },
-    });
+        gallery: {
+            enabled: true
+        },
+        callbacks: {
+            elementParse: function(item) {
+                if(item.el.context.className == 'gallery-image') {
+                    item.type = 'image';
+                } else {
+                    item.type = 'iframe';
+                }
+            }
+        },
+    });*/
 
-    $('.gallery-print').magnificPopup({
+    $('.popup-gallery').magnificPopup({
         delegate: 'a',
-        type: 'image',
-        gallery: { enabled: true },
+        gallery: {
+            enabled: true
+        },
     });
 }

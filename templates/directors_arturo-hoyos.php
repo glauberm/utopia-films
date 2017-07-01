@@ -3,12 +3,12 @@
         <h3 class="page-header text-center"><a id="arturo-hoyos" href="#arturo-hoyos">Arturo Hoyos</a></h3>
     </header>
     <main class="container big-container">
-        <ul class="list-unstyled gallery-featured-work">
+        <ul class="list-unstyled popup-gallery">
             <div class="box-row row">
                 <div class="box-column col-sm-6">
                     <li class="box-image">
                         <figure class="image">
-                            <a href="http://vimeo.com/72566025" target="_blank">
+                            <a class="mfp-iframe" href="http://vimeo.com/72566025" target="_blank">
                                 <img class="img-responsive" src="img/05_tena.jpg"/>
                                 <figcaption>
                                     <h4>Tena</h4>
@@ -28,7 +28,7 @@
                 <div class="box-column col-sm-6">
                     <li class="box-image">
                         <figure class="image">
-                            <a href="http://vimeo.com/103404021" target="_blank">
+                            <a class="mfp-iframe" href="http://vimeo.com/103404021" target="_blank">
                                 <img class="img-responsive" src="img/06_supersport.jpg"/>
                                 <figcaption>
                                     <h4>Supersport</h4>

@@ -3,13 +3,13 @@
         <header id="work"><h3 class="page-header text-center"><a class="link-work" href="#work">Work</a></h3></header>
     </div>
     <main class="container big-container">
-        <ul class="list-unstyled gallery-featured-work">
+        <ul class="list-unstyled popup-gallery">
 
             <div class="box-row row">
                 <div class="box-column col-sm-6">
                     <li class="box-image">
                         <figure class="image">
-                            <a href="http://vimeo.com/206477811" target="_blank">
+                            <a class="mfp-iframe" href="http://vimeo.com/206477811" target="_blank">
                                 <img class="img-responsive" src="img/01_line_walker.jpg"/>
                                 <figcaption>
                                     <h4>Line Walker</h4>
@@ -27,7 +27,7 @@
                 <div class="box-column col-sm-6">
                     <li class="box-image">
                         <figure class="image">
-                            <a href="http://vimeo.com/206475134" target="_blank">
+                            <a class="mfp-iframe" href="http://vimeo.com/206475134" target="_blank">
                                 <img class="img-responsive" src="img/02_coca_cola.jpg"/>
                                 <figcaption>
                                     <h4>Coca Cola</h4>
@@ -50,7 +50,7 @@
                 <div class="box-column col-sm-6">
                     <li class="box-image">
                         <figure class="image">
-                            <a href="http://vimeo.com/103404019" target="_blank">
+                            <a class="mfp-iframe" href="http://vimeo.com/103404019" target="_blank">
                                 <img class="img-responsive" src="img/03_listerine.jpg"/>
                                 <figcaption>
                                     <h4>Listerine</h4>
@@ -68,7 +68,7 @@
                 <div class="box-column col-sm-6">
                     <li class="box-image">
                         <figure class="image">
-                            <a href="http://vimeo.com/103446396" target="_blank">
+                            <a class="mfp-iframe" href="http://vimeo.com/103446396" target="_blank">
                                 <img class="img-responsive" src="img/04_avon.jpg"/>
                                 <figcaption>
                                     <h4>Avon</h4>
@@ -89,7 +89,7 @@
                 <div class="box-column col-sm-6">
                     <li class="box-image">
                         <figure class="image">
-                            <a href="http://vimeo.com/72566025" target="_blank">
+                            <a class="mfp-iframe" href="http://vimeo.com/72566025" target="_blank">
                                 <img class="img-responsive" src="img/05_tena.jpg"/>
                                 <figcaption>
                                     <h4>Tena</h4>
@@ -109,7 +109,7 @@
                 <div class="box-column col-sm-6">
                     <li class="box-image">
                         <figure class="image">
-                            <a href="http://vimeo.com/103404021" target="_blank">
+                            <a class="mfp-iframe" href="http://vimeo.com/103404021" target="_blank">
                                 <img class="img-responsive" src="img/06_supersport.jpg"/>
                                 <figcaption>
                                     <h4>Supersport</h4>
@@ -130,7 +130,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="http://vimeo.com/206475711" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="http://vimeo.com/206475711" target="_blank">
                             <img class="img-responsive" src="img/07_cisco.jpg"/>
                             <figcaption>
                                 <h4>Cisco</h4>
@@ -144,7 +144,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="http://vimeo.com/72556275" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="http://vimeo.com/72556275" target="_blank">
                             <img class="img-responsive" src="img/08_crystal_clear.jpg"/>
                             <figcaption>
                                 <h4>Crystal Clear</h4>
@@ -163,7 +163,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="http://vimeo.com/72559372" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="http://vimeo.com/72559372" target="_blank">
                             <img class="img-responsive" src="img/09_panasonic.jpg"/>
                             <figcaption>
                                 <h4>Panasonic</h4>
@@ -177,7 +177,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="http://vimeo.com/72556275" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="http://vimeo.com/72556275" target="_blank">
                             <img class="img-responsive" src="img/10_budlight_pitbull.jpg"/>
                             <figcaption>
                                 <h4>Budlight - Pitbull</h4>
@@ -196,7 +196,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72557806" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72557806" target="_blank">
                             <img class="img-responsive" src="img/11_moccona.jpg"/>
                             <figcaption>
                                 <h4>Moccona</h4>
@@ -212,7 +212,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="http://vimeo.com/205422948" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="http://vimeo.com/205422948" target="_blank">
                             <img class="img-responsive" src="img/12_panasonic_fita.jpg"/>
                             <figcaption>
                                 <h4>Panasonic - Fita</h4>
@@ -229,7 +229,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72554541" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72554541" target="_blank">
                             <img class="img-responsive" src="img/13_banco_santander.jpg"/>
                             <figcaption>
                                 <h4>Banco Santander</h4>
@@ -245,7 +245,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/207837752" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/207837752" target="_blank">
                             <img class="img-responsive" src="img/14_cisco.jpg"/>
                             <figcaption>
                                 <h4>Cisco</h4>
@@ -262,7 +262,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/212283074" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/212283074" target="_blank">
                             <img class="img-responsive" src="img/15_nec.jpg"/>
                             <figcaption>
                                 <h4>NEC</h4>
@@ -276,7 +276,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72559370" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72559370" target="_blank">
                             <img class="img-responsive" src="img/16_otto.jpg"/>
                             <figcaption>
                                 <h4>Otto</h4>
@@ -295,7 +295,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72554538" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72554538" target="_blank">
                             <img class="img-responsive" src="img/17_bacardi.jpg"/>
                             <figcaption>
                                 <h4>Bacardi</h4>
@@ -311,7 +311,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/103404014" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/103404014" target="_blank">
                             <img class="img-responsive" src="img/18_adelen.jpg"/>
                             <figcaption>
                                 <h4>Adelen</h4>
@@ -328,7 +328,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72564831" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72564831" target="_blank">
                             <img class="img-responsive" src="img/19_rafaello.jpg"/>
                             <figcaption>
                                 <h4>Raffaello</h4>
@@ -342,7 +342,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72557805" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72557805" target="_blank">
                             <img class="img-responsive" src="img/20_mastercard.jpg"/>
                             <figcaption>
                                 <h4>Mastercard</h4>
@@ -361,7 +361,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/205421491" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/205421491" target="_blank">
                             <img class="img-responsive" src="img/21_nec.jpg"/>
                             <figcaption>
                                 <h4>NEC</h4>
@@ -375,7 +375,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/205418671" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/205418671" target="_blank">
                             <img class="img-responsive" src="img/22_twc.jpg"/>
                             <figcaption>
                                 <h4>TWC</h4>
@@ -394,7 +394,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72554533" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72554533" target="_blank">
                             <img class="img-responsive" src="img/23_aviva.jpg"/>
                             <figcaption>
                                 <h4>Aviva</h4>
@@ -408,7 +408,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72554534" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72554534" target="_blank">
                             <img class="img-responsive" src="img/24_bacardi.jpg"/>
                             <figcaption>
                                 <h4>Bacardi</h4>
@@ -427,7 +427,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72557801" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72557801" target="_blank">
                             <img class="img-responsive" src="img/25_esprit.jpg"/>
                             <figcaption>
                                 <h4>Esprit</h4>
@@ -443,7 +443,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/205416718" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/205416718" target="_blank">
                             <img class="img-responsive" src="img/26_hydro.jpg"/>
                             <figcaption>
                                 <h4>Hydro</h4>
@@ -460,7 +460,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72559373" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72559373" target="_blank">
                             <img class="img-responsive" src="img/27_pripps.jpg"/>
                             <figcaption>
                                 <h4>Pripps</h4>
@@ -476,7 +476,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/106888104" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/106888104" target="_blank">
                             <img class="img-responsive" src="img/28_radioshack.jpg"/>
                             <figcaption>
                                 <h4>Radioshack</h4>
@@ -495,7 +495,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72556276" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72556276" target="_blank">
                             <img class="img-responsive" src="img/29_dhoom.jpg"/>
                             <figcaption>
                                 <h4>Dhoom 2</h4>
@@ -511,7 +511,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72556277" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72556277" target="_blank">
                             <img class="img-responsive" src="img/30_dream_hotel.jpg"/>
                             <figcaption>
                                 <h4>Dream Hotel</h4>
@@ -530,7 +530,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72557802" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72557802" target="_blank">
                             <img class="img-responsive" src="img/31_fear_factor.jpg"/>
                             <figcaption>
                                 <h4>Fear Factor</h4>
@@ -546,7 +546,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72559369" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72559369" target="_blank">
                             <img class="img-responsive" src="img/32_mutual_of_omaha.jpg"/>
                             <figcaption>
                                 <h4>Mutual of Omaha</h4>
@@ -565,7 +565,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72564836" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72564836" target="_blank">
                             <img class="img-responsive" src="img/33_robot.jpg"/>
                             <figcaption>
                                 <h4>Robot/Endhiran</h4>
@@ -581,7 +581,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72520395" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72520395" target="_blank">
                             <img class="img-responsive" src="img/34_areva.jpg"/>
                             <figcaption>
                                 <h4>Areva</h4>
@@ -598,7 +598,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72564838" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72564838" target="_blank">
                             <img class="img-responsive" src="img/35_superbock.jpg"/>
                             <figcaption>
                                 <h4>Superbock</h4>
@@ -614,7 +614,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72566024" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72566024" target="_blank">
                             <img class="img-responsive" src="img/36_tonus.jpg"/>
                             <figcaption>
                                 <h4>Tonus</h4>
@@ -631,7 +631,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72557804" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72557804" target="_blank">
                             <img class="img-responsive" src="img/37_madventures.jpg"/>
                             <figcaption>
                                 <h4>Madventures</h4>
@@ -645,7 +645,7 @@
                     </a></figure>
                 </li></div>
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72564837" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72564837" target="_blank">
                             <img class="img-responsive" src="img/38_simpsons.jpg"/>
                             <figcaption>
                                 <h4>Simpsons</h4>
@@ -662,7 +662,7 @@
 
             <div class="box-row row">
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/72556274" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/72556274" target="_blank">
                             <img class="img-responsive" src="img/39_camel.jpg"/>
                             <figcaption>
                                 <h4>Camel UK</h4>
@@ -679,7 +679,7 @@
                 </li></div>
 
                 <div class="box-column col-sm-6"><li class="box-image">
-                    <figure class="image"><a href="https://vimeo.com/221810062" target="_blank">
+                    <figure class="image"><a class="mfp-iframe" href="https://vimeo.com/221810062" target="_blank">
                             <img class="img-responsive" src="img/40_samsung.jpeg"/>
                             <figcaption>
                                 <h4>Samsung 360</h4>
@@ -694,6 +694,9 @@
                 </li></div>
             </div>
 
+            <?php include("templates/print.php"); ?>
+
         </ul>
+
     </main>
 </article>
