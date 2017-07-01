@@ -60,10 +60,6 @@
         <script src="js/bootstrap-toolkit.min.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/scripts.js"></script>
-        <script>
-            $("html, body").animate({
-                scrollTop: $("#clients").offset().top - 150
-            }, 500);
-        </script>
+        <script> scrollToTrigger( $("#clients") ); </script>
     </body>
 </html>

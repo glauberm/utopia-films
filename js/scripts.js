@@ -27,9 +27,12 @@ $("#nav-menu a, .content section .h1 > a, h3 a").on("click", function()
         var target = $(this.hash);
         target = target.length ? target : $("[name=" + this.hash.slice(1) +"]");
         if (target.length) {
-            $("html, body").animate({
-                scrollTop: target.offset().top - 150
-            }, 500);
+            // Fix do Work
+            if(target.selector == "#work") {
+                scrollToTrigger(target, true);
+            } else {
+                scrollToTrigger(target);
+            }
             return false;
         }
     }
@@ -66,13 +69,22 @@ $(".big-nav-pills a").on("shown.bs.tab", function (e)
     sr.sync();
 })
 
+function scrollToTrigger(el, work=false)
+{
+    i = (work === true ? 0 : 250);
+
+    $("html, body").animate({
+        scrollTop: el.offset().top - i
+    }, 500);
+}
+
 // Diminui o fixed-container e adiciona a box-shadow
 function pigOnTop(st)
 {
     if (st <= 0) {
         var h = 100;
         fixedContainerBoxShadowDisappear();
-    } else if (st >= 400) {
+    } else if (st >=400) {
         var h = 15;
         fixedContainerBoxShadowAppear();
     } else {

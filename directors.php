@@ -30,7 +30,7 @@
     	<meta name="msapplication-TileImage" content="favicon-144.png">
     	<meta name="msapplication-config" content="browserconfig.xml">
     </head>
-    <body>
+    <body class="body-directors">
         <script src="js/scrollreveal.min.js"></script>
         <header>
             <?php include("templates/fixed-container.php"); ?>
@@ -60,10 +60,6 @@
         <script src="js/bootstrap-toolkit.min.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/scripts.js"></script>
-        <script>
-            $("html, body").animate({
-                scrollTop: $("#directors").offset().top - 150
-            }, 500);
-        </script>
+        <script> scrollToTrigger( $("#directors") ); </script>
     </body>
 </html>

@@ -1,6 +1,6 @@
 <article class="reels box-container">
-    <div class="container invisible">
-        <header id="work"><h3 class="page-header text-center"><a href="#work">Work</a></h3></header>
+    <div class="container">
+        <header id="work"><h3 class="page-header text-center"><a class="link-work" href="#work">Work</a></h3></header>
     </div>
     <main class="container big-container">
         <ul class="list-unstyled gallery-featured-work">
