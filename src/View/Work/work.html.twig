@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <section class="reels box-container">
+        <div class="container">
+            <header id="work" class="work">
+                <h3 class="page-header text-center">
+                    <a class="link-work" href="#work">Work</a>
+                </h3>
+            </header>
+        </div>
+        <article class="container big-container">
+
+            <ul class="list-unstyled popup-gallery">
+                <div class="box-row row">
+                    {% for work in params %}
+
+                        <div class="box-column col-sm-6">
+                            <li class="box-image">
+                                <figure class="image">
+                                    <a class="mfp-iframe" href="{{ work.video }}" target="_blank">
+                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/{{ work.image }}.jpg"/>
+                                        <figcaption>
+                                            <h4>{{ work.title }}</h4>
+                                            <dl class="dl-horizontal hidden-xs hidden-sm">
+                                                {% for key,value in work.infos %}
+                                                    <dt>{{ key }}</dt>
+                                                    <dd>{{ value }}</dd>
+                                                {% endfor %}
+                                            </dl>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                            </li>
+                        </div>
+                        {% if loop.index % 2 == 0 %}</div><div class="box-row row">{% endif %}
+
+                    {% endfor %}
+                </div>
+            </ul>
+        </article>
+    </section>
+{% endblock %}

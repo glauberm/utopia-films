@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <section class="service">
+        <div class="container">
+            <header>
+                <h2 class="h1 page-header text-center">
+                    <a href="#service" id="service">Service</a>
+                </h2>
+            </header>
+            <div class="row">
+                <div class="col-sm-4">
+                {% for service in params %}
+
+                    <article class="ps-article">
+                        <h3 class="h4 page-header">
+                            <a role="button" data-toggle="collapse" data-target="#{{ service.title }}">{{ service.title }}</a>
+                        </h3>
+                        <div class="collapse in" id="{{ service.title }}">
+                            {{ service.message|raw }}
+                        </div>
+                    </article>
+
+                    {% if loop.index == 4 or loop.index == 7 %}</div><div class="col-sm-4">{% endif %}
+
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script> scrollToTrigger( $("#service") ); </script>
+{% endblock %}

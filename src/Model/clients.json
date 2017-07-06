@@ -1,0 +1,22 @@
+{
+    "clients": [
+        {
+            "video": "http://vimeo.com/206477811",
+            "image": "01_line_walker",
+            "title": "Line Walker",
+            "infos": {
+                "Production": "Shaw Bros/JQ Pictures, China",
+                "Director": "Jazz Boon"
+            }
+        }, {
+            "video": "http://vimeo.com/206475134",
+            "image": "02_coca_cola",
+            "title": "Coca Cola",
+            "infos": {
+                "Production": "Driver, USA",
+                "Director": "Blake Heal",
+                "Agency": "Driver, New York"
+            }
+        }
+    ],
+}
