@@ -50,7 +50,9 @@ a {
     overflow: hidden;
 }
 
-.box-container .box-image .image:hover {
+.box-container .box-image .image:hover,
+.box-container .box-image .image:focus,
+.box-container .box-image .image:active {
     background-color: #111;
 }
 
@@ -102,7 +104,9 @@ a {
     margin-bottom: 0;
 }
 
-.box-container .box-image .image:hover figcaption {
+.box-container .box-image .image:hover figcaption,
+.box-container .box-image .image:focus figcaption,
+.box-container .box-image .image:active figcaption {
     opacity: 1;
     -webkit-animation-name: image-figcaption;
     animation-name: image-figcaption;
@@ -349,7 +353,7 @@ a {
 /* CONTENT */
 .content {
     position: absolute;
-    top: 100%;
+    top: 50%;
     background-color: #FFF;
     width: 100%;
 }
