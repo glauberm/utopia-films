@@ -353,7 +353,7 @@ a {
 /* CONTENT */
 .content {
     position: absolute;
-    top: 50%;
+    top: 100%;
     background-color: #FFF;
     width: 100%;
 }
