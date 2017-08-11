@@ -1,0 +1,79 @@
+{% extends 'base.html.twig' %}
+
+{% set title = 'Clients' %}
+
+{% block main %}
+    <section class="clients">
+        <div class="container">
+            <header>
+                <h1 class="page-header text-center">
+                    <a href="#clients" id="clients">{{ title }}</a>
+                </h1>
+                <nav class="big-nav-pills">
+                    <ul class="nav nav-pills" role="tablist">
+                        {% for key,value in params %}
+
+                            {% if key is same as(0) %} {% set key = 'Print'%} {% endif %}
+
+                            <li role="presentation" {% if loop.index == 1 %} class="active" {% endif %}>
+                                <a href="#clients-pill-{{ loop.index }}" aria-controls="clients-pill-{{ loop.index }}" role="tab" data-toggle="pill">
+                                    {{ key|raw }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="tab-content">
+            {% for key,value in params %}
+
+                {% if key is same as(0) %} {% set key = 'Print'%} {% endif %}
+
+                <div role="tabpanel" class="tab-pane fade in {% if loop.index == 1 %} active {% endif %}" id="clients-pill-{{ loop.index }}">
+                    <article class="clients-{{ loop.index }} box-container">
+                        <div class="container">
+                            <h2 class="h3 text-center">
+                                <a href="#clients-{{ loop.index }}">{{ key|raw }}</a>
+                            </h2>
+                        </div>
+                        {% if key == "Feature Films / TV Series" %}
+
+                            {% include 'Clients/clients_feature-films.html.twig' %}
+
+                        {% elseif key == "Directors / Photographers" %}
+
+                            {% include 'Clients/clients_directors.html.twig' %}
+
+                        {% elseif key == "Print" %}
+
+                            {% include 'Clients/clients_print.html.twig' %}
+
+                        {% else %}
+                            <div class="container">
+                                <dl>
+                                    <div class="row">
+                                        {% for dt,dd in value %}
+                                            <div class="col-sm-4 dt-box {% if loop.last and key != "Clients" %} col-sm-push-4 {% endif %}">
+                                                <dt>
+                                                    <h3 class="h4">{{ dt|raw }}</h3>
+                                                </dt>
+                                                <dd>{{ dd|raw }}</dd><br/>
+                                            </div>
+                                            {% if loop.index % 3 == 0 %}</div><div class="row">{% endif %}
+                                        {% endfor %}
+                                    </div>
+                                </dl>
+                            </div>
+                        {% endif %}
+                    </article>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script> scrollToTrigger( $("#clients") ); </script>
+{% endblock %}

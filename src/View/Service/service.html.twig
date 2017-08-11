@@ -1,29 +1,31 @@
 {% extends 'base.html.twig' %}
 
+{% set title = 'Service' %}
+
 {% block main %}
     <section class="service">
         <div class="container">
             <header>
-                <h2 class="h1 page-header text-center">
-                    <a href="#service" id="service">Service</a>
-                </h2>
+                <h1 class="page-header text-center">
+                    <a href="#service" id="service">{{ title }}</a>
+                </h1>
             </header>
             <div class="row">
                 <div class="col-sm-4">
-                {% for service in params %}
+                    {% for service in params %}
 
-                    <article class="ps-article">
-                        <h3 class="h4 page-header">
-                            <a role="button" data-toggle="collapse" data-target="#{{ service.title }}">{{ service.title }}</a>
-                        </h3>
-                        <div class="collapse in" id="{{ service.title }}">
-                            {{ service.message|raw }}
-                        </div>
-                    </article>
+                        <article class="ps-article">
+                            <h2 class="h4 page-header">
+                                <a role="button" data-toggle="collapse" data-target="#service-{{ loop.index }}">{{ service.title }}</a>
+                            </h2>
+                            <div class="collapse in" id="service-{{ loop.index }}">
+                                {{ service.message|raw }}
+                            </div>
+                        </article>
 
-                    {% if loop.index == 4 or loop.index == 7 %}</div><div class="col-sm-4">{% endif %}
+                        {% if loop.index == 4 or loop.index == 7 %}</div><div class="col-sm-4">{% endif %}
 
-                {% endfor %}
+                    {% endfor %}
                 </div>
             </div>
         </div>

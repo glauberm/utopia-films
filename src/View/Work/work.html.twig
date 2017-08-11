@@ -1,12 +1,14 @@
 {% extends 'base.html.twig' %}
 
+{% set title = 'Work' %}
+
 {% block main %}
     <section class="reels box-container">
         <div class="container">
             <header id="work" class="work">
-                <h3 class="page-header text-center">
-                    <a class="link-work" href="#work">Work</a>
-                </h3>
+                <h1 class="page-header text-center">
+                    <a class="link-work" href="#work">{{ title }}</a>
+                </h1>
             </header>
         </div>
         <article class="container big-container">
@@ -18,10 +20,21 @@
                         <div class="box-column col-sm-6">
                             <li class="box-image">
                                 <figure class="image">
+
+                                {% if work.video is defined %}
+
                                     <a class="mfp-iframe" href="{{ work.video }}" target="_blank">
-                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/{{ work.image }}.jpg"/>
+                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/work/{{ work.image }}.jpg"/>
+
+                                {% else %}
+
+                                    <a class="mfp-image" href="{{ BASE_URL }}assets/img/print/full/{{ work.image }}.jpg" target="_blank">
+                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ work.image }}.jpg"/>
+
+                                {% endif %}
+
                                         <figcaption>
-                                            <h4>{{ work.title }}</h4>
+                                            <h2 class="h4">{{ work.title }}</h2>
                                             <dl class="dl-horizontal hidden-xs hidden-sm">
                                                 {% for key,value in work.infos %}
                                                     <dt>{{ key }}</dt>
@@ -33,6 +46,7 @@
                                 </figure>
                             </li>
                         </div>
+
                         {% if loop.index % 2 == 0 %}</div><div class="box-row row">{% endif %}
 
                     {% endfor %}

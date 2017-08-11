@@ -2,9 +2,7 @@ window.sr = ScrollReveal();
 
 $(document).ready(function ()
 {
-    // Fixa a logo no topo
     $("#fixed-container").css("position", "fixed");
-    // Some e fixa o menu trigger
     $("#menu-trigger").css("position", "fixed").addClass("hidden");
 
     pigOnTop($(window).scrollTop());
@@ -20,14 +18,12 @@ $(window).on("scroll", function ()
     menu($(window).scrollTop());
 });
 
-// Rolar suave para links internos @ CSS-Tricks
-$("#nav-menu a, .content section .h1 > a, h3 a").on("click", function()
+$("#nav-menu a, .content section h1 > a, h3 a").on("click", function()
 {
     if (location.pathname.replace(/^\//,"") == this.pathname.replace(/^\//,"") && location.hostname == this.hostname) {
         var target = $(this.hash);
         target = target.length ? target : $("[name=" + this.hash.slice(1) +"]");
         if (target.length) {
-            // Fix do Work
             if(target.selector == "#work") {
                 scrollToTrigger(target, true);
             } else {
@@ -38,14 +34,12 @@ $("#nav-menu a, .content section .h1 > a, h3 a").on("click", function()
     }
 });
 
-// Abrir menu focus ao clicar em menu trigger
 $("#menu-trigger button").on("click", function()
 {
     menuAppear();
     menuFocusAppear();
 });
 
-// Fechar menu focus ao clicar em close trigger
 $("#close-trigger button, #black-out").on("click", function()
 {
     menuDisappear();
@@ -54,7 +48,6 @@ $("#close-trigger button, #black-out").on("click", function()
     }, 500);
 });
 
-// Fechar menu focus ao clicar em link do menu
 $("#nav-menu li a").on("click", function()
 {
     menuDisappear();
@@ -63,7 +56,6 @@ $("#nav-menu li a").on("click", function()
     }, 500);
 });
 
-// Ao clicar nas pills refaz a animação
 $(".big-nav-pills a").on("shown.bs.tab", function (e)
 {
     sr.sync();
@@ -78,7 +70,6 @@ function scrollToTrigger(el, work=false)
     }, 500);
 }
 
-// Diminui o fixed-container e adiciona a box-shadow
 function pigOnTop(st)
 {
     if (st <= 0) {
@@ -92,7 +83,6 @@ function pigOnTop(st)
     $("#fixed-container").css("height", h+"%");
 }
 
-// Funções do menu
 function menu(st)
 {
     if (st <= 0) {
@@ -195,23 +185,6 @@ function collapseTrigger()
 
 function magnificPopupTrigger()
 {
-    /*$('.gallery-iframe').magnificPopup({
-        delegate: 'a',
-        type: 'iframe',
-        gallery: {
-            enabled: true
-        },
-        callbacks: {
-            elementParse: function(item) {
-                if(item.el.context.className == 'gallery-image') {
-                    item.type = 'image';
-                } else {
-                    item.type = 'iframe';
-                }
-            }
-        },
-    });*/
-
     $('.popup-gallery').magnificPopup({
         delegate: 'a',
         gallery: {

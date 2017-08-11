@@ -1,0 +1,14 @@
+<div class="container">
+    <dl>
+        <div class="row">
+            {% for dt in value %}
+                <div class="col-sm-4 dt-box">
+                    <dt>
+                        <h3 class="h4">{{ dt|raw }}</h3><br/>
+                    </dt>
+                </div>
+                {% if loop.index % 3 == 0 %}</div><div class="row">{% endif %}
+            {% endfor %}
+        </div>
+    </dl>
+</div>

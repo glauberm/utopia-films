@@ -1,0 +1,109 @@
+{% extends 'base.html.twig' %}
+
+{% set title = 'Locations' %}
+
+{% block main %}
+    <section class="locations">
+        <header>
+            <div class="container">
+                <h1 class="page-header text-center">
+                    <a href="#locations" id="locations">{{ title }}</a>
+                </h1>
+            </div>
+
+            <div class="slick-carousel-wrapper">
+                <div class="slick-carousel-mask"></div>
+
+                <div id="slick-carousel" class="slick-carousel">
+
+                    {% for item in params.carousel %}
+
+                        <div class="slick-carousel-inner">
+                            <figure>
+                                <img class="img-responsive" src="{{ BASE_URL }}assets/img/locations/carousel/{{ '%03d'|format(loop.index) }}.jpg" alt="{{ item }}">
+                                <figcaption>
+                                    <h3 class="h5">{{ item }}</h3>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    {% endfor %}
+
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <nav class="big-nav-pills">
+                <ul class="nav nav-pills" role="tablist">
+                    {% for location,number in params.locations %}
+                        <li role="presentation" {% if loop.index == 1 %} class="active" {% endif %}>
+                            <a href="#locations-pill-{{ loop.index }}" aria-controls="locations-pill-{{ loop.index }}" role="tab" data-toggle="pill">
+                                {{ location }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container big-container">
+            <div class="tab-content">
+                {% for location,number in params.locations %}
+                    <article role="tabpanel" class="box-container tab-pane fade in {% if loop.index == 1 %} active {% endif %}" id="locations-pill-{{ loop.index }}">
+                        <div class="container">
+                            <h2 class="h3 text-center">
+                                <a href="#locations-{{ loop.index }}">{{ location|raw }}</a>
+                            </h2>
+                        </div>
+                        <ul class="list-unstyled popup-gallery">
+                            <div class="box-row row">
+
+                                {% for i in 1..number %}
+                                    <div class="box-column col-sm-6">
+                                        <li class="box-image">
+                                            <figure class="image">
+                                                <a class="mfp-image" href="{{ BASE_URL }}assets/img/locations/full/{{ location|url_encode }}/{{ '%03d'|format(loop.index) }}.jpg" target="_blank">
+                                                    <img class="img-responsive" src="{{ BASE_URL }}assets/img/locations/thumb/{{ location|url_encode }}/{{ '%03d'|format(loop.index) }}.jpg"/>
+                                                    <figcaption>
+                                                        <h3 class="h4">{{ location }} #{{ loop.index }}</h3>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                        </li>
+                                    </div>
+
+                                    {% if loop.index % 2 == 0 %}</div><div class="box-row row">{% endif %}
+
+                                {% endfor %}
+
+                            </div>
+                        </ul>
+                    </article>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link href="{{ BASE_URL }}assets/css/slick.css" rel="stylesheet" type="text/css"/>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ BASE_URL }}assets/js/slick.min.js"></script>
+    <script>
+        $("#slick-carousel").slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            dots: true,
+            arrows: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+    </script>
+    <script> scrollToTrigger( $("#locations") ); </script>
+{% endblock %}

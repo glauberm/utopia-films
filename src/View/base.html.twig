@@ -1,12 +1,19 @@
+{% set metaTitle %}
+    {% if title is defined %}{{ title }} - {% endif %}Utopia Films - Brazil, Venezuela, USA, Caribbean
+{% endset %}
+{% set description = 'Film and Photo Production Services in Rio de Janeiro, Sao Paulo, and throughout Brazil. Utopia Films is the leading choice for international film and photo productions in Brazil, as well as Venezuela, USA and Caribbean.' %}
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>{% if title is defined %}{{ title }} - {% endif %}Utopia Films - Brazil, Venezuela, USA, Caribbean</title>
-        <meta name="description" content="Film and Photo Production Services in Rio de Janeiro, Sao Paulo, and throughout Brazil. Utopia Films is the leading choice for international film and photo productions in Brazil, as well as Venezuela, USA and Caribbean."/>
-        <meta http-equiv="cache-control" content="public" />
+        <title>{{ metaTitle }}</title>
+        <meta name="description" content="{{ description }}"/>
+        <meta name="subject" content="Film and Photo Production Services in Rio de Janeiro, Sao Paulo, and throughout Brazil.">
+        <meta name="robots" content="index,follow">
+        <meta name="googlebot" content="index,follow">
         {% block stylesheets %}
             <link href="{{ BASE_URL }}assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
             <link href="{{ BASE_URL }}assets/css/magnific-popup.css" rel="stylesheet" type="text/css"/>
@@ -33,6 +40,14 @@
     	<meta name="msapplication-TileColor" content="#FFFFFF">
     	<meta name="msapplication-TileImage" content="{{ BASE_URL }}favicon-144.png">
     	<meta name="msapplication-config" content="browserconfig.xml">
+        <meta itemprop="name" content="{{ metaTitle }}">
+        <meta itemprop="description" content="{{ description }}">
+        <meta itemprop="image" content="{{ BASE_URL }}fb.png">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="{{ metaTitle }}">
+        <meta property="og:image" content="{{ BASE_URL }}fb.png">
+        <meta property="og:description" content="{{ description }}">
+        <meta property="og:site_name" content="Utopia Films">
     </head>
     <body class="{{ bodyClass ? bodyClass }}">
         <script src="{{ BASE_URL }}assets/js/scrollreveal.min.js"></script>

@@ -1,0 +1,32 @@
+<div class="container big-container">
+
+    <ul class="list-unstyled popup-gallery">
+        <div class="box-row row">
+            {% for print in value %}
+
+                <div class="box-column col-sm-6">
+                    <li class="box-image">
+                        <figure class="image">
+                            <a class="mfp-image" href="{{ BASE_URL }}assets/img/print/full/{{ print.image }}.jpg" target="_blank">
+                                <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ print.image }}.jpg"/>
+
+                                <figcaption>
+                                    <h3 class="h4">{{ print.title }}</h3>
+                                    <dl class="dl-horizontal hidden-xs hidden-sm">
+                                        {% for dt,dd in print.infos %}
+                                            <dt>{{ dt }}</dt>
+                                            <dd>{{ dd }}</dd>
+                                        {% endfor %}
+                                    </dl>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </div>
+
+                {% if loop.index % 2 == 0 %}</div><div class="box-row row">{% endif %}
+
+            {% endfor %}
+        </div>
+    </ul>
+</div>

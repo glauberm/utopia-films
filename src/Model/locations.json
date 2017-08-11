@@ -1,0 +1,32 @@
+{
+    "carousel": [
+        "Ouro Preto, Old Gold Mining Town",
+        "Desert Lakes, N Brazil",
+        "Mountains, Rio de Janeiro",
+        "Woods, Sao Paulo",
+        "Ipanema Beach, Rio de Janeiro",
+        "Beach, Rio de Janeiro",
+        "European Town, Sao Paulo",
+        "Desert Lakes, N Brazil",
+        "Beach, Rio de Janeiro",
+        "Waterfalls, S Brazil",
+        "Christ Statue, Rio de Janeiro"
+    ],
+    "locations": {
+        "Abandoned": "42",
+        "Alpine": "28",
+        "Asian": "20",
+        "Beaches": "22",
+        "Canyons": "18",
+        "Cityscapes": "64",
+        "Cobbled Streets": "54",
+        "European Influences": "222",
+        "Fishing Village": "8",
+        "Forest & Jungles": "8",
+        "James Bond Houses": "48",
+        "North American": "8",
+        "Pirate Village": "28",
+        "Rio de Janeiro": "88",
+        "Waterfalls": "26"
+    }
+}
