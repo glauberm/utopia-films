@@ -23,22 +23,28 @@
 
                                 {% if work.video is defined %}
 
-                                    <a class="mfp-iframe" href="{{ work.video }}" target="_blank">
-                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/work/{{ work.image }}.jpg"/>
+                                    <a class="mfp-iframe" href="{{ work.video }}" target="_blank" itemscope itemtype="http://schema.org/Movie">
+                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/work/{{ work.image }}.jpg" itemprop="thumbnailUrl"/>
 
                                 {% else %}
 
-                                    <a class="mfp-image" href="{{ BASE_URL }}assets/img/print/full/{{ work.image }}.jpg" target="_blank">
-                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ work.image }}.jpg"/>
+                                    <a class="mfp-image" href="{{ BASE_URL }}assets/img/print/full/{{ work.image }}.jpg" target="_blank" itemscope itemtype="http://schema.org/ImageObject">
+                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ work.image }}.jpg" itemprop="thumbnail"/>
 
                                 {% endif %}
 
                                         <figcaption>
-                                            <h2 class="h4">{{ work.title }}</h2>
+                                            <h2 class="h4" itemprop="name">{{ work.title }}</h2>
                                             <dl class="dl-horizontal hidden-xs hidden-sm">
                                                 {% for key,value in work.infos %}
                                                     <dt>{{ key }}</dt>
-                                                    <dd>{{ value }}</dd>
+                                                    {% if key == 'Production' %}
+                                                        <dd itemprop="productionCompany">{{ value }}</dd>
+                                                    {% elseif key == 'Director' %}
+                                                        <dd itemprop="director">{{ value }}</dd>
+                                                    {% else %}
+                                                        <dd>{{ value }}</dd>
+                                                    {% endif %}
                                                 {% endfor %}
                                             </dl>
                                         </figcaption>

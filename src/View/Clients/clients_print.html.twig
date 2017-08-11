@@ -7,15 +7,19 @@
                 <div class="box-column col-sm-6">
                     <li class="box-image">
                         <figure class="image">
-                            <a class="mfp-image" href="{{ BASE_URL }}assets/img/print/full/{{ print.image }}.jpg" target="_blank">
-                                <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ print.image }}.jpg"/>
+                            <a class="mfp-image" href="{{ BASE_URL }}assets/img/print/full/{{ print.image }}.jpg" target="_blank" itemscope itemtype="http://schema.org/ImageObject">
+                                <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ print.image }}.jpg" itemprop="thumbnail"/>
 
                                 <figcaption>
-                                    <h3 class="h4">{{ print.title }}</h3>
+                                    <h3 class="h4" itemprop="name">{{ print.title }}</h3>
                                     <dl class="dl-horizontal hidden-xs hidden-sm">
                                         {% for dt,dd in print.infos %}
                                             <dt>{{ dt }}</dt>
-                                            <dd>{{ dd }}</dd>
+                                            {% if key == 'Production' %}
+                                                <dd itemprop="productionCompany">{{ value }}</dd>
+                                            {% else %}
+                                                <dd>{{ value }}</dd>
+                                            {% endif %}
                                         {% endfor %}
                                     </dl>
                                 </figcaption>

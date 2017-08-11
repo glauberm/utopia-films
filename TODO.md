@@ -1,12 +1,8 @@
 # TODO
 
-- Locations - O texto nas fotos no slider tira o bold. Alguma imagem não carrega ou leva muito tempo - devo reduzir o tamanho? A imagem 17 de Waterfalls não carrega.
-
 - Msg para IE9 ou menos e para noscript
 
 - Schema
-
-- Overflow só no hover no menu-container no desktop?
 
 # Não vou fazer
 

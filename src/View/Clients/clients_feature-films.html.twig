@@ -1,10 +1,10 @@
 <div class="container">
     {% for title,values in value %}
 
-        <div class="text-left">
+        <div class="text-left" itemscope itemtype="http://schema.org/Movie">
             <div class="row">
                 <div class="col-sm-3 text-center w-border-r">
-                    <h3 class="h4">{{ title }}</h3>
+                    <h3 class="h4" itemprop="name">{{ title }}</h3>
                 </div>
                 <div class="col-sm-8 col-md-push-1">
                     <dl>
@@ -12,7 +12,15 @@
                             {% for dt,dd in values %}
                                 <div class="col-sm-4">
                                     <dt>{{ dt }}</dt>
-                                    <dd>{{ dd }}</dd><br/>
+                                    {% if dt == 'Director' %}
+                                        <dd itemprop="director">{{ dd }}</dd><br/>
+                                    {% elseif dt == 'Production Company' %}
+                                        <dd itemprop="productionCompany">{{ dd }}</dd><br/>
+                                    {% elseif dt == 'Line Producer' %}
+                                        <dd itemprop="producer">{{ dd }}</dd><br/>
+                                    {% else %}
+                                        <dd>{{ dd }}</dd><br/>
+                                    {% endif %}
                                 </div>
                                 {% if loop.index % 3 == 0 %}
                                     </div>
