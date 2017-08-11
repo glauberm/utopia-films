@@ -63,7 +63,7 @@ $(".big-nav-pills a").on("shown.bs.tab", function (e)
 
 function scrollToTrigger(el, work=false)
 {
-    i = (work === true ? 0 : 250);
+    i = (work === true ? 0 : 175);
 
     $("html, body").animate({
         scrollTop: el.offset().top - i
