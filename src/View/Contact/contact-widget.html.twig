@@ -1,0 +1,77 @@
+<section class="contact">
+    <header class="invisible">
+        <h2 class="h1 page-header text-center">
+            <a href="#contact" id="contact">Contact</a>
+        </h2>
+    </header>
+    <div class="body-contact">
+        <div class="container">
+            <div class="row">
+                {% for title,infos in contact %}
+                    <div class="col-sm-4">
+                        <article class="contact-box">
+
+                            <h3 class="h4 page-header">{{ title }}</h3>
+
+                            {% if title == 'Brazil' or title == 'Venezuela' or title == 'USA' %}
+
+                                <address>
+                                    {% for city,address in infos %}
+                                        <strong class="city">
+                                            {{ city }}
+                                        </strong>
+                                        {% if city == 'Los Angeles' %}
+                                            <small class="text-muted">(mail only)</small>
+                                        {% endif %}
+                                        <br/>
+                                        {% for detail in address %}
+                                            {{ detail }}
+                                            {% if not loop.last %}
+                                                <br/>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endfor %}
+                                </address>
+
+                            {% else %}
+
+                                <dl>
+                                    <div class="row">
+                                        {% for key,value in infos %}
+                                            <div class="col-md-6">
+                                                <dt>{{ key|raw }}</dt>
+                                            </div>
+                                            <div class="col-md-6">
+                                                {% for detail in value %}
+                                                    <dd>
+                                                        {% if title == 'Mobiles' %}
+                                                            <a class="email-link" target="_blank" href="tel:{{ detail }}">{{ detail }}</a>
+                                                        {% elseif title == 'Email' %}
+                                                            <a class="email-link" target="_blank" href="mailto:{{ detail }}">{{ detail }}</a>
+                                                        {% else %}
+                                                            {{ detail|raw }}
+                                                        {% endif %}
+                                                    </dd>
+                                                    {% if loop.last %}
+                                                        <br class="hidden-lg hidden-md"/>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </div>
+
+                                            {% if loop.index % 2 == 0 %}</div><div class="row">{% endif %}
+
+                                        {% endfor %}
+                                    </div>
+                                </dl>
+
+                            {% endif %}
+                        </article>
+                    </div>
+
+                    {% if loop.index % 3 == 0 %}</div><div class="row">{% endif %}
+
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

@@ -13,20 +13,20 @@
         "Christ Statue, Rio de Janeiro"
     ],
     "locations": {
-        "Abandoned": "42",
-        "Alpine": "28",
-        "Asian": "20",
-        "Beaches": "22",
+        "Abandoned": "18",
+        "Alpine": "18",
+        "Asian": "18",
+        "Beaches": "18",
         "Canyons": "18",
-        "Cityscapes": "64",
-        "Cobbled Streets": "54",
-        "European Influences": "222",
+        "Cityscapes": "18",
+        "Cobbled Streets": "18",
+        "European Influences": "18",
         "Fishing Village": "8",
         "Forest & Jungles": "8",
-        "James Bond Houses": "48",
+        "James Bond Houses": "18",
         "North American": "8",
-        "Pirate Village": "28",
-        "Rio de Janeiro": "88",
-        "Waterfalls": "26"
+        "Pirate Village": "18",
+        "Rio de Janeiro": "18",
+        "Waterfalls": "18"
     }
 }
