@@ -39,15 +39,17 @@
                                     <div class="row">
                                         {% for key,value in infos %}
                                             <div class="col-md-6">
-                                                <dt>{{ key }}</dt>
+                                                <dt>{{ key|raw }}</dt>
                                             </div>
                                             <div class="col-md-6">
                                                 {% for detail in value %}
                                                     <dd>
-                                                        {% if title == 'Email' %}
-                                                            <a class="email-link" href="mailto:{{ detail }}" target="_blank">{{ detail }}</a>
+                                                        {% if title == 'Mobiles' %}
+                                                            <a class="email-link" target="_blank" href="tel:{{ detail }}">{{ detail }}</a>
+                                                        {% elseif title == 'Email' %}
+                                                            <a class="email-link" target="_blank" href="mailto:{{ detail }}">{{ detail }}</a>
                                                         {% else %}
-                                                            {{ detail }}
+                                                            {{ detail|raw }}
                                                         {% endif %}
                                                     </dd>
                                                     {% if loop.last %}
