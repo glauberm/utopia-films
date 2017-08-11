@@ -38,13 +38,14 @@
                                 <dl>
                                     <div class="row">
                                         {% for key,value in infos %}
-                                            <div class="col-sm-6">
+                                            <div class="col-md-6">
                                                 <dt>{{ key }}</dt>
                                             </div>
-                                            <div class="col-sm-6">
+                                            <div class="col-md-6">
                                                 {% for detail in value %}
                                                     <dd>{{ detail }}</dd>
                                                     {% if loop.last %}
+                                                        <br class="hidden-lg hidden-md"/>
                                                     {% endif %}
                                                 {% endfor %}
                                             </div>

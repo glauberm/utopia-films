@@ -712,15 +712,6 @@ a {
     .menu-trigger button {
         margin-left: 20px;
     }
-
-    .contact .body-contact .contact-box dt {
-        text-align: right;
-        text-transform: uppercase;
-    }
-
-    .contact .body-contact .contact-box dd {
-        text-align: left;
-    }
 }
 
 @media (max-width: 991px) {
@@ -758,6 +749,14 @@ a {
     .box-container .box-image .image figcaption .h4 {
         font-size: 3.6rem;
         text-shadow: 0 0 8px rgba(0,0,0,0.5);
+    }
+
+    .contact .body-contact .contact-box dt {
+        text-align: right;
+    }
+
+    .contact .body-contact .contact-box dd {
+        text-align: left;
     }
 
     .contact .body-social-media ul li {
