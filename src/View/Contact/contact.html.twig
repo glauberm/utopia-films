@@ -43,7 +43,13 @@
                                             </div>
                                             <div class="col-md-6">
                                                 {% for detail in value %}
-                                                    <dd>{{ detail }}</dd>
+                                                    <dd>
+                                                        {% if title == 'Email' %}
+                                                            <a class="email-link" href="mailto:{{ detail }}" target="_blank">{{ detail }}</a>
+                                                        {% else %}
+                                                            {{ detail }}
+                                                        {% endif %}
+                                                    </dd>
                                                     {% if loop.last %}
                                                         <br class="hidden-lg hidden-md"/>
                                                     {% endif %}

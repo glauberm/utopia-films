@@ -591,6 +591,16 @@ a {
     text-transform: uppercase;
 }
 
+.contact .email-link {
+    color: #FFF;
+}
+
+.contact .email-link:hover,
+.contact .email-link:focus,
+.contact .email-link:active {
+    color: #777;
+}
+
 /* FOOTER */
 .footer .footer-footer {
     background-color: #222;

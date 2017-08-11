@@ -12,23 +12,23 @@
         "Justin Bird": [
             "+55.21.99447.9049", "+1.877.784.2739"
         ],
-        "Daniel Araujo": ["+55.21.96553.0168"],
         "Production": ["+55.21.97957.6858"],
+        "Daniel Araujo": ["+55.21.96553.0168"],
         "Luis Valderrama": ["+1.305.798.5555"],
         "Howard Cohen": ["+55.48.9111.2781"]
     },
     "Email": {
+        "Executive Producer": ["jbird@utopiafilms.com"],
         "General Information": ["reception@utopiafilms.com"],
         "Production Service": ["daraujo@utopiafilms.com"],
-        "Executive Producer": ["jbird@utopiafilms.com"],
         "Associate Producer": ["lvalderrama@utopiafilms.com"],
         "Intl Rep/Exec Prod": ["hcohen@utopiafilms.com"]
     },
     "Producers": {
-        "Intl Producer": ["Daniel Araujo"],
-        "Assistant Producer": ["Evelyn Borges"],
         "Executive Producer": ["Justin Bird"],
+        "Intl Producer": ["Daniel Araujo"],
         "Associate Producer": ["Luis Valderrama"],
-        "Intl Rep/Exec Prod": ["Howard Cohen"]
+        "Intl Rep/Exec Prod": ["Howard Cohen"],
+        "Assistant Producer": ["Evelyn Borges"]
     }
 }
