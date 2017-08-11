@@ -1,7 +1,5 @@
 # TODO
 
-- Contacts link - Quando você clica nos Contacts no menu você consegue fazer para que ele mostre apenas os contatos e não o resto da página?
-
 - Locations - O texto nas fotos no slider tira o bold. Alguma imagem não carrega ou leva muito tempo - devo reduzir o tamanho? A imagem 17 de Waterfalls não carrega.
 
 - Msg para IE9 ou menos e para noscript
