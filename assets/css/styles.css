@@ -518,6 +518,7 @@ a {
 
 .slick-carousel figure figcaption .h5 {
     padding: 20px 20px 5px;
+    font-weight: normal;
 }
 
 .slick-carousel .slick-dots {
