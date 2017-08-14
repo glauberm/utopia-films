@@ -27,7 +27,7 @@ $("#nav-menu a, .content section h1 > a, h3 a").on("click", function()
             if(target.selector == "#work") {
                 scrollToTrigger(target, true);
             } else {
-                scrollToTrigger(target);
+                scrollToTrigger(target, false);
             }
             return false;
         }
@@ -61,7 +61,7 @@ $(".big-nav-pills a").on("shown.bs.tab", function (e)
     sr.sync();
 })
 
-function scrollToTrigger(el, work=false)
+function scrollToTrigger(el, work)
 {
     i = (work === true ? 0 : 175);
 
