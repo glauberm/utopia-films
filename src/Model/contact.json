@@ -1,21 +1,21 @@
 {
     "Brazil": {
-        "Rio de Janeiro": ["Av Princesa Isabel 150, Suite 903", "RJ 22011.010, Brazil", "Tel: +55-21-2244-2271", "Fax: +55-21-2244-3841"]
+        "Rio de Janeiro": ["Av Princesa Isabel 150, Suite 903", "RJ 22011.010, Brazil", "Tel: +55.21.2244.2271", "Fax: +55.21.2244.3841"]
     },
     "Venezuela": {
-        "Caracas": ["Calle El Servicio Parque Res. Valle Arriba", "Santa Fe - Sur Edificio Campomanes", "Suite 2E, Caracas, Venezuela", "Tel: +58-212-720-2197"]
+        "Caracas": ["Calle El Servicio Parque Res. Valle Arriba", "Santa Fe - Sur Edificio Campomanes", "Suite 2E, Caracas, Venezuela", "Tel: +58.212.720.2197"]
     },
     "USA": {
-        "Los Angeles": ["1976 S. La Cienega Blvd., #130", "Los Angeles, CA , 90034, USA", "Tel: +1-310-338-0580", "Fax: +1-313-557-0580"]
+        "Los Angeles": ["1976 S. La Cienega Blvd., #130", "Los Angeles, CA , 90034, USA", "Tel: +1.310.338.0580", "Fax: +1.313.557.0580"]
     },
     "Mobiles": {
         "<a class='email-link' target='_blank' href='mailto:jbird@utopiafilms.com'>Justin Bird</a>": [
-            "+55-21-99447-9049", "+1-877-784-2739"
+            "+55.21.99447.9049", "+1.877.784.2739"
         ],
-        "Production": ["+55-21-97957-6858"],
-        "<a class='email-link' target='_blank' href='mailto:daraujo@utopiafilms.com'>Daniel Araujo</a>": ["+55-21-96553-0168"],
-        "<a class='email-link' target='_blank' href='mailto:lvalderrama@utopiafilms.com'>Luis Valderrama</a>": ["+1-305-798-5555"],
-        "<a class='email-link' target='_blank' href='mailto:hcohen@utopiafilms.com'>Howard Cohen</a>": ["+55-48-9111-2781"]
+        "Production": ["+55.21.97957.6858"],
+        "<a class='email-link' target='_blank' href='mailto:daraujo@utopiafilms.com'>Daniel Araujo</a>": ["+55.21.96553.0168"],
+        "<a class='email-link' target='_blank' href='mailto:lvalderrama@utopiafilms.com'>Luis Valderrama</a>": ["+1.305.798.5555"],
+        "<a class='email-link' target='_blank' href='mailto:hcohen@utopiafilms.com'>Howard Cohen</a>": ["+55.48.9111.2781"]
     },
     "Email": {
         "Executive Producer": ["jbird@utopiafilms.com"],
