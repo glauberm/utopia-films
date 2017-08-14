@@ -1,9 +1,4 @@
 <div class="menu-container" id="menu-container">
-    <div id="close-trigger" class="close-trigger hidden">
-        <button class="btn btn-link">
-            {% include 'Header/close.svg.html.twig' %}
-        </button>
-    </div>
     <nav class="nav-menu" id="nav-menu">
         <ul class="menu-list list-unstyled">
             {% block mainMenu %}
@@ -16,4 +11,9 @@
             {% endblock %}
         </ul>
     </nav>
+    <div id="close-trigger" class="close-trigger hidden">
+        <button class="btn btn-link">
+            {% include 'Header/close.svg.html.twig' %}
+        </button>
+    </div>
 </div>
