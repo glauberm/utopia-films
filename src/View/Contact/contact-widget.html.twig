@@ -45,9 +45,9 @@
                                                 {% for detail in value %}
                                                     <dd>
                                                         {% if title == 'Mobiles' %}
-                                                            <a class="email-link" target="_blank" href="tel:{{ detail }}" itemprop="telephone">{{ detail }}</a>
+                                                            <a class="email-link" href="tel:{{ detail }}" itemprop="telephone">{{ detail }}</a>
                                                         {% elseif title == 'Email' %}
-                                                            <a class="email-link" target="_blank" href="mailto:{{ detail }}" itemprop="email">{{ detail }}</a>
+                                                            <a class="email-link" href="mailto:{{ detail }}" itemprop="email">{{ detail }}</a>
                                                         {% else %}
                                                             {{ detail|raw }}
                                                         {% endif %}
