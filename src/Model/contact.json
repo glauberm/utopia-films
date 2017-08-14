@@ -9,9 +9,7 @@
         "Los Angeles": ["1976 S. La Cienega Blvd., #130", "Los Angeles, CA , 90034, USA", "Tel: +1.310.338.0580", "Fax: +1.313.557.0580"]
     },
     "Mobiles": {
-        "<a class='email-link' target='_blank' href='mailto:jbird@utopiafilms.com'>Justin Bird</a>": [
-            "+55.21.99447.9049", "+1.877.784.2739"
-        ],
+        "<a class='email-link' target='_blank' href='mailto:jbird@utopiafilms.com'>Justin Bird</a>": ["+55.21.99447.9049"],
         "Production": ["+55.21.97957.6858"],
         "<a class='email-link' target='_blank' href='mailto:daraujo@utopiafilms.com'>Daniel Araujo</a>": ["+55.21.96553.0168"],
         "<a class='email-link' target='_blank' href='mailto:lvalderrama@utopiafilms.com'>Luis Valderrama</a>": ["+1.305.798.5555"],
