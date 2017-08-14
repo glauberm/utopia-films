@@ -62,15 +62,12 @@
     </head>
     <body class="{{ bodyClass ? bodyClass }}">
         <script src="{{ BASE_URL }}assets/js/scrollreveal.min.js"></script>
+        
         {% block header %}
             {% include 'header.html.twig' %}
         {% endblock %}
 
         <div class="content" id="content">
-
-            {% block menuTrigger %}
-                {% include 'MenuTrigger/menu-trigger.html.twig' %}
-            {% endblock %}
 
             <main class="main">
                 {% block main %}{% endblock %}
