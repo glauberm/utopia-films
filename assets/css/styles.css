@@ -50,9 +50,9 @@ a {
     overflow: hidden;
 }
 
-.box-container .box-image .image:hover,
-.box-container .box-image .image:focus,
-.box-container .box-image .image:active {
+.box-container .box-image a:hover .image,
+.box-container .box-image a:focus .image,
+.box-container .box-image a:active .image {
     background-color: #111;
 }
 
@@ -104,9 +104,9 @@ a {
     margin-bottom: 0;
 }
 
-.box-container .box-image .image:hover figcaption,
-.box-container .box-image .image:focus figcaption,
-.box-container .box-image .image:active figcaption {
+.box-container .box-image a:hover .image figcaption,
+.box-container .box-image a:focus .image figcaption,
+.box-container .box-image a:active .image figcaption {
     opacity: 1;
     -webkit-animation-name: image-figcaption;
     animation-name: image-figcaption;

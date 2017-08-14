@@ -19,19 +19,20 @@
 
                         <div class="box-column col-sm-6">
                             <li class="box-image">
-                                <figure class="image">
 
-                                {% if work.video is defined %}
+                            {% if work.video is defined %}
 
-                                    <a class="mfp-iframe" href="{{ work.video }}" target="_blank" itemscope itemtype="http://schema.org/Movie">
+                                <a class="mfp-iframe" href="{{ work.video }}" target="_blank" itemscope itemtype="http://schema.org/Movie">
+                                    <figure class="image">
                                         <img class="img-responsive" src="{{ BASE_URL }}assets/img/work/{{ work.image }}.jpg" itemprop="thumbnailUrl"/>
 
-                                {% else %}
+                            {% else %}
 
-                                    <a class="mfp-image" href="{{ BASE_URL }}assets/img/print/full/{{ work.image }}.jpg" target="_blank" itemscope itemtype="http://schema.org/ImageObject">
+                                <a class="mfp-image" href="{{ BASE_URL }}assets/img/print/full/{{ work.image }}.jpg" target="_blank" itemscope itemtype="http://schema.org/ImageObject">
+                                    <figure class="image">
                                         <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ work.image }}.jpg" itemprop="thumbnail"/>
 
-                                {% endif %}
+                            {% endif %}
 
                                         <figcaption>
                                             <h2 class="h4" itemprop="name">{{ work.title }}</h2>
@@ -48,8 +49,8 @@
                                                 {% endfor %}
                                             </dl>
                                         </figcaption>
-                                    </a>
-                                </figure>
+                                    </figure>
+                                </a>
                             </li>
                         </div>
 
