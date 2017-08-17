@@ -62,14 +62,14 @@
                                 {% for i in 1..number %}
                                     <div class="box-column col-sm-6">
                                         <li class="box-image">
-                                            <figure class="image">
-                                                <a class="mfp-image" href="{{ BASE_URL }}assets/img/locations/full/{{ location|url_encode }}/{{ '%03d'|format(loop.index) }}.jpg" target="_blank">
+                                            <a class="mfp-image" href="{{ BASE_URL }}assets/img/locations/full/{{ location|url_encode }}/{{ '%03d'|format(loop.index) }}.jpg" target="_blank">
+                                                <figure class="image">
                                                     <img class="img-responsive" src="{{ BASE_URL }}assets/img/locations/thumb/{{ location|url_encode }}/{{ '%03d'|format(loop.index) }}.jpg"/>
                                                     <figcaption>
                                                         <h3 class="h4">{{ location }} #{{ loop.index }}</h3>
                                                     </figcaption>
-                                                </a>
-                                            </figure>
+                                                </figure>
+                                            </a>
                                         </li>
                                     </div>
 

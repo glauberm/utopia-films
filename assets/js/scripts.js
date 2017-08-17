@@ -3,7 +3,7 @@ window.sr = ScrollReveal();
 $(document).ready(function ()
 {
     $("#fixed-container").css("position", "fixed");
-    $("#menu-trigger").css("position", "fixed").addClass("hidden");
+    $("#menu-trigger").css("position", "fixed");
 
     pigOnTop($(window).scrollTop());
     menu($(window).scrollTop());
@@ -18,7 +18,7 @@ $(window).on("scroll", function ()
     menu($(window).scrollTop());
 });
 
-$("#nav-menu a, .content section h1 > a, h3 a").on("click", function()
+$("#nav-menu a, .content section h1 > a, .content section h2 > a, h3 a").on("click", function()
 {
     if (location.pathname.replace(/^\//,"") == this.pathname.replace(/^\//,"") && location.hostname == this.hostname) {
         var target = $(this.hash);

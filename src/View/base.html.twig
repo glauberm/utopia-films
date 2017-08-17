@@ -54,15 +54,12 @@
                     display: block !important;
                     width: 100% !important;
                 }
-                .menu-trigger {
-                    display: none !important;
-                }
             </style>
         </noscript>
     </head>
     <body class="{{ bodyClass ? bodyClass }}">
         <script src="{{ BASE_URL }}assets/js/scrollreveal.min.js"></script>
-        
+
         {% block header %}
             {% include 'header.html.twig' %}
         {% endblock %}

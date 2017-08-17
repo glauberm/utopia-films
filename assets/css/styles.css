@@ -548,6 +548,25 @@ a {
 }
 
 /* Contact */
+.wrapper-body-contact,
+.wrapper-body-contact .content {
+    background-color: #333;
+}
+
+.wrapper-body-contact .contact > .invisible {
+    visibility: visible;
+}
+
+.wrapper-body-contact .contact > .invisible h2 a {
+    color: #DDD;
+}
+
+.wrapper-body-contact .contact > .invisible h2 a:hover,
+.wrapper-body-contact .contact > .invisible h2 a:focus,
+.wrapper-body-contact .contact > .invisible h2 a:active {
+    color: #EEE;
+}
+
 .contact {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 80%;
@@ -567,8 +586,8 @@ a {
 }
 
 .contact h2 {
-    background: #222;
-    text-shadow: 0px 2px 5px #000;
+    background: transparent;
+    text-shadow: 0px 2px 5px #222;
     padding-top: 25px;
     padding-bottom: 25px;
     margin-bottom: 0;
