@@ -669,12 +669,27 @@ a {
 }
 
 .footer .footer-footer .body-social-media ul li a:hover svg path,
-.footer .footer-footer .body-social-media ul li a:hover svg polygon,
 .footer .footer-footer .body-social-media ul li a:focus svg path,
-.footer .footer-footer .body-social-media ul li a:focus svg polygon,
-.footer .footer-footer .body-social-media ul li a:active svg path,
-.footer .footer-footer .body-social-media ul li a:active svg polygon {
+.footer .footer-footer .body-social-media ul li a:active svg path {
     fill: #656565;
+}
+
+.footer .footer-footer .body-social-media ul li a:hover .facebook-logo path,
+.footer .footer-footer .body-social-media ul li a:focus .facebook-logo path,
+.footer .footer-footer .body-social-media ul li a:active .facebook-logo path {
+    fill: #3b5998;
+}
+
+.footer .footer-footer .body-social-media ul li a:hover .vimeo-logo path,
+.footer .footer-footer .body-social-media ul li a:focus .vimeo-logo path,
+.footer .footer-footer .body-social-media ul li a:active .vimeo-logo path {
+    fill: #45bbff;
+}
+
+.footer .footer-footer .body-social-media ul li a:hover .instagram-logo path,
+.footer .footer-footer .body-social-media ul li a:focus .instagram-logo path,
+.footer .footer-footer .body-social-media ul li a:active .instagram-logo path {
+    fill: #fb3958;
 }
 
 /* BLACK-OUT */
