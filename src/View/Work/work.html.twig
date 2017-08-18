@@ -24,13 +24,13 @@
 
                                 <a class="mfp-iframe" href="{{ work.video }}" target="_blank" itemscope itemtype="http://schema.org/Movie">
                                     <figure class="image">
-                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/work/{{ work.image }}.jpg" itemprop="thumbnailUrl"/>
+                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/work/{{ work.image }}.jpg" alt="{{ work.title }}" itemprop="thumbnailUrl"/>
 
                             {% else %}
 
                                 <a class="mfp-image" href="{{ BASE_URL }}assets/img/print/full/{{ work.image }}.jpg" target="_blank" itemscope itemtype="http://schema.org/ImageObject">
                                     <figure class="image">
-                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ work.image }}.jpg" itemprop="thumbnail"/>
+                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ work.image }}.jpg" alt="{{ work.title }}" itemprop="thumbnail"/>
 
                             {% endif %}
 

@@ -62,9 +62,9 @@
                                 {% for i in 1..number %}
                                     <div class="box-column col-sm-6">
                                         <li class="box-image">
-                                            <a class="mfp-image" href="{{ BASE_URL }}assets/img/locations/full/{{ location|url_encode }}/{{ '%03d'|format(loop.index) }}.jpg" target="_blank">
+                                            <a class="mfp-image" href="{{ BASE_URL }}assets/img/locations/full/{{ location|url_encode }}/{{ '%03d'|format(loop.index) }}.jpg" target="_blank" itemscope itemtype="http://schema.org/ImageObject">
                                                 <figure class="image">
-                                                    <img class="img-responsive" src="{{ BASE_URL }}assets/img/locations/thumb/{{ location|url_encode }}/{{ '%03d'|format(loop.index) }}.jpg"/>
+                                                    <img class="img-responsive" src="{{ BASE_URL }}assets/img/locations/thumb/{{ location|url_encode }}/{{ '%03d'|format(loop.index) }}.jpg" alt="{{ location }} #{{ loop.index }}" itemprop="thumbnail"/>
                                                     <figcaption>
                                                         <h3 class="h4">{{ location }} #{{ loop.index }}</h3>
                                                     </figcaption>

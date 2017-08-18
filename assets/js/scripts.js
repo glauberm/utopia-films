@@ -117,6 +117,9 @@ function scrollRevealTrigger()
     sr.reveal(".service .ps-article");
     sr.reveal(".dt-box");
     sr.reveal(".dd-box");
+    sr.reveal(".jumbotron .h1");
+    sr.reveal(".jumbotron p");
+    sr.reveal(".contact-box address");
     sr.reveal(".contact-box dt");
     sr.reveal(".contact-box dd");
 }

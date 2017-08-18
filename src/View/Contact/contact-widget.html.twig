@@ -4,7 +4,7 @@
             <a href="#contact" id="contact">Contact</a>
         </h2>
     </header>
-    <div class="body-contact" itemscope itemtype="http://schema.org/LocalBusiness">
+    <div class="body-contact" itemscope itemtype="http://schema.org/Organization">
         <div class="container">
             <div class="row">
                 {% for title,infos in contact %}
@@ -15,17 +15,17 @@
 
                             {% if title == 'Brazil' or title == 'Venezuela' or title == 'USA' %}
 
-                                <address itemprop="address">
+                                <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                                     {% for city,address in infos %}
                                         <strong class="city">
-                                            {{ city }}
+                                            {{ city|raw }}
                                         </strong>
                                         {% if city == 'Los Angeles' %}
                                             <small class="text-muted">(mail only)</small>
                                         {% endif %}
                                         <br/>
                                         {% for detail in address %}
-                                            {{ detail }}
+                                            {{ detail|raw }}
                                             {% if not loop.last %}
                                                 <br/>
                                             {% endif %}
