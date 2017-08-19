@@ -16,7 +16,7 @@
     "@link-color": "#AAA",
     "@link-hover-color": "darken(@link-color, 15%)",
     "@link-hover-decoration": "none",
-    "@font-family-sans-serif": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "@font-family-sans-serif": "-apple-system, BlinkMacSystemFont, Roboto, \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif",
     "@font-family-serif": "Georgia, \"Times New Roman\", Times, serif",
     "@font-family-monospace": "Menlo, Monaco, Consolas, \"Courier New\", monospace",
     "@font-family-base": "@font-family-sans-serif",
@@ -390,14 +390,12 @@
     "navs.less",
     "jumbotron.less",
     "responsive-embed.less",
-    "component-animations.less",
-    "carousel.less"
+    "component-animations.less"
   ],
   "js": [
-    "carousel.js",
     "tab.js",
     "collapse.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=761fd5556214719d44129986e92c5db3"
+  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=69da98aa564258f8cfecef95f77d1246"
 }
