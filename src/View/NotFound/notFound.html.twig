@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% set title = 'Not Found' %}
+{% set bodyClass = 'body-not-found' %}
+
+{% block main %}
+    <section class="not-found">
+        <div class="container">
+            <header>
+                <div class="jumbotron">
+                    <div class="container">
+                        <h1><a href="#not-found" id="not-found">404</a></h1>
+                        <p>We couldn't find the page you're looking for.</p>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+    </section>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script> scrollToTrigger( $("#not-found") ); </script>
+{% endblock %}
