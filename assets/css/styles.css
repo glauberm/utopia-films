@@ -366,6 +366,7 @@ a {
 .content section .h1 {
     text-transform: uppercase;
     color: #333;
+    margin-top: 0;
 }
 
 .content section h1 a,
@@ -424,6 +425,10 @@ a {
     margin: 0 auto;
 }
 
+.jumbotron p {
+    font-weight: normal;
+}
+
 /* Service */
 .service .ps-article {
     text-align: left;
@@ -468,7 +473,7 @@ a {
 }
 
 .body-directors .content .jumbotron .h1 {
-    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", fantasy;
     font-weight: normal;
     text-transform: uppercase;
     color: #611;
@@ -568,7 +573,6 @@ a {
 }
 
 .contact {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 80%;
 }
 
@@ -588,10 +592,7 @@ a {
 .contact h2 {
     background: transparent;
     text-shadow: 0px 2px 5px #222;
-    padding-top: 25px;
-    padding-bottom: 25px;
     margin-bottom: 0;
-    margin-top: 0;
 }
 
 .contact h2 a {
@@ -622,6 +623,11 @@ a {
 }
 
 /* Not Found */
+.body-not-found,
+.body-not-found .content {
+    background-color: #EEE;
+}
+
 .not-found .jumbotron {
     padding-top: 0;
 }
