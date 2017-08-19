@@ -762,6 +762,7 @@ a {
 @media (min-width: 767px) {
     .menu-container {
         width: 20%;
+        min-width: 267px;
     }
 
     .w-border-r {
@@ -829,7 +830,7 @@ a {
     }
 }
 
-@media (max-height: 600px) {
+@media (max-height: 599px) {
     .menu-container .nav-menu .menu-list {
         top: 0;
         -webkit-transform: translateY(0);
