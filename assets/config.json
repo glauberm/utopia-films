@@ -389,13 +389,10 @@
     "responsive-utilities.less",
     "navs.less",
     "jumbotron.less",
-    "responsive-embed.less",
-    "component-animations.less"
+    "responsive-embed.less"
   ],
   "js": [
-    "tab.js",
-    "collapse.js",
-    "transition.js"
+    "tab.js"
   ],
-  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=8496620904a8ccd9053d67b4c78c60dc"
+  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=e5c7e976021d28cc0157c6d496b5fd39"
 }
