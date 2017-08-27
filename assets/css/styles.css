@@ -131,6 +131,9 @@ a {
     -ms-transition: height 0.5s ease-out;
     -o-transition: height 0.5s ease-out;
     transition: height 0.5s ease-out;
+}
+
+.fixed-container-box-shadow {
     -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
             box-shadow: 0 2px 5px rgba(0,0,0,0.25);
 }
@@ -347,7 +350,6 @@ a {
 .content section .h1 {
     text-transform: uppercase;
     color: #333;
-    margin-top: 0;
 }
 
 .content section h1 a,
@@ -447,7 +449,7 @@ a {
     background-color: #FDD;
 }
 
-.body-directors .fixed-container {
+.body-directors .fixed-container-box-shadow {
     box-shadow: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;

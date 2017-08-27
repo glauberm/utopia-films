@@ -5,6 +5,7 @@ $("#content").css("top", "75%");
 $(document).ready(function ()
 {
     $("#fixed-container").css("position", "fixed");
+    $("#fixed-container").addClass("fixed-container-box-shadow");
     $("#menu-trigger").css("position", "fixed");
 
     pigOnTop($(window).scrollTop());
