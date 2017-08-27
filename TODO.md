@@ -1,3 +1,4 @@
 # TODO
 
-- Enxugar os js por página?
+- Content: top 100% pelo javascript
+- Passar jQuery para a última versão?

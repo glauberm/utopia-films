@@ -334,7 +334,7 @@ a {
 /* CONTENT */
 .content {
     position: absolute;
-    top: 75%;
+    top: 100%;
     background-color: #FFF;
     width: 100%;
 }
@@ -450,6 +450,12 @@ a {
 .body-directors,
 .body-directors .content {
     background-color: #FDD;
+}
+
+.body-directors .fixed-container {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
 }
 
 .body-directors .content .jumbotron .h1 {
