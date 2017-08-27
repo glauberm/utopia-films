@@ -32,7 +32,6 @@
     </section>
 {% endblock %}
 
-{% block javascripts %}
-    {{ parent() }}
-    <script> scrollToTrigger( $("#service") ); </script>
+{% block postJavascripts %}
+    <script> scrollToTrigger($("#service"), false, true); </script>
 {% endblock %}

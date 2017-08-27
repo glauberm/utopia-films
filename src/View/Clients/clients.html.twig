@@ -73,7 +73,15 @@
     </section>
 {% endblock %}
 
+{% block stylesheets %}
+    <link href="{{ BASE_URL }}assets/css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+{% endblock %}
+
 {% block javascripts %}
-    {{ parent() }}
-    <script> scrollToTrigger( $("#clients") ); </script>
+    <script src="{{ BASE_URL }}assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ BASE_URL }}assets/js/bootstrap.min.js"></script>
+{% endblock %}
+
+{% block postJavascripts %}
+    <script> scrollToTrigger($("#clients"), false, true); </script>
 {% endblock %}

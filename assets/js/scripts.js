@@ -23,9 +23,9 @@ $("#nav-menu a, .content section h1 > a, .content section h2 > a, h3 a").on("cli
         target = target.length ? target : $("[name=" + this.hash.slice(1) +"]");
         if (target.length) {
             if(target.selector == "#work") {
-                scrollToTrigger(target, true);
+                scrollToTrigger(target, true, false);
             } else {
-                scrollToTrigger(target, false);
+                scrollToTrigger(target, false, false);
             }
             return false;
         }
@@ -59,15 +59,17 @@ $(".big-nav-pills a").on("shown.bs.tab", function (e)
     sr.sync();
 })
 
-function scrollToTrigger(el, work)
+function scrollToTrigger(el, work, load)
 {
     if(work === true) {
         i = 0;
     } else {
-        i = ($(window).height() * 15) / 30;
+        if(load === true) {
+            i = ($(window).height() * 15) / 30;
+        } else {
+            i = ($(window).height() * 15) / 70;
+        }
     }
-
-    console.log($(window).height(), i);
 
     $("html, body").animate({
         scrollTop: el.offset().top - i

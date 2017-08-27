@@ -19,7 +19,7 @@
     </section>
 {% endblock %}
 
-{% block javascripts %}
+{% block postJavascripts %}
     {{ parent() }}
-    <script> scrollToTrigger( $("#not-found") ); </script>
+    <script> scrollToTrigger($("#not-found"), false, true); </script>
 {% endblock %}

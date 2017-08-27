@@ -21,7 +21,6 @@
     </section>
 {% endblock %}
 
-{% block javascripts %}
-    {{ parent() }}
-    <script> scrollToTrigger( $("#directors") ); </script>
+{% block postJavascripts %}
+    <script> scrollToTrigger($("#directors"), false, true); </script>
 {% endblock %}

@@ -14,11 +14,9 @@
         <meta name="subject" content="Film and Photo Production Services in Rio de Janeiro, Sao Paulo, and throughout Brazil.">
         <meta name="robots" content="index,follow">
         <meta name="googlebot" content="index,follow">
-        {% block stylesheets %}
-            <link href="{{ BASE_URL }}assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-            <link href="{{ BASE_URL }}assets/css/magnific-popup.css" rel="stylesheet" type="text/css"/>
-            <link href="{{ BASE_URL }}assets/css/styles.css" rel="stylesheet" type="text/css"/>
-        {% endblock %}
+        <link href="{{ BASE_URL }}assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        {% block stylesheets %}{% endblock %}
+        <link href="{{ BASE_URL }}assets/css/styles.css" rel="stylesheet" type="text/css"/>
         <link rel="shortcut icon" href="{{ BASE_URL }}favicon.ico">
     	<link rel="icon" sizes="16x16 32x32 64x64" href="{{ BASE_URL }}favicon.ico">
     	<link rel="icon" type="image/png" sizes="196x196" href="{{ BASE_URL }}favicon-192.png">
@@ -78,12 +76,10 @@
             {% endblock %}
         </div>
 
-        {% block javascripts %}
-            <script src="{{ BASE_URL }}assets/js/jquery.min.js"></script>
-            <script src="{{ BASE_URL }}assets/js/jquery.magnific-popup.min.js"></script>
-            <script src="{{ BASE_URL }}assets/js/bootstrap.min.js"></script>
-            <script src="{{ BASE_URL }}assets/js/scripts.js"></script>
-        {% endblock %}
+        <script src="{{ BASE_URL }}assets/js/jquery.min.js"></script>
+        {% block javascripts %}{% endblock %}
+        <script src="{{ BASE_URL }}assets/js/scripts.js"></script>
+        {% block postJavascripts %}{% endblock %}
 
     </body>
 </html>
