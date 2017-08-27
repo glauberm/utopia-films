@@ -4,6 +4,7 @@ $(document).ready(function ()
 {
     $("#fixed-container").css("position", "fixed");
     $("#menu-trigger").css("position", "fixed");
+    $("#content").css("top", "75%");
 
     pigOnTop($(window).scrollTop());
     scrollRevealTrigger();
