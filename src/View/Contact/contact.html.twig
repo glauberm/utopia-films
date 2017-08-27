@@ -12,6 +12,5 @@
 {% block contact %}{% endblock %}
 
 {% block postJavascripts %}
-    {{ parent() }}
-    <script> scrollToTrigger($("#contact"), false, true); </script>
+    <script> scrollToTrigger($("#contact")); </script>
 {% endblock %}

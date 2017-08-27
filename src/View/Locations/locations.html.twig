@@ -99,11 +99,6 @@
 {% endblock %}
 
 {% block javascripts %}
-    <script src="{{ BASE_URL }}assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="{{ BASE_URL }}assets/js/bootstrap.min.js"></script>
-{% endblock %}
-
-{% block postJavascripts %}
     <script src="{{ BASE_URL }}assets/js/slick.min.js"></script>
     <script>
         $("#slick-carousel").slick({
@@ -116,5 +111,18 @@
             slidesToScroll: 1
         });
     </script>
-    <script> scrollToTrigger($("#locations"), false, true); </script>
+    <script src="{{ BASE_URL }}assets/js/bootstrap.min.js"></script>
+    <script src="{{ BASE_URL }}assets/js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $('.popup-gallery').magnificPopup({
+            delegate: 'a',
+            gallery: {
+                enabled: true
+            },
+        });
+    </script>
+{% endblock %}
+
+{% block postJavascripts %}
+    <script> scrollToTrigger($("#locations")); </script>
 {% endblock %}

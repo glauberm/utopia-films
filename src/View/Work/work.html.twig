@@ -5,9 +5,9 @@
 {% block main %}
     <section class="reels box-container">
         <div class="container">
-            <header id="work" class="work">
-                <h1 class="page-header text-center">
-                    <a class="link-work" href="#work">{{ title }}</a>
+            <header class="invisible">
+                <h1 class="work text-center">
+                    <a href="#work" id="work">{{ title }}</a>
                 </h1>
             </header>
         </div>
@@ -69,4 +69,20 @@
 
 {% block javascripts %}
     <script src="{{ BASE_URL }}assets/js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $('.popup-gallery').magnificPopup({
+            delegate: 'a',
+            gallery: {
+                enabled: true
+            },
+        });
+    </script>
+{% endblock %}
+
+{% block postJavascripts %}
+    <script>
+        if(window.location.hash == "#work") {
+            scrollToTrigger($("#work"));
+        }
+    </script>
 {% endblock %}

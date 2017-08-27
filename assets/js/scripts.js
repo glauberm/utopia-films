@@ -1,14 +1,14 @@
 window.sr = ScrollReveal();
 
+$("#content").css("top", "75%");
+
 $(document).ready(function ()
 {
     $("#fixed-container").css("position", "fixed");
     $("#menu-trigger").css("position", "fixed");
-    $("#content").css("top", "75%");
 
     pigOnTop($(window).scrollTop());
     scrollRevealTrigger();
-    magnificPopupTrigger();
 });
 
 $(window).on("scroll", function ()
@@ -22,11 +22,7 @@ $("#nav-menu a, .content section h1 > a, .content section h2 > a, h3 a").on("cli
         var target = $(this.hash);
         target = target.length ? target : $("[name=" + this.hash.slice(1) +"]");
         if (target.length) {
-            if(target.selector == "#work") {
-                scrollToTrigger(target, true, false);
-            } else {
-                scrollToTrigger(target, false, false);
-            }
+            scrollToTrigger(target);
             return false;
         }
     }
@@ -59,17 +55,9 @@ $(".big-nav-pills a").on("shown.bs.tab", function (e)
     sr.sync();
 })
 
-function scrollToTrigger(el, work, load)
+function scrollToTrigger(el)
 {
-    if(work === true) {
-        i = 0;
-    } else {
-        if(load === true) {
-            i = ($(window).height() * 15) / 30;
-        } else {
-            i = ($(window).height() * 15) / 70;
-        }
-    }
+    i = ($(window).height() * 15) / 75;
 
     $("html, body").animate({
         scrollTop: el.offset().top - i
@@ -121,14 +109,4 @@ function menuFocusDisappear()
     });
     $("#menu-container").removeClass("focus");
     $("#close-trigger").addClass("hidden");
-}
-
-function magnificPopupTrigger()
-{
-    $('.popup-gallery').magnificPopup({
-        delegate: 'a',
-        gallery: {
-            enabled: true
-        },
-    });
 }

@@ -78,10 +78,18 @@
 {% endblock %}
 
 {% block javascripts %}
-    <script src="{{ BASE_URL }}assets/js/jquery.magnific-popup.min.js"></script>
     <script src="{{ BASE_URL }}assets/js/bootstrap.min.js"></script>
+    <script src="{{ BASE_URL }}assets/js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $('.popup-gallery').magnificPopup({
+            delegate: 'a',
+            gallery: {
+                enabled: true
+            },
+        });
+    </script>
 {% endblock %}
 
 {% block postJavascripts %}
-    <script> scrollToTrigger($("#clients"), false, true); </script>
+    <script> scrollToTrigger($("#clients")); </script>
 {% endblock %}

@@ -412,14 +412,8 @@ a {
 
 /* Work */
 .work {
-    margin-top: -235px;
-}
-
-.link-work {
-    visibility: hidden;
-    margin-bottom: 10%;
-    margin-top: -15%;
-    display: block;
+    margin-bottom: 0;
+    font-size: 0;
 }
 
 /* Service */
@@ -433,7 +427,8 @@ a {
 }
 
 .service .ps-article p:last-child,
-.service .ps-article ul:last-child {
+.service .ps-article ul:last-child,
+.service .ps-article dl:last-child {
     margin-bottom: 0;
 }
 
