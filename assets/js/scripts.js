@@ -61,7 +61,13 @@ $(".big-nav-pills a").on("shown.bs.tab", function (e)
 
 function scrollToTrigger(el, work)
 {
-    i = (work === true ? 0 : 175);
+    if(work === true) {
+        i = 0;
+    } else {
+        i = ($(window).height() * 15) / 30;
+    }
+
+    console.log($(window).height(), i);
 
     $("html, body").animate({
         scrollTop: el.offset().top - i
