@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Glauber Mota -- Desenvolvedor -- glaubernm@gmail.com
+
+# THANKS
+
+    Stefano Pichiori
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Bootstrap

@@ -50,8 +50,18 @@
                 .menu-container {
                     display: block !important;
                 }
+
+                .menu-container .nav-menu .menu-list {
+                    top: 0 !important;
+                    transform: none !important;
+                    -webkit-transform: none !important;
+                }
             </style>
         </noscript>
+        <!--[if lt IE 9]>
+            <script src="{{ BASE_URL }}assets/js/html5shiv.min.js"></script>
+            <script src="{{ BASE_URL }}assets/js/respond.min.js"></script>
+        <![endif]-->
     </head>
     <body class="{{ bodyClass ? bodyClass }}">
         <script src="{{ BASE_URL }}assets/js/scrollreveal.min.js"></script>
