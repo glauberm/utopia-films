@@ -4,11 +4,11 @@
             <a href="#contact" id="contact">Contact</a>
         </h2>
     </header>
-    <div class="body-contact" itemscope itemtype="http://schema.org/Organization">
+    <div class="body-contact">
         <div class="container">
             <div class="row">
                 {% for title,infos in contact %}
-                    <div class="col-sm-4">
+                    <div class="col-sm-4" itemscope itemtype="http://schema.org/LocalBusiness">
                         <article class="contact-box">
 
                             <h3 class="h4 page-header">{{ title }}</h3>
