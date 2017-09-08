@@ -30,11 +30,11 @@
 
                 {% if key is same as(0) %} {% set key = 'Print'%} {% endif %}
 
-                <div role="tabpanel" class="tab-pane fade in {% if loop.index == 1 %} active {% endif %}" id="clients-pill-{{ loop.index }}">
+                <div role="tabpanel" class="tab-pane fade in active {% if loop.index != 1 %}remove-active{% endif %}" id="clients-pill-{{ loop.index }}">
                     <article class="clients-{{ loop.index }} box-container">
                         <div class="container">
                             <h2 class="h3 text-center">
-                                <a href="#clients-{{ loop.index }}">{{ key|raw }}</a>
+                                {{ key|raw }}
                             </h2>
                         </div>
                         {% if key == "Feature Films / TV Series" %}

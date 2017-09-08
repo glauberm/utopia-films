@@ -7,6 +7,8 @@ $(document).ready(function ()
     $("#fixed-container").css("position", "fixed");
     $("#fixed-container").addClass("fixed-container-box-shadow");
     $("#menu-trigger").css("position", "fixed");
+    $(".remove-active").removeClass("active");
+    $(".clients .h3, .locations .h3").addClass("titulo");
 
     sr.reveal(".box-container .box-image, .service .ps-article, .dt-box, .dd-box, .jumbotron p, .contact-box address, .contact-box dt, .contact-box dd");
 

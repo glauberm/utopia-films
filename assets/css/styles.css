@@ -424,8 +424,16 @@ a {
 
 /* Clients */
 .clients .h3 {
+    color: #AAA;
+}
+
+.clients .titulo {
     visibility: hidden;
     margin: 0;
+}
+
+.feature-films {
+    margin-top: 12px;
 }
 
 .w-border-r .h4 {
@@ -452,6 +460,10 @@ a {
 
 /* Locations */
 .locations .h3 {
+    color: #AAA;
+}
+
+.locations .titulo {
     visibility: hidden;
     margin: 0;
 }
@@ -503,6 +515,7 @@ a {
 .slick-carousel .slick-dots {
     list-style: none;
     padding: 15px 0 5px;
+    margin-bottom: 0;
 }
 
 .slick-carousel .slick-dots li {
@@ -524,6 +537,10 @@ a {
 
 .slick-carousel .slick-dots li button {
     visibility: hidden;
+}
+
+.locations-tabs {
+    margin-top: 12px;
 }
 
 /* Contact */

@@ -33,7 +33,7 @@
             </div>
         </header>
 
-        <div class="container">
+        <div class="container locations-tabs">
             <nav class="big-nav-pills">
                 <ul class="nav nav-pills" role="tablist">
                     {% for location,number in params.locations %}
@@ -50,10 +50,10 @@
         <div class="container big-container">
             <div class="tab-content">
                 {% for location,number in params.locations %}
-                    <article role="tabpanel" class="box-container tab-pane fade in {% if loop.index == 1 %} active {% endif %}" id="locations-pill-{{ loop.index }}">
+                    <article role="tabpanel" class="box-container tab-pane fade in active {% if loop.index != 1 %}remove-active{% endif %}" id="locations-pill-{{ loop.index }}">
                         <div class="container">
                             <h2 class="h3 text-center">
-                                <a href="#locations-{{ loop.index }}">{{ location|raw }}</a>
+                                {{ location|raw }}
                             </h2>
                         </div>
                         <ul class="list-unstyled popup-gallery">
