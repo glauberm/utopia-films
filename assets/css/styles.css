@@ -211,9 +211,9 @@ a {
     animation-name: menu-container;
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    display: none;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    display: none
 }
 
 .menu-container-disappear {

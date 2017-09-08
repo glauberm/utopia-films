@@ -1,2 +1,4 @@
-/vendor/
-/pages/
+/vendor
+/vendor/*
+/pages
+/pages/*
