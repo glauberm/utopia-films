@@ -742,7 +742,7 @@ a {
 
 @media (max-width: 767px) {
     .body-directors .content .jumbotron .h1 {
-        font-family: Roboto, Impact, Charcoal, fantasy;
+        font-family: Roboto, Impact, Charcoal, sans;
         font-size: 7rem;
         font-weight: bold;
         letter-spacing: -3px;
