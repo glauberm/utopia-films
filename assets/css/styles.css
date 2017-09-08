@@ -600,6 +600,11 @@ a {
     background-color: #333;
 }
 
+.wrapper-body-contact .fixed-container-box-shadow {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
 .wrapper-body-contact .contact > .invisible {
     visibility: visible;
 }
@@ -622,6 +627,11 @@ a {
 .body-not-found,
 .body-not-found .content {
     background-color: #EEE;
+}
+
+.body-not-found .fixed-container-box-shadow {
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 
 /* FOOTER */
