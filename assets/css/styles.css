@@ -452,7 +452,7 @@ a {
 }
 
 .body-directors .content .jumbotron .h1 {
-    font-family: Impact, Charcoal, fantasy;
+    font-family: Impact, Charcoal, sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     color: #611;
