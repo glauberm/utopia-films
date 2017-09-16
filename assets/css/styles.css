@@ -479,6 +479,7 @@ a {
 .slick-carousel-mask {
     position: absolute;
     z-index: 1;
+    height: -webkit-calc(100% - 50px);
     height: calc(100% - 50px);
     width: 100%;
     display: none;
