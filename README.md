@@ -8,4 +8,5 @@ Site da produtora Utopia Films.
 - Bootstrap
 - jQuery
 - ScrollReveal
+- Magnific Popup
 - Slick

@@ -10,34 +10,46 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>{{ metaTitle }}</title>
-        <meta name="description" content="{{ description }}"/>
-        <meta name="subject" content="Film and Photo Production Services in Rio de Janeiro, Sao Paulo, and throughout Brazil.">
+        <meta name="description" content="{{ description }}">
         <meta name="robots" content="index,follow">
         <meta name="googlebot" content="index,follow">
-        <link rel="author" href="humans.txt">
+        <meta name="subject" content="Film and Photo Production Services in Rio de Janeiro, Sao Paulo, and throughout Brazil.">
         <link href="{{ BASE_URL }}assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         {% block stylesheets %}{% endblock %}
-        <link href="{{ BASE_URL }}assets/css/styles.min.css" rel="stylesheet" type="text/css"/>
-        <link rel="shortcut icon" href="{{ BASE_URL }}favicon.ico">
-    	<link rel="icon" sizes="16x16 32x32 64x64" href="{{ BASE_URL }}favicon.ico">
-    	<link rel="icon" type="image/png" sizes="196x196" href="{{ BASE_URL }}favicon-192.png">
-    	<link rel="icon" type="image/png" sizes="160x160" href="{{ BASE_URL }}favicon-160.png">
-    	<link rel="icon" type="image/png" sizes="96x96" href="{{ BASE_URL }}favicon-96.png">
-    	<link rel="icon" type="image/png" sizes="64x64" href="{{ BASE_URL }}favicon-64.png">
-    	<link rel="icon" type="image/png" sizes="32x32" href="{{ BASE_URL }}favicon-32.png">
-    	<link rel="icon" type="image/png" sizes="16x16" href="{{ BASE_URL }}favicon-16.png">
-    	<link rel="apple-touch-icon" href="{{ BASE_URL }}favicon-57.png">
-    	<link rel="apple-touch-icon" sizes="114x114" href="{{ BASE_URL }}favicon-114.png">
-    	<link rel="apple-touch-icon" sizes="72x72" href="{{ BASE_URL }}favicon-72.png">
-    	<link rel="apple-touch-icon" sizes="144x144" href="{{ BASE_URL }}favicon-144.png">
-    	<link rel="apple-touch-icon" sizes="60x60" href="{{ BASE_URL }}favicon-60.png">
-    	<link rel="apple-touch-icon" sizes="120x120" href="{{ BASE_URL }}favicon-120.png">
-    	<link rel="apple-touch-icon" sizes="76x76" href="{{ BASE_URL }}favicon-76.png">
-    	<link rel="apple-touch-icon" sizes="152x152" href="{{ BASE_URL }}favicon-152.png">
-    	<link rel="apple-touch-icon" sizes="180x180" href="{{ BASE_URL }}favicon-180.png">
+        <link href="{{ BASE_URL }}assets/css/styles.css" rel="stylesheet" type="text/css"/>
+        <link href="{{ BASE_URL }}" rel="canonical">
+        <link href="{{ BASE_URL }}manifest.json" rel="manifest">
+        <link href="humans.txt" rel="author">
+        <link href="{{ BASE_URL }}favicon.ico" rel="shortcut icon">
+    	<link href="{{ BASE_URL }}favicon.ico" rel="icon" sizes="16x16 32x32 48x48 64x64">
+        <link href="{{ BASE_URL }}favicon-196.png" rel="shortcut icon" sizes="196x196">
+    	<link href="{{ BASE_URL }}favicon-192.png" rel="icon" type="image/png" sizes="196x196">
+    	<link href="{{ BASE_URL }}favicon-160.png" rel="icon" type="image/png" sizes="160x160">
+    	<link href="{{ BASE_URL }}favicon-96.png" rel="icon" type="image/png" sizes="96x96">
+    	<link href="{{ BASE_URL }}favicon-64.png" rel="icon" type="image/png" sizes="64x64">
+    	<link href="{{ BASE_URL }}favicon-32.png" rel="icon" type="image/png" sizes="32x32">
+    	<link href="{{ BASE_URL }}favicon-16.png" rel="icon" type="image/png" sizes="16x16">
+    	<link href="{{ BASE_URL }}favicon-57.png" rel="apple-touch-icon">
+    	<link href="{{ BASE_URL }}favicon-114.png" rel="apple-touch-icon" sizes="114x114">
+    	<link href="{{ BASE_URL }}favicon-72.png" rel="apple-touch-icon" sizes="72x72">
+    	<link href="{{ BASE_URL }}favicon-144.png" rel="apple-touch-icon" sizes="144x144">
+    	<link href="{{ BASE_URL }}favicon-60.png" rel="apple-touch-icon" sizes="60x60">
+    	<link href="{{ BASE_URL }}favicon-120.png" rel="apple-touch-icon" sizes="120x120">
+    	<link href="{{ BASE_URL }}favicon-76.png" rel="apple-touch-icon" sizes="76x76">
+    	<link href="{{ BASE_URL }}favicon-152.png" rel="apple-touch-icon" sizes="152x152">
+    	<link href="{{ BASE_URL }}favicon-180.png" rel="apple-touch-icon" sizes="180x180">
+        <link href="{{ BASE_URL }}favicon-192.png" rel="apple-touch-icon" sizes="192x192">
     	<meta name="msapplication-TileColor" content="#FFFFFF">
     	<meta name="msapplication-TileImage" content="{{ BASE_URL }}favicon-144.png">
     	<meta name="msapplication-config" content="browserconfig.xml">
+        <meta name="application-name" content="Utopia Films">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#990000">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Utopia Films">
+        <meta name="msapplication-navbutton-color" content="#990000">
+        <meta name="msapplication-starturl" content="{{ BASE_URL }}work.html">
         <meta itemprop="name" content="{{ metaTitle }}">
         <meta itemprop="description" content="{{ description }}">
         <meta itemprop="image" content="{{ BASE_URL }}fb.png">

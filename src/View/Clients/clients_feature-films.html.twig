@@ -11,6 +11,7 @@
                         <div class="row">
                             {% for dt,dd in values %}
                                 <div class="col-sm-4 dt-box">
+                                    <img class="visuallyhidden" src="{{ BASE_URL }}favicon-310.png" itemprop="image"/>
                                     <dt>{{ dt }}</dt>
                                     {% if dt == 'Director' %}
                                         <dd itemprop="director">{{ dd }}</dd><br/>

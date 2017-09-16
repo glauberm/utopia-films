@@ -3,12 +3,14 @@
 {% set title = 'Work' %}
 
 {% block main %}
+    <h1 class="visuallyhidden">Utopia Films - Brazil, Venezuela, USA, Caribbean</h1>
+
     <section class="reels box-container">
         <div class="container">
             <header class="invisible">
-                <h1 class="work text-center">
+                <h2 class="h1 work text-center">
                     <a href="#work" id="work">{{ title }}</a>
-                </h1>
+                </h2>
             </header>
         </div>
         <article class="container big-container">
@@ -22,13 +24,13 @@
 
                             {% if work.video is defined %}
 
-                                <a class="mfp-iframe" href="{{ work.video }}" target="_blank" itemscope itemtype="http://schema.org/Movie">
+                                <a href="{{ work.video }}" class="mfp-iframe" target="_blank" itemscope itemtype="http://schema.org/Movie">
                                     <figure class="image">
                                         <img class="img-responsive" src="{{ BASE_URL }}assets/img/work/{{ work.image }}.jpg" alt="{{ work.title }}" itemprop="thumbnailUrl image"/>
 
                             {% else %}
 
-                                <a class="mfp-image" href="{{ BASE_URL }}assets/img/print/full/{{ work.image }}.jpg" target="_blank" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="{{ BASE_URL }}assets/img/print/full/{{ work.image }}.jpg" class="mfp-image" target="_blank" itemscope itemtype="http://schema.org/ImageObject">
                                     <figure class="image">
                                         <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ work.image }}.jpg" alt="{{ work.title }}" itemprop="thumbnail"/>
 

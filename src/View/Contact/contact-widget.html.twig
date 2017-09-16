@@ -1,11 +1,21 @@
 <section class="contact">
-    <header class="invisible">
-        <h2 class="h1 text-center">
-            <a href="#contact" id="contact">Contact</a>
-        </h2>
-    </header>
+    {% if title == 'Contact' %}
+        <header>
+            <h1 class="text-center">
+                <a href="#contact" id="contact">Contact</a>
+            </h1>
+        </header>
+    {% else %}
+        <header class="invisible">
+            <h2 class="h1 text-center">
+                <a href="#contact" id="contact">Contact</a>
+            </h2>
+        </header>
+    {% endif %}
     <div class="body-contact" itemscope itemtype="http://schema.org/LocalBusiness">
         <div class="container">
+            <span class="visuallyhidden" itemprop="name">Utopia Films</span>
+            <img src="{{ BASE_URL }}favicon-310.png" class="visuallyhidden" itemprop="image"/>
             <div class="row">
                 {% for title,infos in contact %}
                     <div class="col-sm-4">
@@ -75,3 +85,6 @@
         </div>
     </div>
 </section>
+{% if title == 'Contact' %}
+    <hr class="invisible"/>
+{% endif %}

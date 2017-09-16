@@ -213,7 +213,7 @@ a {
     animation-timing-function: ease-out;
     -webkit-animation-duration: 0.75s;
     animation-duration: 0.75s;
-    display: none
+    display: none;
 }
 
 .menu-container-disappear {
@@ -544,7 +544,7 @@ a {
 }
 
 /* Contact */
-.contact {
+.content .contact {
     font-size: 80%;
 }
 
@@ -552,46 +552,50 @@ a {
     padding-bottom: 0;
 }
 
-.contact h2 {
+.content .contact h1,
+.content .contact h2 {
     background: transparent;
     text-shadow: 0 2px 5px #222;
+}
+
+.content .contact h2 {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.contact h2 a {
-    color: #AAA;
+.content .contact h1 a {
+    color: #DDD;
 }
 
-.contact h2 a:hover,
-.contact h2 a:focus,
-.contact h2 a:active {
+.content .contact h1 a:hover,
+.content .contact h1 a:focus,
+.content .contact h1 a:active {
     color: #EEE;
 }
 
-.contact h3,
-.contact .city {
+.content .contact h3,
+.content .contact .city {
     text-transform: uppercase;
 }
 
-.contact h3 {
+.content .contact h3 {
     color: #BBB;
 }
 
-.contact .body-contact {
+.content .contact .body-contact {
     background-color: #333;
     text-shadow: 0 2px 5px #222;
     color: #FFF;
     padding-bottom: 40px;
 }
 
-.contact .email-link {
+.content .contact .email-link {
     color: #FFF;
 }
 
-.contact .email-link:hover,
-.contact .email-link:focus,
-.contact .email-link:active {
+.content .contact .email-link:hover,
+.content .contact .email-link:focus,
+.content .contact .email-link:active {
     color: #777;
 }
 
@@ -607,20 +611,6 @@ a {
 
 .wrapper-body-contact .contact > .invisible {
     visibility: visible;
-}
-
-.wrapper-body-contact .contact > .invisible h2 {
-    margin: 48px 0 0;
-}
-
-.wrapper-body-contact .contact > .invisible h2 a {
-    color: #DDD;
-}
-
-.wrapper-body-contact .contact > .invisible h2 a:hover,
-.wrapper-body-contact .contact > .invisible h2 a:focus,
-.wrapper-body-contact .contact > .invisible h2 a:active {
-    color: #EEE;
 }
 
 /* Not Found */
@@ -738,6 +728,21 @@ a {
 .menu-container .nav-menu .menu-list > li a:focus,
 .menu-container .nav-menu .menu-list > li a:active {
     outline: 0 !important;
+}
+
+/* VISUALLY HIDDEN */
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
 }
 
 @media (max-width: 767px) {
