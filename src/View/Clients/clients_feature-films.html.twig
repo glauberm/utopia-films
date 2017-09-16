@@ -2,6 +2,7 @@
     {% for title,values in value %}
 
         <div class="text-left" itemscope itemtype="http://schema.org/Movie">
+            <img class="visuallyhidden" src="{{ BASE_URL }}favicon-310.png" itemprop="image"/>
             <div class="row">
                 <div class="col-sm-3 text-center w-border-r">
                     <h3 class="h4 dt-box" itemprop="name">{{ title }}</h3>
@@ -11,7 +12,6 @@
                         <div class="row">
                             {% for dt,dd in values %}
                                 <div class="col-sm-4 dt-box">
-                                    <img class="visuallyhidden" src="{{ BASE_URL }}favicon-310.png" itemprop="image"/>
                                     <dt>{{ dt }}</dt>
                                     {% if dt == 'Director' %}
                                         <dd itemprop="director">{{ dd }}</dd><br/>
