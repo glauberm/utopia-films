@@ -15,9 +15,11 @@
                     {% for service in params %}
 
                         <article class="ps-article">
-                            <h2 class="h4">
-                                {{ service.title }}
-                            </h2>
+                            <header>
+                                <h2 class="h4">
+                                    {{ service.title }}
+                                </h2>
+                            </header>
                             <div class="service-{{ loop.index }}">
                                 {{ service.message|raw }}
                             </div>

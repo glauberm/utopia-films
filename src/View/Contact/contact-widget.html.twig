@@ -57,7 +57,7 @@
                                                         {% if title == 'Mobiles' %}
                                                             <a class="email-link" href="tel:{{ detail }}" itemprop="telephone">{{ detail }}</a>
                                                         {% elseif title == 'Email' %}
-                                                            <a class="email-link" href="mailto:{{ detail }}" itemprop="email">{{ detail }}</a>
+                                                            <a class="email-link" href="mailto:{{ detail }}"><span itemprop="email">{{ detail|raw }}</span></a>
                                                         {% else %}
                                                             {{ detail|raw }}
                                                         {% endif %}
