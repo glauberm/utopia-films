@@ -1,12 +1,12 @@
 {
     "Brazil": {
-        "Rio de Janeiro": ["<span itemprop='streetAddress'>Av Princesa Isabel 150, Suite 903</span>", "<span itemprop='addressRegion'>RJ</span> <span itemprop='postalCode'>22011.010</span>, <span itemprop='addressCountry'>Brazil</span>", "Tel: <a class='email-link' href='tel:+55.21.2244.2271' itemprop='telephone'>+55.21.2244.2271</a>", "Fax: <a class='email-link' href='tel:+55.21.2244.3841' itemprop='faxNumber'>+55.21.2244.3841</a>"]
+        "Rio de Janeiro": ["<span itemprop='streetAddress'>Av Princesa Isabel 150, Suite 903</span>", "<span itemprop='addressRegion'>RJ</span> <span itemprop='postalCode'>22011.010</span>, <span itemprop='addressCountry'>Brazil</span>", "Tel: <a class='email-link' href='tel:+55.21.2244.2271'><span itemprop='telephone'>+55.21.2244.2271</span></a>", "Fax: <a class='email-link' href='tel:+55.21.2244.3841'><span itemprop='faxNumber'>+55.21.2244.3841</span></a>"]
     },
     "Venezuela": {
-        "Caracas": ["<span itemprop='streetAddress'>Calle El Servicio Parque Res. Valle Arriba</span>", "<span itemprop='addressLocality'>Santa Fe</span> - Sur Edificio Campomanes", "Suite 2E, <span itemprop='addressRegion'>Caracas</span>, <span itemprop='addressCountry'>Venezuela</span>", "Tel: <a class='email-link' href='tel:+58.212.720.2197' itemprop='telephone'>+58.212.720.2197</a>"]
+        "Caracas": ["<span itemprop='streetAddress'>Calle El Servicio Parque Res. Valle Arriba</span>", "<span itemprop='addressLocality'>Santa Fe</span> - Sur Edificio Campomanes", "Suite 2E, <span itemprop='addressRegion'>Caracas</span>, <span itemprop='addressCountry'>Venezuela</span>", "Tel: <a class='email-link' href='tel:+58.212.720.2197'><span itemprop='telephone'>+58.212.720.2514</span></a>"]
     },
     "USA": {
-        "Los Angeles": ["<span itemprop='streetAddress'>1976 S. La Cienega Blvd., #130</span>", "<span itemprop='addressLocality'>Los Angeles</span>, <span itemprop='addressRegion'>CA</span>, <span itemprop='postalCode'>90034</span>, <span itemprop='addressCountry'>USA</span>", "Tel: <a class='email-link' href='tel:+1.310.338.0580' itemprop='telephone'>+1.310.338.0580</a>", "Fax: <a class='email-link' href='tel:+1.313.557.0580' itemprop='faxNumber'>+1.313.557.0580</a>"]
+        "Los Angeles": ["<span itemprop='streetAddress'>1976 S. La Cienega Blvd., #130</span>", "<span itemprop='addressLocality'>Los Angeles</span>, <span itemprop='addressRegion'>CA</span>, <span itemprop='postalCode'>90034</span>, <span itemprop='addressCountry'>USA</span>", "Tel: <a class='email-link' href='tel:+1.310.338.0580'><span itemprop='telephone'>+1.310.338.0580</span></a>", "Fax: <a class='email-link' href='tel:+1.313.557.0580'><span itemprop='faxNumber'>+1.313.557.0580</span></a>"]
     },
     "Mobiles": {
         "<a class='email-link' href='mailto:jbird@utopiafilms.com'>Justin Bird</a>": ["+55.21.99447.9049"],
