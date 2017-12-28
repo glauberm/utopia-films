@@ -14,13 +14,13 @@
                 <div class="col-sm-4">
                     {% for service in params %}
 
-                        <article class="ps-article">
+                        <article class="ps-article" itemscope itemtype="http://schema.org/Article">
                             <header>
-                                <h2 class="h4">
+                                <h2 class="h4" itemprop="articleSection">
                                     {{ service.title }}
                                 </h2>
                             </header>
-                            <div class="service-{{ loop.index }}">
+                            <div class="service-{{ loop.index }}" itemprop="articleBody">
                                 {{ service.message|raw }}
                             </div>
                         </article>

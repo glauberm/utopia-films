@@ -16,8 +16,6 @@ class BaseController
 
         $params = json_decode($json, true);
 
-        // $error = json_last_error_msg();var_dump($error);
-
         return $this->render($params);
     }
 

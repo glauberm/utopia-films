@@ -26,12 +26,14 @@
                             {% if work.video is defined %}
 
                                 <a href="{{ work.video }}" class="mfp-iframe" target="_blank" itemscope itemtype="http://schema.org/Movie">
+                                    <div class="background-mask"></div>
                                     <figure class="image">
                                         <img class="img-responsive" src="{{ BASE_URL }}assets/img/work/{{ work.image }}.jpg" alt="{{ work.title }}" itemprop="thumbnailUrl image"/>
 
                             {% else %}
 
                                 <a href="{{ BASE_URL }}assets/img/print/full/{{ work.image }}.jpg" class="mfp-image" target="_blank" itemscope itemtype="http://schema.org/ImageObject">
+                                    <div class="background-mask"></div>
                                     <figure class="image">
                                         <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ work.image }}.jpg" alt="{{ work.title }}" itemprop="thumbnail"/>
 

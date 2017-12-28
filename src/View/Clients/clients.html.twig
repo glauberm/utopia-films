@@ -54,11 +54,13 @@
                                 <dl>
                                     <div class="row">
                                         {% for dt,dd in value %}
-                                            <div class="col-sm-4 dt-box {% if loop.last and key != "Clients" %} col-sm-push-4 {% endif %}" itemscope itemtype="http://schema.org/Organization">
+                                            <div class="col-sm-4 dt-box {% if loop.index == 79 or loop.index == 80 %} col-sm-push-2 {% endif %}" itemscope itemtype="http://schema.org/Organization">
                                                 <dt>
                                                     <h3 class="h4" itemprop="name">{{ dt|raw }}</h3>
                                                 </dt>
-                                                <dd itemprop="description">{{ dd|raw }}</dd><br/>
+                                                <dd itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                                    {{ dd|raw }}
+                                                </dd><br/>
                                             </div>
                                             {% if loop.index % 3 == 0 %}</div><div class="row">{% endif %}
                                         {% endfor %}

@@ -1,8 +1,3 @@
-/* BASE STYLES */
-html {
-    font-size: 62.5%;
-}
-
 /* LINKS */
 a {
     -webkit-transition: color 0.3s ease-out;
@@ -32,26 +27,32 @@ a {
     margin: 15px 0 0;
 }
 
+.box-container .box-image .background-mask {
+    background-color: #111;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+    position: absolute;
+    z-index: 0;
+}
+
+.box-container .box-image a:hover .background-mask,
+.box-container .box-image a:focus .background-mask,
+.box-container .box-image a:active .background-mask {
+    opacity: 1;
+}
+
 .box-container .box-image .image {
-    background-color: #E9E9E9;
     height: 100%;
     min-height: 104px;
     width: 100%;
     display: block;
     position: relative;
-    z-index: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    -webkit-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
     overflow: hidden;
-}
-
-.box-container .box-image a:hover .image,
-.box-container .box-image a:focus .image,
-.box-container .box-image a:active .image {
-    background-color: #111;
+    z-index: 1;
 }
 
 .box-container .box-image .image img {
@@ -95,7 +96,7 @@ a {
     text-align: left;
     font-size: 80%;
     position: relative;
-    top: 3.333px;
+    line-height: 24px;
 }
 
 .box-container .box-image .image figcaption dl dd:last-child {
@@ -116,7 +117,7 @@ a {
 
 /* FIXED CONTAINER */
 .fixed-container {
-    min-height: 15%;
+    min-height: 50px;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -176,16 +177,15 @@ a {
     height: 95%;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 0.1rem;
     padding-top: 12.5px;
     color: #111;
 }
 
 .close-trigger button:hover svg path,
 .menu-trigger button:hover svg path {
-    -webkit-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+    -webkit-transition: fill 0.3s ease-out;
+    -o-transition: fill 0.3s ease-out;
+    transition: fill 0.3s ease-out;
 }
 
 .close-trigger button:hover svg path,
@@ -202,7 +202,7 @@ a {
 .menu-container {
     position: absolute;
     left: 0;
-    width: 100%;
+    width: 80%;
     height: 100%;
     top: 0;
     overflow: auto;
@@ -211,9 +211,10 @@ a {
     animation-name: menu-container;
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
-    -webkit-animation-duration: 0.75s;
-    animation-duration: 0.75s;
+    -webkit-animation-duration: 0.7s;
+    animation-duration: 0.7s;
     display: none;
+    will-change: transform;
 }
 
 .menu-container-disappear {
@@ -226,6 +227,7 @@ a {
         transform: translateX(-100%);
     -webkit-animation-duration: 0.5s;
     animation-duration: 0.5s;
+    will-change: transform;
 }
 
 .menu-container .nav-menu {
@@ -250,6 +252,7 @@ a {
     animation-name: menu-list;
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
+    will-change: transform;
 }
 
 .menu-container .nav-menu .menu-list > .menu-list-disappear {
@@ -263,35 +266,34 @@ a {
 }
 
 .menu-container .nav-menu .menu-list > li:nth-child(1) {
-    -webkit-animation-duration: 0.35s;
-    animation-duration: 0.35s;
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
 }
 .menu-container .nav-menu .menu-list > li:nth-child(2) {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+}
+.menu-container .nav-menu .menu-list > li:nth-child(3) {
     -webkit-animation-duration: 0.5s;
     animation-duration: 0.5s;
 }
-.menu-container .nav-menu .menu-list > li:nth-child(3) {
-    -webkit-animation-duration: 0.75s;
-    animation-duration: 0.75s;
-}
 .menu-container .nav-menu .menu-list > li:nth-child(4) {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 0.7s;
+    animation-duration: 0.7s;
 }
 .menu-container .nav-menu .menu-list > li:nth-child(5) {
-    -webkit-animation-duration: 1.25s;
-    animation-duration: 1.25s;
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s;
 }
 .menu-container .nav-menu .menu-list > li:nth-child(6) {
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.1s;
+    animation-duration: 1.1s;
     padding-bottom: 60px;
 }
 
 .menu-container .nav-menu .menu-list > li a {
-    font-size: 3.0rem;
-    font-weight: bold;
     color: #AAA;
+    line-height: 1.5;
     text-transform: uppercase;
 }
 
@@ -630,7 +632,7 @@ a {
     background-color: #222;
     color: #999;
     padding-top: 15px;
-    font-size: 1.2rem;
+    font-size: 75%;
 }
 
 .footer .footer-footer a {
@@ -712,8 +714,8 @@ a {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
     -webkit-animation-name: black-out;
     animation-name: black-out;
-    -webkit-animation-duration: 0.5s;
-    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
 }
@@ -749,7 +751,7 @@ a {
 @media (max-width: 767px) {
     .body-directors .content .jumbotron .h1 {
         font-family: Roboto, Impact, Charcoal, sans;
-        font-size: 7rem;
+        font-size: 437.5%;
         font-weight: bold;
         letter-spacing: -3px;
     }
@@ -813,7 +815,7 @@ a {
     }
 
     .box-container .box-image .image figcaption .h4 {
-        font-size: 3.6rem;
+        font-size: 200%;
         text-shadow: 0 0 8px rgba(0,0,0,0.5);
     }
 
@@ -835,9 +837,13 @@ a {
     }
 }
 
-@media (max-height: 319px) {
+@media (max-height: 359px) {
     .close-trigger button, .menu-trigger button {
         padding-top: 5px;
+    }
+
+    .menu-container {
+        width: 100%;
     }
 
     .menu-container .nav-menu .menu-list > li:nth-child(1) {

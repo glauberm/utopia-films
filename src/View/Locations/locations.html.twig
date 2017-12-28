@@ -18,11 +18,13 @@
 
                     {% for item in params.carousel %}
 
-                        <div class="slick-carousel-inner">
+                        <div class="slick-carousel-inner" itemscope itemtype="http://schema.org/Place">
                             <figure>
-                                <img class="img-responsive" src="{{ BASE_URL }}assets/img/locations/carousel/{{ '%03d'|format(loop.index) }}.jpg" alt="{{ item }}">
+                                <img class="img-responsive" src="{{ BASE_URL }}assets/img/locations/carousel/{{ '%03d'|format(loop.index) }}.jpg" alt="{{ item }}" itemprop="photo">
                                 <figcaption>
-                                    <h3 class="h5">{{ item }}</h3>
+                                    <h3 class="h5" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                        {{ item }}
+                                    </h3>
                                 </figcaption>
                             </figure>
                         </div>
@@ -56,13 +58,14 @@
                                 {{ location|raw }}
                             </h2>
                         </div>
-                        <ul class="list-unstyled popup-gallery">
+                        <ul class="list-unstyled popup-gallery-{{ loop.index }}">
                             <div class="box-row row">
 
                                 {% for i in 1..number %}
                                     <div class="box-column col-sm-6">
                                         <li class="box-image">
                                             <a href="{{ BASE_URL }}assets/img/locations/full/{{ location|url_encode }}/{{ '%03d'|format(loop.index) }}.jpg" class="mfp-image" target="_blank" itemscope itemtype="http://schema.org/ImageObject">
+                                                <div class="background-mask"></div>
                                                 <figure class="image">
                                                     <img class="img-responsive" src="{{ BASE_URL }}assets/img/locations/thumb/{{ location|url_encode }}/{{ '%03d'|format(loop.index) }}.jpg" alt="{{ location }} #{{ loop.index }}" itemprop="thumbnail"/>
                                                     <figcaption>
@@ -114,12 +117,14 @@
     <script src="{{ BASE_URL }}assets/js/bootstrap.min.js"></script>
     <script src="{{ BASE_URL }}assets/js/jquery.magnific-popup.min.js"></script>
     <script>
-        $('.popup-gallery').magnificPopup({
-            delegate: 'a',
-            gallery: {
-                enabled: true
-            },
-        });
+        {% for location,number in params.locations %}
+            $('.popup-gallery-{{ loop.index }}').magnificPopup({
+                delegate: 'a',
+                gallery: {
+                    enabled: true
+                },
+            });
+        {% endfor %}
     </script>
 {% endblock %}
 
