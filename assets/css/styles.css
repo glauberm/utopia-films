@@ -796,6 +796,22 @@ a {
     }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .visuallyhidden-sm {
+        border: 0;
+        clip: rect(0 0 0 0);
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        white-space: nowrap;
+    }
+}
+
 @media (max-width: 991px) {
     .box-container .box-image .background-mask {
         opacity: 1;
@@ -823,6 +839,20 @@ a {
         font-size: 437.5%;
         font-weight: bold;
         letter-spacing: -3px;
+    }
+
+    .visuallyhidden-xs {
+        border: 0;
+        clip: rect(0 0 0 0);
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        white-space: nowrap;
     }
 }
 
