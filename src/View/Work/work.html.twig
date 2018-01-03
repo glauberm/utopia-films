@@ -28,14 +28,14 @@
 
                             {% if work.video is defined %}
                                 <div itemscope itemtype="http://schema.org/Movie">
-                                    <a href="{{ work.video }}" class="mfp-iframe" target="_blank" itemprop="url" title="Click to watch video">
+                                    <a href="{{ work.video }}" class="mfp-iframe" target="_blank" itemprop="url" title="Watch video">
                                         <div class="background-mask"></div>
                                         <figure class="image">
                                             <img class="img-responsive" src="{{ BASE_URL }}assets/img/work/{{ work.image }}.jpg" alt="Picture of video production for {{ work.title }}" itemprop="image thumbnailUrl"/>
 
                             {% else %}
                                 <div itemscope itemtype="http://schema.org/ImageObject">
-                                    <a href="{{ BASE_URL }}assets/img/print/full/{{ work.image }}.jpg" class="mfp-image" target="_blank" itemprop="contentUrl" title="Click to see full size image">
+                                    <a href="{{ BASE_URL }}assets/img/print/full/{{ work.image }}.jpg" class="mfp-image" target="_blank" itemprop="contentUrl" title="View full size image">
                                         <div class="background-mask"></div>
                                         <figure class="image">
                                             <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ work.image }}.jpg" alt="Photo production for {{ work.title }}" itemprop="thumbnail"/>

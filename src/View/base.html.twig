@@ -60,15 +60,21 @@
         <meta property="og:site_name" content="Utopia Films">
         <noscript>
             <style>
-                .menu-container {
-                    display: block !important;
+                .menu-container-disappear {
+                    width: auto !important;
+                    height: 100% !important;
+                    overflow-y: auto !important;
+                    clip: auto !important;
+                    margin: auto !important;
+                    transform: translateX(0%) !important;
                 }
 
-                .menu-container .nav-menu .menu-list {
-                    top: 0 !important;
-                    -ms-transform: none !important;
-                        transform: none !important;
-                    -webkit-transform: none !important;
+                .menu-container .nav-menu .menu-list > .menu-list-disappear {
+                    transform: translateX(0) !important;
+                }
+
+                .menu-container .nav-menu .menu-list > .menu-list-disappear a {
+                    text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF !important;
                 }
             </style>
         </noscript>

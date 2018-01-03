@@ -291,6 +291,7 @@ a {
     color: #AAA;
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 187.5%;
 }
 
 .menu-container .nav-menu .menu-list > li a:hover,
@@ -312,7 +313,6 @@ a {
 .focus .nav-menu .menu-list > li a {
     color: #BBB;
     text-shadow: 0 1px 5px rgba(0,0,0,0.125);
-    font-size: 187.5%;
 }
 
 .focus .nav-menu .menu-list > li a:focus,
