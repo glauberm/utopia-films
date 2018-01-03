@@ -1,15 +1,16 @@
 <section class="contact">
     {% if title == 'Contact' %}
+        {% set contactPage = true %}
         <header>
             <h1 class="text-center">
                 <a href="#contact" id="contact">Contact</a>
             </h1>
         </header>
     {% else %}
-        <header class="invisible">
-            <h2 class="h1 text-center">
-                <a href="#contact" id="contact">Contact</a>
-            </h2>
+        {% set contactPage = false %}
+        <hr class="invisible"/>
+        <header class="visuallyhidden">
+            <h4 class="h1 text-center">Contact</h4>
         </header>
     {% endif %}
     <div class="body-contact" itemscope itemtype="http://schema.org/LocalBusiness">
@@ -20,8 +21,11 @@
                 {% for title,infos in contact %}
                     <div class="col-sm-4">
                         <article class="contact-box">
-
-                            <h3 class="h4 page-header">{{ title }}</h3>
+                            {% if contactPage == true %}
+                                <h2 class="h4 page-header">{{ title }}</h2>
+                            {% else %}
+                                <h5 class="h4 page-header">{{ title }}</h5>
+                            {% endif %}
 
                             {% if title == 'Brazil' or title == 'Venezuela' or title == 'USA' %}
 

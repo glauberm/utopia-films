@@ -67,7 +67,7 @@ a {
     width: 100%;
 }
 
-.box-container .box-image .image figcaption .h4 {
+.box-container .box-image .image figcaption h3 {
     color: #EEE;
     font-weight: bold;
     text-shadow: 0 0 8px rgba(0,0,0,0.5);
@@ -537,15 +537,9 @@ a {
     padding-bottom: 0;
 }
 
-.content .contact h1,
-.content .contact h2 {
+.content .contact h1 {
     background: transparent;
     text-shadow: 0 2px 5px #222;
-}
-
-.content .contact h2 {
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .content .contact h1 a {
@@ -558,12 +552,12 @@ a {
     color: #EEE;
 }
 
-.content .contact h3,
+.content .contact .h4,
 .content .contact .city {
     text-transform: uppercase;
 }
 
-.content .contact h3 {
+.content .contact .h4 {
     color: #BBB;
 }
 
@@ -746,7 +740,7 @@ a {
         padding: 0 60px;
     }
 
-    .box-container .box-image .image figcaption .h4 {
+    .box-container .box-image .image figcaption h3 {
         font-size: 225%;
         text-shadow: 0 0 8px rgba(0,0,0,0.5);
     }
@@ -827,7 +821,7 @@ a {
         animation-duration: 0.3s;
     }
 
-    .box-container .box-image .image figcaption .h4 {
+    .box-container .box-image .image figcaption h3 {
         text-align: center;
         font-size: 150%;
     }

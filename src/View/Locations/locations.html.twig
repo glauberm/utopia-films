@@ -22,9 +22,9 @@
                             <figure>
                                 <img class="img-responsive" src="{{ BASE_URL }}assets/img/locations/carousel/{{ '%03d'|format(loop.index) }}.jpg" alt="Photo of {{ item }}" itemprop="photo">
                                 <figcaption>
-                                    <h3 class="h5" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                    <p class="h5" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                                         <span itemprop="addressLocality">{{ item }}</span>
-                                    </h3>
+                                    </p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -125,6 +125,9 @@
                 gallery: {
                     enabled: true
                 },
+                image: {
+                    titleSrc: null
+                }
             });
         {% endfor %}
     </script>

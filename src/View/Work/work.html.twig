@@ -43,7 +43,7 @@
                             {% endif %}
 
                                             <figcaption>
-                                                <h2 class="h4" itemprop="name">{{ work.title }}</h2>
+                                                <h3 class="h4" itemprop="name">{{ work.title }}</h3>
                                                 <dl class="dl-horizontal visuallyhidden-xs visuallyhidden-sm">
                                                     {% for key,value in work.infos %}
                                                         <dt>{{ key }}</dt>
@@ -84,6 +84,9 @@
             gallery: {
                 enabled: true
             },
+            image: {
+                titleSrc: null
+            }
         });
     </script>
 {% endblock %}

@@ -54,7 +54,7 @@
                                 <dl>
                                     <div class="row">
                                         {% for dt,dd in value %}
-                                            <div class="col-sm-4 dt-box {% if loop.index == 79 or loop.index == 80 %} col-sm-push-2 {% endif %}" itemscope itemtype="http://schema.org/Organization">
+                                            <div class="col-sm-4 dt-box {% if loop.last and key == "Agencies" %} col-sm-push-4 {% elseif loop.index == 79 or loop.index == 80 and key == "Production Companies" %} col-sm-push-2 {% endif %}" itemscope itemtype="http://schema.org/Organization">
                                                 <dt>
                                                     <h3 class="h4" itemprop="name">{{ dt|raw }}</h3>
                                                 </dt>
@@ -88,6 +88,9 @@
             gallery: {
                 enabled: true
             },
+            image: {
+                titleSrc: null
+            }
         });
     </script>
 {% endblock %}
