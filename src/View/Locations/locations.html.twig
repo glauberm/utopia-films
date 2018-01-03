@@ -91,9 +91,7 @@
     </section>
 {% endblock %}
 
-{% block stylesheets %}
-    <link href="{{ BASE_URL }}assets/css/magnific-popup.css" rel="stylesheet" type="text/css"/>
-    <link href="{{ BASE_URL }}assets/css/slick.css" rel="stylesheet" type="text/css"/>
+{% block postStylesheets %}
     <!--[if gte IE 9]>
         <style type="text/css">
             .slick-carousel figure figcaption {
@@ -101,36 +99,6 @@
             }
         </style>
     <![endif]-->
-{% endblock %}
-
-{% block javascripts %}
-    <script src="{{ BASE_URL }}assets/js/slick.min.js"></script>
-    <script>
-        $("#slick-carousel").slick({
-            autoplay: true,
-            autoplaySpeed: 3000,
-            dots: true,
-            arrows: false,
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1
-        });
-    </script>
-    <script src="{{ BASE_URL }}assets/js/bootstrap.min.js"></script>
-    <script src="{{ BASE_URL }}assets/js/jquery.magnific-popup.min.js"></script>
-    <script>
-        {% for location,number in params.locations %}
-            $('.popup-gallery-{{ loop.index }}').magnificPopup({
-                delegate: 'a',
-                gallery: {
-                    enabled: true
-                },
-                image: {
-                    titleSrc: null
-                }
-            });
-        {% endfor %}
-    </script>
 {% endblock %}
 
 {% block postJavascripts %}

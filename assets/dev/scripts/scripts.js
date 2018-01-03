@@ -1,7 +1,6 @@
 $("#content").css("top", "75%");
 
-$(document).ready(function ()
-{
+$(document).ready(function() {
     $("#fixed-container").css("position", "fixed");
     $("#fixed-container").addClass("fixed-container-box-shadow");
     $("#menu-trigger").css("position", "fixed");
@@ -13,16 +12,14 @@ $(document).ready(function ()
     sr.reveal(".box-container .box-image, .service .ps-article, .dt-box, .dd-box, .jumbotron .h1, .jumbotron p, .wrapper-body-contact .contact-box address, .wrapper-body-contact .contact-box dt, .wrapper-body-contact .contact-box dd");
 });
 
-$(window).on("scroll", function ()
-{
+$(window).on("scroll", function() {
     pigOnTop($(window).scrollTop());
 });
 
-$("#nav-menu a, .content section h1 > a, .content section h2 > a, h3 a").on("click", function()
-{
-    if (location.pathname.replace(/^\//,"") == this.pathname.replace(/^\//,"") && location.hostname == this.hostname) {
+$("#nav-menu a, .content section h1 > a, .content section h2 > a, h3 a").on("click", function() {
+    if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) {
         var target = $(this.hash);
-        target = target.length ? target : $("[name=" + this.hash.slice(1) +"]");
+        target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
         if (target.length) {
             scrollToTrigger(target);
             return false;
@@ -30,42 +27,36 @@ $("#nav-menu a, .content section h1 > a, .content section h2 > a, h3 a").on("cli
     }
 });
 
-$("#menu-trigger button").on("click", function()
-{
+$("#menu-trigger button").on("click", function() {
     menuAppear();
 });
 
-$("#close-trigger button, #black-out").on("click", function()
-{
+$("#close-trigger button, #black-out").on("click", function() {
     menuDisappear();
 });
 
-$(".big-nav-pills a").on("shown.bs.tab", function (e)
-{
+$(".big-nav-pills a").on("shown.bs.tab", function(e) {
     sr.sync();
 })
 
-function scrollToTrigger(el)
-{
+function scrollToTrigger(el) {
     var i = ($(window).height() * 15) / 75;
     var offTop = el.offset().top - i;
 
     $("html, body").scrollTop(offTop);
 }
 
-function pigOnTop(st)
-{
+function pigOnTop(st) {
     if (st <= 0) {
         var h = 100;
     } else {
         var h = 15;
     }
 
-    $("#fixed-container").css("height", h+"%");
+    $("#fixed-container").css("height", h + "%");
 }
 
-function menuAppear()
-{
+function menuAppear() {
     $("#menu-container").show();
     $("#nav-menu .menu-list > li").removeClass("menu-list-disappear");
     $("#menu-container").removeClass("menu-container-disappear");
@@ -74,8 +65,7 @@ function menuAppear()
     $("#menu-container").addClass("focus").removeClass("visuallyhidden");
 }
 
-function menuDisappear()
-{
+function menuDisappear() {
     $("#nav-menu .menu-list > li").addClass("menu-list-disappear");
     $("#menu-container").addClass("menu-container-disappear");
     $("#black-out").addClass("black-out-disappear");

@@ -75,26 +75,6 @@
     </section>
 {% endblock %}
 
-{% block stylesheets %}
-    <link href="{{ BASE_URL }}assets/css/magnific-popup.css" rel="stylesheet" type="text/css"/>
-{% endblock %}
-
-{% block javascripts %}
-    <script src="{{ BASE_URL }}assets/js/bootstrap.min.js"></script>
-    <script src="{{ BASE_URL }}assets/js/jquery.magnific-popup.min.js"></script>
-    <script>
-        $('.popup-gallery').magnificPopup({
-            delegate: 'a',
-            gallery: {
-                enabled: true
-            },
-            image: {
-                titleSrc: null
-            }
-        });
-    </script>
-{% endblock %}
-
 {% block postJavascripts %}
     <script> scrollToTrigger($("#clients")); </script>
 {% endblock %}
