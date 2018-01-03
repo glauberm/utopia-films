@@ -6,26 +6,28 @@
 
                 <div class="box-column col-sm-6">
                     <li class="box-image">
-                        <a href="{{ BASE_URL }}assets/img/print/full/{{ print.image }}.jpg" class="mfp-image" target="_blank" itemscope itemtype="http://schema.org/ImageObject">
-                            <div class="background-mask"></div>
-                            <figure class="image">
-                                <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ print.image }}.jpg" alt="{{ work.title }}" itemprop="thumbnail"/>
+                        <div itemscope itemtype="http://schema.org/ImageObject">
+                            <a href="{{ BASE_URL }}assets/img/print/full/{{ print.image }}.jpg" class="mfp-image" target="_blank" itemprop="contentUrl" title="Click to see full size image">
+                                <div class="background-mask"></div>
+                                <figure class="image">
+                                    <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ print.image }}.jpg" alt="Photo production for {{ print.title }}" itemprop="thumbnail"/>
 
-                                <figcaption>
-                                    <h3 class="h4" itemprop="name">{{ print.title }}</h3>
-                                    <dl class="dl-horizontal hidden-xs hidden-sm">
-                                        {% for dt,dd in print.infos %}
-                                            <dt>{{ dt }}</dt>
-                                            {% if dt == 'Production' %}
-                                                <dd itemprop="productionCompany">{{ dd }}</dd>
-                                            {% else %}
-                                                <dd>{{ dd }}</dd>
-                                            {% endif %}
-                                        {% endfor %}
-                                    </dl>
-                                </figcaption>
-                            </figure>
-                        </a>
+                                    <figcaption>
+                                        <h3 class="h4" itemprop="name">{{ print.title }}</h3>
+                                        <dl class="dl-horizontal hidden-xs hidden-sm">
+                                            {% for dt,dd in print.infos %}
+                                                <dt>{{ dt }}</dt>
+                                                {% if dt == 'Production' %}
+                                                    <dd itemprop="productionCompany">{{ dd }}</dd>
+                                                {% else %}
+                                                    <dd>{{ dd }}</dd>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </dl>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
                     </li>
                 </div>
 

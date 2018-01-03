@@ -27,38 +27,39 @@
                             <li class="box-image">
 
                             {% if work.video is defined %}
-
-                                <a href="{{ work.video }}" class="mfp-iframe" target="_blank" itemscope itemtype="http://schema.org/Movie">
-                                    <div class="background-mask"></div>
-                                    <figure class="image">
-                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/work/{{ work.image }}.jpg" alt="{{ work.title }}" itemprop="thumbnailUrl image"/>
+                                <div itemscope itemtype="http://schema.org/Movie">
+                                    <a href="{{ work.video }}" class="mfp-iframe" target="_blank" itemprop="url" title="Click to watch video">
+                                        <div class="background-mask"></div>
+                                        <figure class="image">
+                                            <img class="img-responsive" src="{{ BASE_URL }}assets/img/work/{{ work.image }}.jpg" alt="Picture of video production for {{ work.title }}" itemprop="image thumbnailUrl"/>
 
                             {% else %}
-
-                                <a href="{{ BASE_URL }}assets/img/print/full/{{ work.image }}.jpg" class="mfp-image" target="_blank" itemscope itemtype="http://schema.org/ImageObject">
-                                    <div class="background-mask"></div>
-                                    <figure class="image">
-                                        <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ work.image }}.jpg" alt="{{ work.title }}" itemprop="thumbnail"/>
+                                <div itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="{{ BASE_URL }}assets/img/print/full/{{ work.image }}.jpg" class="mfp-image" target="_blank" itemprop="contentUrl" title="Click to see full size image">
+                                        <div class="background-mask"></div>
+                                        <figure class="image">
+                                            <img class="img-responsive" src="{{ BASE_URL }}assets/img/print/thumb/{{ work.image }}.jpg" alt="Photo production for {{ work.title }}" itemprop="thumbnail"/>
 
                             {% endif %}
 
-                                        <figcaption>
-                                            <h2 class="h4" itemprop="name">{{ work.title }}</h2>
-                                            <dl class="dl-horizontal hidden-xs hidden-sm">
-                                                {% for key,value in work.infos %}
-                                                    <dt>{{ key }}</dt>
-                                                    {% if key == 'Production' %}
-                                                        <dd itemprop="productionCompany">{{ value }}</dd>
-                                                    {% elseif key == 'Director' %}
-                                                        <dd itemprop="director">{{ value }}</dd>
-                                                    {% else %}
-                                                        <dd>{{ value }}</dd>
-                                                    {% endif %}
-                                                {% endfor %}
-                                            </dl>
-                                        </figcaption>
-                                    </figure>
-                                </a>
+                                            <figcaption>
+                                                <h2 class="h4" itemprop="name">{{ work.title }}</h2>
+                                                <dl class="dl-horizontal hidden-xs hidden-sm">
+                                                    {% for key,value in work.infos %}
+                                                        <dt>{{ key }}</dt>
+                                                        {% if key == 'Production' %}
+                                                            <dd itemprop="productionCompany">{{ value }}</dd>
+                                                        {% elseif key == 'Director' %}
+                                                            <dd itemprop="director">{{ value }}</dd>
+                                                        {% else %}
+                                                            <dd>{{ value }}</dd>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                </dl>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
                             </li>
                         </div>
 
