@@ -77,9 +77,9 @@
         "World TV": "<span itemprop='addressLocality'>London</span>, <span itemprop='addressCountry'>UK</span>",
         "White Stuff": "<span itemprop='addressLocality'>London</span>, <span itemprop='addressCountry'>UK</span>",
         "Woman": "<span itemprop='addressLocality'>Oslo</span>, <span itemprop='addressCountry'>Norway</span>",
+        "Xology": "<span itemprop='addressLocality'>Los Angeles</span>, <span itemprop='addressCountry'>USA</span>",
         "Yash Raj Films": "<span itemprop='addressLocality'>Mumbai</span>, <span itemprop='addressCountry'>India</span>",
-        "Yarche! Prods": "<span itemprop='addressLocality'>Moscow</span>, <span itemprop='addressCountry'>Russia</span>",
-        "Xology": "<span itemprop='addressLocality'>Los Angeles</span>, <span itemprop='addressCountry'>USA</span>"
+        "Yarche! Prods": "<span itemprop='addressLocality'>Moscow</span>, <span itemprop='addressCountry'>Russia</span>"
     },
     "Agencies": {
         "Akestam Holst": "<span itemprop='addressLocality'>Stockholm</span>, <span itemprop='addressCountry'>Sweden</span>",
