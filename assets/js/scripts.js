@@ -72,9 +72,7 @@ function menuAppear()
     $("#menu-container").show();
     $("#nav-menu .menu-list > li").removeClass("menu-list-disappear");
     $("#menu-container").removeClass("menu-container-disappear");
-    $("#black-out").fadeIn(0, function() {
-        $(this).removeClass("hidden");
-    });
+    $("#black-out").removeClass("hidden");
     $("#close-trigger").removeClass("hidden");
     $("#menu-container").addClass("focus").removeClass("visuallyhidden");
 }
@@ -83,10 +81,12 @@ function menuDisappear()
 {
     $("#nav-menu .menu-list > li").addClass("menu-list-disappear");
     $("#menu-container").addClass("menu-container-disappear");
+    $("#black-out").addClass("black-out-disappear");
     setTimeout(function() {
-        $("#black-out").fadeOut(500, function() {
-            $(this).addClass("hidden");
-        });
+        $("#black-out").addClass("hidden");
+        $("#black-out").removeClass("black-out-disappear");
+    }, 300);
+    setTimeout(function() {
         $("#menu-container").removeClass("focus").addClass("visuallyhidden");
         $("#close-trigger").addClass("hidden");
     }, 500);

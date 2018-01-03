@@ -697,6 +697,13 @@ a {
     animation-timing-function: ease-out;
 }
 
+.black-out-disappear {
+    -webkit-animation-name: black-out-inverse;
+    animation-name: black-out-inverse;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+}
+
 /* CHROME BORDER "FIX" */
 .close-trigger button:hover,
 .menu-trigger button:hover,
@@ -961,7 +968,7 @@ a {
 	}
 	100% {
         opacity: 0.6;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.6)";
 	}
 }
 
@@ -972,7 +979,19 @@ a {
 	}
 	100% {
         opacity: 0.6;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.6)";
+	}
+}
+
+
+@keyframes black-out-inverse {
+    0% {
+        opacity: 0.6;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.6)";
+	}
+    100% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	}
 }
 
