@@ -6,7 +6,7 @@
     "start_url": ".",
     "display": "standalone",
     "orientation": "portrait",
-    "theme_color": "#990000",
+    "theme_color": "#FFFFFF",
     "icons": [
         {
             "src": "favicon-16.png",
