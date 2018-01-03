@@ -1,0 +1,29 @@
+{
+  "name": "utopia-films",
+  "version": "1.0.0",
+  "description": "Utopia Films is the leading choice for international film and photo productions in Brazil, as well as Venezuela, USA and Caribbean.",
+  "main": "index.php",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery-slim": "^3.0.0",
+    "magnific-popup": "^1.1.0",
+    "scrollreveal": "^3.3.6",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glauberm/utopia-films.git"
+  },
+  "author": "Glauber Mota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glauberm/utopia-films/issues"
+  },
+  "homepage": "https://github.com/glauberm/utopia-films#readme"
+}

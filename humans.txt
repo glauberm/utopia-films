@@ -8,8 +8,3 @@
 # THANKS
 
     Stefano Pichiori
-
-# TECHNOLOGY COLOPHON
-
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Bootstrap

@@ -1,5 +1,3 @@
-window.sr = ScrollReveal();
-
 $("#content").css("top", "75%");
 
 $(document).ready(function ()
@@ -10,9 +8,9 @@ $(document).ready(function ()
     $(".remove-active").removeClass("active");
     $(".clients .h3, .locations .h3").addClass("visuallyhidden");
 
-    sr.reveal(".box-container .box-image, .service .ps-article, .dt-box, .dd-box, .jumbotron .h1, .jumbotron p, .wrapper-body-contact .contact-box address, .wrapper-body-contact .contact-box dt, .wrapper-body-contact .contact-box dd");
-
     pigOnTop($(window).scrollTop());
+
+    sr.reveal(".box-container .box-image, .service .ps-article, .dt-box, .dd-box, .jumbotron .h1, .jumbotron p, .wrapper-body-contact .contact-box address, .wrapper-body-contact .contact-box dt, .wrapper-body-contact .contact-box dd");
 });
 
 $(window).on("scroll", function ()
@@ -37,7 +35,7 @@ $("#menu-trigger button").on("click", function()
     menuAppear();
 });
 
-$("#close-trigger button, #black-out, #nav-menu li a").on("click", function()
+$("#close-trigger button, #black-out").on("click", function()
 {
     menuDisappear();
 });
@@ -49,11 +47,10 @@ $(".big-nav-pills a").on("shown.bs.tab", function (e)
 
 function scrollToTrigger(el)
 {
-    i = ($(window).height() * 15) / 75;
+    var i = ($(window).height() * 15) / 75;
+    var offTop = el.offset().top - i;
 
-    $("html, body").animate({
-        scrollTop: el.offset().top - i
-    }, 500);
+    $("html, body").scrollTop(offTop);
 }
 
 function pigOnTop(st)

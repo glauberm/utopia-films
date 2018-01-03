@@ -1,12 +1,3 @@
 # Utopia Films
 
-Site da produtora Utopia Films.
-
-## Tecnologias utilizadas
-
-- Twig
-- Bootstrap
-- jQuery
-- ScrollReveal
-- Magnific Popup
-- Slick
+Utopia Films is the leading choice for international film and photo productions in Brazil, as well as Venezuela, USA and Caribbean.
