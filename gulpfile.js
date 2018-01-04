@@ -22,7 +22,7 @@ gulp.task('styles', function () {
         .pipe(less())
         .pipe(minifyCSS())
         .pipe(concat('main.min.css'))
-        // .pipe(rev())
+        .pipe(rev())
         .pipe(gulp.dest('assets/prod/css/'))
     ;
 });
@@ -54,7 +54,7 @@ gulp.task('scripts', function () {
         .pipe(babel())
         .pipe(uglify())
         .pipe(concat('main.min.js'))
-        // .pipe(rev())
+        .pipe(rev())
         .pipe(gulp.dest('assets/prod/js/'))
     ;
 });
