@@ -60,8 +60,8 @@ function menuAppear() {
     $("#menu-container").show();
     $("#nav-menu .menu-list > li").removeClass("menu-list-disappear");
     $("#menu-container").removeClass("menu-container-disappear");
-    $("#black-out").removeClass("hidden");
-    $("#close-trigger").removeClass("hidden");
+    $("#black-out").removeClass("visuallyhidden").addClass("black-out");
+    $("#close-trigger").removeClass("visuallyhidden");
     $("#menu-container").addClass("focus").removeClass("visuallyhidden");
 }
 
@@ -70,11 +70,10 @@ function menuDisappear() {
     $("#menu-container").addClass("menu-container-disappear");
     $("#black-out").addClass("black-out-disappear");
     setTimeout(function() {
-        $("#black-out").addClass("hidden");
-        $("#black-out").removeClass("black-out-disappear");
+        $("#black-out").addClass("visuallyhidden").removeClass("black-out black-out-disappear");
     }, 300);
     setTimeout(function() {
         $("#menu-container").removeClass("focus").addClass("visuallyhidden");
-        $("#close-trigger").addClass("hidden");
+        $("#close-trigger").addClass("visuallyhidden");
     }, 500);
 }
