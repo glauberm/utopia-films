@@ -6,8 +6,8 @@
     <section class="locations">
         <header>
             <div class="container">
-                <h1 class="page-header text-center">
-                    <a href="#locations" id="locations">{{ title }}</a>
+                <h1 class="page-header text-center" id="locations">
+                    {{ title }}
                 </h1>
             </div>
 
@@ -102,5 +102,5 @@
 {% endblock %}
 
 {% block postJavascripts %}
-    <script> scrollToTrigger($("#locations")); </script>
+    <script> $(document).ready(function() { scrollToTrigger($("#locations")); }); </script>
 {% endblock %}

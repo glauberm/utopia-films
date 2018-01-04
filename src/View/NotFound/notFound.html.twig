@@ -6,16 +6,14 @@
 {% block main %}
     <section class="not-found">
         <div class="container">
-            <header>
-                <h1 class="page-header text-center">
-                    <a href="#not-found" id="not-found">Not Found</a>
-                </h1>
-            </header>
-            <p class="lead">We couldn't find the page you're looking for.</p>
+            <div class="jumbotron text-center">
+                <header><h1 id="not-found">404</h1></header>
+                <p>We couldn't find the page you're looking for.</p>
+            </div>
         </div>
     </section>
 {% endblock %}
 
 {% block postJavascripts %}
-    <script> scrollToTrigger($("#not-found")); </script>
+    <script>$(document).ready(function() { scrollToTrigger($("#not-found")); }); </script>
 {% endblock %}

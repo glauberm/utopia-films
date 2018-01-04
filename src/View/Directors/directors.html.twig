@@ -7,8 +7,8 @@
     <section class="directors">
         <div class="container">
             <header>
-                <h1 class="page-header text-center">
-                    <a href="#directors" id="directors">Directors</a>
+                <h1 class="page-header text-center" id="directors">
+                    Directors
                 </h1>
             </header>
         </div>
@@ -22,5 +22,5 @@
 {% endblock %}
 
 {% block postJavascripts %}
-    <script> scrollToTrigger($("#directors")); </script>
+    <script>$(document).ready(function() { scrollToTrigger($("#directors")); }); </script>
 {% endblock %}

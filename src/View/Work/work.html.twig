@@ -75,7 +75,7 @@
 {% block postJavascripts %}
     <script>
         if(window.location.hash == "#work") {
-            scrollToTrigger($("#trigger-work"));
+             $(document).ready(function() { scrollToTrigger($("#trigger-work")); });
         }
         $("#work-link").on("click", function() {
             if(!window.location.hash) {

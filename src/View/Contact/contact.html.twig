@@ -12,5 +12,5 @@
 {% block contact %}{% endblock %}
 
 {% block postJavascripts %}
-    <script> scrollToTrigger($("#contact")); </script>
+    <script>$(document).ready(function() { scrollToTrigger($("#contact")); }); </script>
 {% endblock %}

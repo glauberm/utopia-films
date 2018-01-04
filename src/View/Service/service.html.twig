@@ -6,8 +6,8 @@
     <section class="service">
         <div class="container">
             <header>
-                <h1 class="page-header text-center">
-                    <a href="#service" id="service">{{ title }}</a>
+                <h1 class="page-header text-center" id="service">
+                    {{ title }}
                 </h1>
             </header>
             <div class="row">
@@ -35,5 +35,5 @@
 {% endblock %}
 
 {% block postJavascripts %}
-    <script> scrollToTrigger($("#service")); </script>
+    <script> $(document).ready(function() { scrollToTrigger($("#service")); }); </script>
 {% endblock %}

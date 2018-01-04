@@ -6,8 +6,8 @@
     <section class="clients">
         <div class="container">
             <header>
-                <h1 class="page-header text-center">
-                    <a href="#clients" id="clients">{{ title }}</a>
+                <h1 class="page-header text-center" id="clients">
+                    {{ title }}
                 </h1>
                 <nav class="big-nav-pills">
                     <ul class="nav nav-pills" role="tablist">
@@ -62,7 +62,7 @@
                                                     {{ dd|raw }}
                                                 </dd><br/>
                                             </div>
-                                            {% if loop.index % 3 == 0 %}</div><div class="row">{% endif %}
+                                            {% if loop.index % 3 == 0 and not loop.last %}</div><div class="row">{% endif %}
                                         {% endfor %}
                                     </div>
                                 </dl>
@@ -76,5 +76,5 @@
 {% endblock %}
 
 {% block postJavascripts %}
-    <script> scrollToTrigger($("#clients")); </script>
+    <script>$(document).ready(function() { scrollToTrigger($("#clients")); }); </script>
 {% endblock %}
