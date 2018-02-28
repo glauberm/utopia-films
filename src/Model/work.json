@@ -17,6 +17,23 @@
             "Agency": "Driver, New York"
         }
     }, {
+        "video": "https://vimeo.com/252776342",
+        "image": "41_belmond",
+        "title": "Belmond",
+        "infos": {
+            "Production": "SoLab, France",
+            "Director": "Romain Chassaing",
+            "Agency": "Prodigious, Paris"
+        }
+    }, {
+        "video": "https://vimeo.com/252770183",
+        "image": "42_carrefour",
+        "title": "Carrefour",
+        "infos": {
+            "Production": "Gang Films",
+            "Director": "Romain Julien / Ed McCulloch"
+        }
+    }, {
         "video": "https://vimeo.com/103404019",
         "image": "03_listerine",
         "title": "Listerine",
@@ -68,6 +85,24 @@
             "Agency": "Doom & Dickson, Holland"
         }
     }, {
+        "video": "https://vimeo.com/252770085",
+        "image": "43_kfw",
+        "title": "KFW",
+        "infos": {
+            "Production": "539090, Germany",
+            "Director": "Humbi Entress",
+            "Agency": "Freunde des Hauses, Hamburg"
+        }
+    }, {
+        "video": "https://vimeo.com/252769884",
+        "image": "44_rabobank",
+        "title": "Rabobank",
+        "infos": {
+            "Production": "Hazazah Film & Photography, Netherlands",
+            "Director": "Krijn Van Noordwijk",
+            "Agency": "Krijn Van Noordwijk"
+        }
+    }, {
         "video": "https://vimeo.com/72559372",
         "image": "09_panasonic",
         "title": "Panasonic",
@@ -100,6 +135,15 @@
         "infos": {
             "Production": "Dentsu Creative X",
             "Agency": "Dentsu, Japan"
+        }
+    }, {
+        "video": "https://vimeo.com/252770913",
+        "image": "45_rotary",
+        "title": "Rotary International",
+        "infos": {
+            "Production": "Little Village, USA",
+            "Director": "Campbell Brewer / Mike Malagon",
+            "Agency": "Y&R, New York"
         }
     }, {
         "video": "https://vimeo.com/72554541",
@@ -340,6 +384,14 @@
         "infos": {
             "Production": "Cooms Visual, South Korea",
             "Director": "Jacob Yeao"
+        }
+    }, {
+        "video": "https://vimeo.com/252770491",
+        "image": "46_konami",
+        "title": "Konami",
+        "infos": {
+            "Production": "Tyo Monster, Japan",
+            "Director": "Kensaku Kakimoto"
         }
     }
 ]

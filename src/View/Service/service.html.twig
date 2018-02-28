@@ -15,8 +15,20 @@
                     {% for service in params %}
 
                         <article class="ps-article" itemscope itemtype="http://schema.org/Article">
+                            <meta itemprop="author" content="Utopia Films">
+                            <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                                    <img src="{{ BASE_URL }}favicon-310.png" alt="Utopia Films' Logo" class="visuallyhidden" itemprop="thumbnail"/>
+                                    <meta itemprop="url" content="{{ BASE_URL }}favicon-310.png">
+                                    <meta itemprop="width" content="310">
+                                    <meta itemprop="height" content="310">
+                                </div>
+                                <meta itemprop="name" content="Utopia Films">
+                            </div>
+                            <meta itemprop="datePublished" content="{{ 'now'|date('Y-m-d') }}">
+                            <img src="{{ BASE_URL }}favicon-310.png" alt="Utopia Films' Logo" class="visuallyhidden" itemprop="image"/>
                             <header>
-                                <h2 class="h4" itemprop="articleSection">
+                                <h2 class="h4" itemprop="articleSection headline">
                                     {{ service.title }}
                                 </h2>
                             </header>

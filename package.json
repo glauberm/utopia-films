@@ -2,7 +2,7 @@
   "name": "utopia-films",
   "version": "1.0.0",
   "description": "Utopia Films is the leading choice for international film and photo productions in Brazil, as well as Venezuela, USA and Caribbean.",
-  "main": "index.php",
+  "private": "true",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "html5shiv": "^3.7.3",
