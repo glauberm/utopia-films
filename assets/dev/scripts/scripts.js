@@ -1,8 +1,7 @@
 $("#content").css("top", "75%");
 
 $(document).ready(function() {
-    $("#fixed-container").css("position", "fixed");
-    $("#fixed-container").addClass("fixed-container-box-shadow");
+    $("#fixed-container").css("position", "fixed").addClass("fixed-container-box-shadow");
     $("#menu-trigger").css("position", "fixed");
     $(".remove-active").removeClass("active");
     $(".clients .h3, .locations .h3").addClass("visuallyhidden");
@@ -48,12 +47,10 @@ function scrollToTrigger(el) {
 
 function pigOnTop(st) {
     if (st <= 0) {
-        var h = 100;
+        $("#fixed-container").css("height", "100%")
     } else {
-        var h = 15;
+        $("#fixed-container").css("height", "15%")
     }
-
-    $("#fixed-container").css("height", h + "%");
 }
 
 function menuAppear() {

@@ -4,13 +4,21 @@
     overflow-y: auto !important;
     clip: auto !important;
     margin: auto !important;
-    transform: translateX(0%) !important;
+    -webkit-transform: translateX(0%) !important;
+        -ms-transform: translateX(0%) !important;
+            transform: translateX(0%) !important;
 }
 
 .menu-container .nav-menu .menu-list > .menu-list-disappear {
-    transform: translateX(0) !important;
+    -webkit-transform: translateX(0) !important;
+        -ms-transform: translateX(0) !important;
+            transform: translateX(0) !important;
+
+    a {
+        text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF !important;
+    }
 }
 
-.menu-container .nav-menu .menu-list > .menu-list-disappear a {
-    text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF !important;
+.menu-container-background {
+    display: none;
 }

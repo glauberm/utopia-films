@@ -35,7 +35,7 @@ gulp.task('noscript-styles', function () {
         .pipe(less())
         .pipe(minifyCSS())
         .pipe(concat('noscript.min.css'))
-        // .pipe(rev())
+        .pipe(rev())
         .pipe(gulp.dest('assets/prod/css/'))
     ;
 });
@@ -59,20 +59,6 @@ gulp.task('scripts', function () {
     ;
 });
 
-gulp.task('ltie9-scripts', function () {
-    return gulp
-        .src([
-            './node_modules/html5shiv/dist/html5shiv.min.js',
-            './node_modules/respond.js/dest/respond.min.js'
-        ])
-        .pipe(babel())
-        .pipe(uglify())
-        .pipe(concat('ltie9.min.js'))
-        // .pipe(rev())
-        .pipe(gulp.dest('assets/prod/js/'))
-    ;
-});
-
 gulp.task('scrollreveal-scripts', function () {
     return gulp
         .src([
@@ -82,7 +68,7 @@ gulp.task('scrollreveal-scripts', function () {
         .pipe(babel())
         .pipe(uglify())
         .pipe(concat('scrollreveal.min.js'))
-        // .pipe(rev())
+        .pipe(rev())
         .pipe(gulp.dest('assets/prod/js/'))
     ;
 });
@@ -91,6 +77,5 @@ gulp.task('build', [
     'styles',
     'noscript-styles',
     'scripts',
-    'ltie9-scripts',
     'scrollreveal-scripts'
 ]);
